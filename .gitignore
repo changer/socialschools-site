@@ -1,1 +1,4 @@
-_site/
+*.log
+*.pot
+*.pyc
+local_settings.py
