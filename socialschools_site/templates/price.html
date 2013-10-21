@@ -20,7 +20,7 @@
 		<header class="navbar navbar-fixed-top topbar" role="banner">
 		  <div class="container">
 		    <div class="navbar-header">
-		      <a href="/"><img src="{{STATIC_URL}}img/logo.png" class="logo"></a>
+		      <a href="/"><img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo"></a>
 		    </div>
 		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 		      <ul class="nav navbar-nav">
@@ -43,20 +43,109 @@
 		    </nav>
 		  </div>
 		</header>
-		<div class="container">
-			
-		</div>		
-		<div class="container">
-			<div class="row footer">
-				<div class="col-md-8">
-					<div class="well">
-						Footer text
-					</div>
+		<div class="container socialschools-container">
+			<h3>{{request.current_page}}</h3>
+			<h2>Onze prijzen</h2>
+			<hr>
+			<div class="row">
+				<h3>1. De basis</h3>
+				<div class="col-md-6">
+					<h4>Social Schools platform inclusief</h4>
 				</div>
-				<div class="col-md-4">
-					<a href="http://www.changer.nl" target="_blank">Powered by Changer</a>
+				<div class="col-md-6">
+					<div class="price-circle">
+						
+					</div>
+					<p>per leering per jaar</p>
+					<p>Met een minimum €500, per jaar</p>  
 				</div>
 			</div>
+			<hr>
+			<div class="row">
+					<h3>2. Aanuvullingen</h3>
+					<div class="col-md-4 price-box">
+						<img src="{{STATIC_URL}}img/cms.png" alt="">
+						<p>Lorem ipsum Id ullamco officia culpa in anim id sit aliqua reprehenderit Ut ea in culpa mollit quis.</p>
+					</div>
+					<div class="col-md-4 price-box">
+						<img src="{{STATIC_URL}}img/newsfeed.png" alt="">
+						<p>Lorem ipsum Id ullamco officia culpa in anim id sit aliqua reprehenderit Ut ea in culpa mollit quis.</p>						
+					</div>
+					<div class="col-md-4 price-box">
+						<img src="{{STATIC_URL}}img/workshop.png" alt="">
+						<p>Lorem ipsum Id ullamco officia culpa in anim id sit aliqua reprehenderit Ut ea in culpa mollit quis.</p>
+					</div>
+			</div>
+			<hr>
+			<div class="row form-price">
+				<h2>Benieuwd wat de kosten voor jouw school zijn?</h2>
+				<div class="col-md-6">
+					<p>Lorem ipsum Voluptate dolore esse amet incididunt voluptate dolor culpa ullamco commodo ut labore.</p>
+				</div>
+				<div class="col-md-6">
+					<form action="">
+						<input type="text">
+					</form>
+				</div>
+			</div>
+		</div>		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<a href="" class="btn btn-lg btn-success">Mail Ons</a>
+				</div>
+				<div class="col-md-4">
+					<h4>of bel met ons:</h4>
+					<h3>080-100-1300</h3>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="footer-text">
+				<p>Powered by <a href="http://changer.nl">Changer</a></p>
+			</div>
+			<div class="row footer-container-links">
+				<div class="col-md-3">
+					<h5>SITEMAP</h5>
+					<ul class="list-unstyled">
+						<li>
+		          <a href="/functies">Functies</a>
+		        </li>
+		        <li>
+		          <a href="/support">Support</a>
+		        </li>
+		        <li>
+		          <a href="/wat-kost-het">Wat kost het?</a>
+		        </li>
+		        <li>
+		          <a href="/over-ons">Over ons</a>
+		        </li>
+		        <li>
+		          <a href="/contact">Contact</a>
+		        </li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>OVERIG</h5>
+					<ul class="list-unstyled">
+						<a href="">Gebruiksvoorwaarden</a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>CONTACT</h5>
+						<p>Social Schools</p>
+						<p>Maerten Trompstraat 25 2628 RC Delft</p>
+						<p>+31 88 100 1300</p>
+						<a href="mailto:info@socialschools.nl">info@socialschools.nl</a>
+				</div>
+				<div class="col-md-3">
+					<h5>VOLG ONS OP</h5>
+					<a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook"alt=""></a>
+					<a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
+				</div>
+			</div>	
 		</div>
 		{% render_block "js" %}
 	</body>
