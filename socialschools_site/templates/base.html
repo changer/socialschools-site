@@ -1,0 +1,57 @@
+{% load cms_tags sekizai_tags menu_tags %}
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="/favicon.ico">
+		{% if debug %}
+			<link href="{{ STATIC_URL }}css/styles.less" rel="stylesheet/less" >
+			<script src="{{ STATIC_URL }}js/less-1.3.3.min.js"></script>
+		{% else %}
+			<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/styles.css">
+		{% endif %}
+
+		{% render_block "css" %}
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<ul class="nav">
+						{% show_menu 0 100 100 100 %}
+					</ul>
+				</div>
+			</div>
+		</div>
+		{% placeholder payoff %}
+		<div class="container">
+			<div class="row">
+				<div class="span6">
+					<div class="well">
+						{% block base_content %}
+							{% placeholder base_content %}
+						{% endblock %}
+					</div>
+				</div>
+				<div class="span6">
+					<div class="aside well"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row footer">
+				<div class="span8">
+					<div class="well">
+						Footer text
+					</div>
+				</div>
+				<div class="span4">
+					<a href="http://www.changer.nl" target="_blank">Powered by Changer</a>
+				</div>
+			</div>
+		</div>
+		{% render_block "js" %}
+	</body>
+</html>
