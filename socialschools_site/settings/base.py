@@ -138,7 +138,10 @@ CMS_TEMPLATES = (
     ('price.html', gettext('rate')),
     ('overons.html', gettext('overons')),
     ('reference.html', gettext('reference')),
-
+    ('videos.html', gettext('videos')),
+    ('downloads.html', gettext('downloads')),
+    ('team.html', gettext('team')),
+    ('vision.html', gettext('vision')),
 )
 
 CMS_PLUGIN_PROCESSORS = (
