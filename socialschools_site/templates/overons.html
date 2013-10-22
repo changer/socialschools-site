@@ -1,144 +1,54 @@
-{% load cms_tags sekizai_tags menu_tags %}
-<!DOCTYPE html>
-<html lang="nl">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<link rel="shortcut icon" href="/favicon.ico">
-		<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic" rel="stylesheet" type="text/css">
-		{% if debug %}
-			<link href="{{ STATIC_URL }}css/styles.less" rel="stylesheet/less" >
-			<script src="{{ STATIC_URL }}js/less-1.3.3.min.js"></script>
-		{% else %}
-			<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/styles.css">
-		{% endif %}
-
-		{% render_block "css" %}
-	</head>
-	<body>
-		<header class="navbar navbar-fixed-top topbar" role="banner">
-		  <div class="container">
-		    <div class="navbar-header">
-		      <a href="/"><img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo"></a>
-		    </div>
-		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-		      <ul class="nav navbar-nav">
-		        <li>
-		          <a href="/functies">Functies</a>
-		        </li>
-		        <li>
-		          <a href="/support">Support</a>
-		        </li>
-		        <li>
-		          <a href="/wat-kost-het">Wat kost het?</a>
-		        </li>
-		        <li>
-		          <a href="/over-ons">Over ons</a>
-		        </li>
-		        <li>
-		          <a href="/contact">Contact</a>
-		        </li>
-		      </ul>
-		    </nav>
-		  </div>
-		</header>
-		<div class="container">
-			<h3>{{request.current_page}}</h3>
-			<ul class="nav nav-tabs">
-				<li class="active">
-					<a href="#">Onze visie</a>
-				</li>
-				<li>
-					<a href="#">Ons team</a>
-				</li>
-			</ul>
-			<div class="row">
-				<div class="col-md-6">
-					<h1>Onze visie</h1>
-				</div>
-				<div class="col-md-6">
-					<p>Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore.</p>
-					<img src="" alt="{{STATIC_URL}}img/icon-marieke.png">
-				</div>
+{% extends "default.html" %}
+{% block "content" %}
+	<div class="container">
+		<h3>{{request.current_page}}</h3>
+		<ul class="nav nav-tabs">
+			<li class="active">
+				<a href="#">Onze visie</a>
+			</li>
+			<li>
+				<a href="#">Ons team</a>
+			</li>
+		</ul>
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Onze visie</h1>
 			</div>
-			<hr>
-			<div class="row">
-				<div class="col-md-7">
-					<img src="{{STATIC_URL}}img/parent.png" alt="">
-				</div>
-				<div class="col-md-5">
-					<h2>Ouderbetrokkenheid</h2>
-					<p>Lorem ipsum Sint nostrud Ut quis magna dolor reprehenderit eiusmod fugiat est exercitation sit ut aliquip esse amet ex.</p>
-				</div>
+			<div class="col-md-6">
+				<p>Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore.</p>
+				<img src="" alt="{{STATIC_URL}}img/icon-marieke.png">
 			</div>
-			<div class="row">
-				<div class="col-md-5">
-					<h2>Technologie opent deuren</h2>
-					<p>Wij geloven dat technologie enorme mogelijkheden biedt voor het onderwijs en de mogelijkheden tot ontplooiing van kinderen. Technologie verbindt over grenzen en taalbarrières heen.
-Social Schools ziet het als haar opgave om nu en in de toekomst educatieve toepassingen van technolo- gie te maken die kinderen in staat te stellen zich breed te ontwikkelen tot kansrijke wereldburgers.</p>
-				</div>
-				<div class="col-md-7">
-					<img src="{{STATIC_URL}}img/devices.png" alt="">		
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-7">
-					<img src="{{STATIC_URL}}img/safety.png" alt="">
-				</div>
-				<div class="col-md-5">
-					<h2>Veilig opgroeien</h2>
-					<p>We laten onze kinderen niet buiten onze directe lee- fomgeving op straat spelen, maar ze zijn wel meer- dere uren per dag, vaak buiten het zicht van de ouders, actief op het wereldwijde web.</p>
-					<p>Mediawijsheid is daarom enorm belangrijk, maar heeft nog onvoldoende een rol in het basisonderwijs. Kinderen moeten net als in de echte wereld leren wat goed en wat gevaarlijk is, en leren wat wel en niet kan online.</p>
-					<p>Wij geloven dat wij met Social Schools kunnen bijdra- gen aan de vorming van kinderen. Social Schools biedt een belangrijk middel aan scholen om kinderen te vormen in de online wereld van vandaag.</p>
-				</div>
-			</div>
-		</div>		
-		<div class="container">
-			<div class="footer-text">
-				<p>Powered by <a href="http://changer.nl">Changer</a></p>
-			</div>
-			<div class="row footer-container-links">
-				<div class="col-md-3">
-					<h5>SITEMAP</h5>
-					<ul class="list-unstyled">
-						<li>
-		          <a href="/functies">Functies</a>
-		        </li>
-		        <li>
-		          <a href="/support">Support</a>
-		        </li>
-		        <li>
-		          <a href="/wat-kost-het">Wat kost het?</a>
-		        </li>
-		        <li>
-		          <a href="/over-ons">Over ons</a>
-		        </li>
-		        <li>
-		          <a href="/contact">Contact</a>
-		        </li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<h5>OVERIG</h5>
-					<ul class="list-unstyled">
-						<a href="">Gebruiksvoorwaarden</a>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<h5>CONTACT</h5>
-						<p>Social Schools</p>
-						<p>Maerten Trompstraat 25 2628 RC Delft</p>
-						<p>+31 88 100 1300</p>
-						<a href="mailto:info@socialschools.nl">info@socialschools.nl</a>
-				</div>
-				<div class="col-md-3">
-					<h5>VOLG ONS OP</h5>
-					<a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook"alt=""></a>
-					<a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
-				</div>
-			</div>	
 		</div>
-		{% render_block "js" %}
-	</body>
-</html>
+		<hr>
+		<div class="row">
+			<div class="col-md-7">
+				<img src="{{STATIC_URL}}img/parent.png" alt="">
+			</div>
+			<div class="col-md-5">
+				<h2>Ouderbetrokkenheid</h2>
+				<p>Lorem ipsum Sint nostrud Ut quis magna dolor reprehenderit eiusmod fugiat est exercitation sit ut aliquip esse amet ex.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-5">
+				<h2>Technologie opent deuren</h2>
+				<p>Wij geloven dat technologie enorme mogelijkheden biedt voor het onderwijs en de mogelijkheden tot ontplooiing van kinderen. Technologie verbindt over grenzen en taalbarrières heen.
+Social Schools ziet het als haar opgave om nu en in de toekomst educatieve toepassingen van technolo- gie te maken die kinderen in staat te stellen zich breed te ontwikkelen tot kansrijke wereldburgers.</p>
+			</div>
+			<div class="col-md-7">
+				<img src="{{STATIC_URL}}img/devices.png" alt="">		
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-7">
+				<img src="{{STATIC_URL}}img/safety.png" alt="">
+			</div>
+			<div class="col-md-5">
+				<h2>Veilig opgroeien</h2>
+				<p>We laten onze kinderen niet buiten onze directe lee- fomgeving op straat spelen, maar ze zijn wel meer- dere uren per dag, vaak buiten het zicht van de ouders, actief op het wereldwijde web.</p>
+				<p>Mediawijsheid is daarom enorm belangrijk, maar heeft nog onvoldoende een rol in het basisonderwijs. Kinderen moeten net als in de echte wereld leren wat goed en wat gevaarlijk is, en leren wat wel en niet kan online.</p>
+				<p>Wij geloven dat wij met Social Schools kunnen bijdra- gen aan de vorming van kinderen. Social Schools biedt een belangrijk middel aan scholen om kinderen te vormen in de online wereld van vandaag.</p>
+			</div>
+		</div>
+	</div>		
+{% endblock %}

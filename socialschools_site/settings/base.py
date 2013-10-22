@@ -131,6 +131,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('base.html', gettext('default')),
+    ('default.html', gettext('common')),
     ('home.html', gettext('function')),
     ('contact.html', gettext('contact')),
     ('support.html', gettext('support')),
