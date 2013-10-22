@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<link rel="shortcut icon" href="/favicon.ico">
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic" rel="stylesheet" type="text/css">
 		{% if debug %}
 			<link href="{{ STATIC_URL }}css/styles.less" rel="stylesheet/less" >
 			<script src="{{ STATIC_URL }}js/less-1.3.3.min.js"></script>
@@ -16,41 +17,212 @@
 		{% render_block "css" %}
 	</head>
 	<body>
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<ul class="nav">
-						{% show_menu 0 100 100 100 %}
-					</ul>
+		<header class="navbar navbar-fixed-top topbar" role="banner">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <a href="/"><img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo"></a>
+		    </div>
+		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+		      <ul class="nav navbar-nav">
+		        <li>
+		          <a href="/functies">Functies</a>
+		        </li>
+		        <li>
+		          <a href="/support">Support</a>
+		        </li>
+		        <li>
+		          <a href="/wat-kost-het">Wat kost het?</a>
+		        </li>
+		        <li>
+		          <a href="/over-ons">Over ons</a>
+		        </li>
+		        <li>
+		          <a href="/contact">Contact</a>
+		        </li>
+		      </ul>
+		    </nav>
+		  </div>
+		</header>
+		{% placeholder payoff %}
+		<div class="container">	
+			<div class="jumbotron">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="{{STATIC_URL}}img/homepage-header.png" alt="Circular Image">
+					</div>
+					<div class="col-md-7 header-text">
+						<img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo">
+						<h2>Social media platform voor het basisonderwijs</h2> 
+					</div>
 				</div>
 			</div>
 		</div>
-		{% placeholder payoff %}
 		<div class="container">
 			<div class="row">
-				<div class="span6">
-					<div class="well">
-						{% block base_content %}
-							{% placeholder base_content %}
-						{% endblock %}
-					</div>
+				<div class="col-md-5"></div>
+				<div class="col-md-7">
+					<a class="btn btn-lg btn-success" href="#">Probeer nu!</a>
+					<p>Lees meer over hoe je Social Schools zelf kunt proberen</p>		
 				</div>
-				<div class="span6">
-					<div class="aside well"></div>
+			</div>			
+		</div>
+
+		<div class="container">
+			<h2>Waar wij geloven</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Header1</h3>
+					<p>Lorem ipsum Magna mollit consequat et ex minim tempor adipisicing velit dolore laborum tempor ut amet cillum exercitation occaecat tempor.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Header2</h3>
+					<p>Lorem ipsum Magna mollit consequat et ex minim tempor adipisicing velit dolore laborum tempor ut amet cillum exercitation occaecat tempor.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Header3</h3>
+					<p>Lorem ipsum Magna mollit consequat et ex minim tempor adipisicing velit dolore laborum tempor ut amet cillum exercitation occaecat tempor.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2>Anderen over Social Schools</h2>
+			<div class="col-md-6">
+				<img src="" class="pull-right" alt="User Image">
+			</div>
+			<div class="col-md-6">
+				<blockquote class="pull-left">
+					<h2>"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse commodo enim culpa adipisicing."</h2>
+				</blockquote>
+				<h4>Lorentz Ruiter</h4>
+				<small>
+					Some guys
+				</small>
+				<a href="#">> meer refrenties</a>
+			</div>
+		</div>
+		<div class="container">
+			<h2>Voorbeelden van Social School</h2>
+			<div class="col-md-3">
+				<a href=""><img src="{{STATIC_URL}}img/thumbnail-cbsalbertschweitzer.png" alt="SS Thumbnail1"></a>
+			</div>
+			<div class="col-md-3">
+				<a href=""><img src="{{STATIC_URL}}img/thumbnail-kameleon.png" alt="SS Thumbnail1"></a>
+			</div>
+			<div class="col-md-3">
+				<a href=""><img src="{{STATIC_URL}}img/thumbnail-kompas.png" alt="SS Thumbnail1"></a>
+			</div>
+			<div class="col-md-3">
+				<a href=""><img src="{{STATIC_URL}}img/thumbnail-rehoboth.png" alt="SS Thumbnail1"></a>
+			</div>
+		</div>
+
+		<div class="container">
+			<h2>Binnerkort in Social Schools</h2>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<h1>iOS App</h1>
+					<p>Lorem ipsum Sit amet nostrud velit labore sint non et do dolor reprehenderit qui minim amet voluptate in pariatur qui dolore occaecat velit ea.</p>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<img src="" alt="iphone Image">
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="row footer">
-				<div class="span8">
-					<div class="well">
-						Footer text
+			<h2>Over ons</h2>
+			<div class="col-md-6">
+				<p>Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id velit eu id minim exercitation proident magna enim cillum eu elit consequat mollit exercitation esse pariatur elit reprehenderit minim aute commodo dolore laborum in voluptate non culpa commodo dolor Excepteur.</p>
+				<h2>Volg ons op</h2>
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-bas.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-jos.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-jonathan.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-marieke.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-maikel.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-nar.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-robert.png" class="team">
+					</div>
+					<div class="col-md-3">
+						<img src="{{STATIC_URL}}img/icon-vinit.png" class="team">
 					</div>
 				</div>
-				<div class="span4">
-					<a href="http://www.changer.nl" target="_blank">Powered by Changer</a>
-				</div>
 			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<a href="" class="btn btn-lg btn-success">Mail Ons</a>
+				</div>
+				<div class="col-md-4">
+					<h4>of bel met ons:</h4>
+					<h3>080-100-1300</h3>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="footer-text">
+				<p>Powered by <a href="http://changer.nl">Changer</a></p>
+			</div>
+			<div class="row footer-container-links">
+				<div class="col-md-3">
+					<h5>SITEMAP</h5>
+					<ul class="list-unstyled">
+						<li>
+		          <a href="/functies">Functies</a>
+		        </li>
+		        <li>
+		          <a href="/support">Support</a>
+		        </li>
+		        <li>
+		          <a href="/wat-kost-het">Wat kost het?</a>
+		        </li>
+		        <li>
+		          <a href="/over-ons">Over ons</a>
+		        </li>
+		        <li>
+		          <a href="/contact">Contact</a>
+		        </li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>OVERIG</h5>
+					<ul class="list-unstyled">
+						<a href="">Gebruiksvoorwaarden</a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>CONTACT</h5>
+						<p>Social Schools</p>
+						<p>Maerten Trompstraat 25 2628 RC Delft</p>
+						<p>+31 88 100 1300</p>
+						<a href="mailto:info@socialschools.nl">info@socialschools.nl</a>
+				</div>
+				<div class="col-md-3">
+					<h5>VOLG ONS OP</h5>
+					<a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook"alt=""></a>
+					<a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
+				</div>
+			</div>	
 		</div>
 		{% render_block "js" %}
 	</body>

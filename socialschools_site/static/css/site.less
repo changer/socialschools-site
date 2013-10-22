@@ -2,6 +2,9 @@ body {
 	padding-top: 90px;
 }
 
+@school-blue: #55c1eb;
+@school-green: #39b549;
+
 .aside {
 	background: transparent url("http://placekitten.com/600/570") no-repeat center center;
 	height: 570px;
@@ -13,10 +16,88 @@ body {
 }
 
 h1, h2, h3, h4 {
-	color: @red;
+	color: black;
 }
 
 h2 {
 	font-size: 30px;
-	line-height: @baseLineHeight * 2;
 }
+
+.nav > li { 
+	height: 75px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logo {
+	height: 75px;
+}
+
+.navbar-nav > li > a {
+	line-height: 40px;
+}
+
+.container > .jumbotron {
+	border-radius: 0px;
+	padding: 0px;
+	background-color: @schoolBlue;
+	padding-top: 25px;
+	.header-text {
+		padding-right: 100px;
+	}
+}
+
+.navbar {
+	background-color: white;
+}
+
+.price-box {
+	border: 1px solid lightgrey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.form-price {
+	text-align: center;
+}
+
+.footer-text {
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	background-color: @schoolBlue;
+}
+
+.socialschools-container {
+	padding-left: 40px;
+}
+
+.footer-container-links {
+	a, p {
+		color: white;
+	}
+	.icon-facebook {
+		margin-right: 5px;	
+	}
+	.icon-twitter {
+		margin-left: 5px;
+	}
+	background-color: @schoolGreen;
+	padding-left:40px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.team {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+// .socialschools-container-item {
+// 	border: 1px solid lightgrey;
+// 	padding-left: 40px;
+// 	margin-bottom: 20px;
+// 	padding-right: 40px;
+// }

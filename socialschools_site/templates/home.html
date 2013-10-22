@@ -1,0 +1,187 @@
+{% load cms_tags sekizai_tags menu_tags %}
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link href="http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic" rel="stylesheet" type="text/css">
+		{% if debug %}
+			<link href="{{ STATIC_URL }}css/styles.less" rel="stylesheet/less" >
+			<script src="{{ STATIC_URL }}js/less-1.3.3.min.js"></script>
+		{% else %}
+			<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/styles.css">
+		{% endif %}
+
+		{% render_block "css" %}
+	</head>
+	<body>
+		<header class="navbar navbar-fixed-top topbar" role="banner">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <a href="/"><img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo"></a>
+		    </div>
+		    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+		      <ul class="nav navbar-nav">
+		        <li>
+		          <a href="/functies">Functies</a>
+		        </li>
+		        <li>
+		          <a href="/support">Support</a>
+		        </li>
+		        <li>
+		          <a href="/wat-kost-het">Wat kost het?</a>
+		        </li>
+		        <li>
+		          <a href="/over-ons">Over ons</a>
+		        </li>
+		        <li>
+		          <a href="/contact">Contact</a>
+		        </li>
+		      </ul>
+		    </nav>
+		  </div>
+		</header>
+		<div class="container socialschools-container">
+			<h3>{{request.current_page}}</h3>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-8">
+					<h1>De belangrijkste Functies op een rijtje</h1>
+				</div>
+				<div class="col-md-4">
+					<p>Lorem ipsum Officia minim anim non voluptate ullamco sit veniam do dolor in ullamco ad id nostrud Duis.</p>
+					<img src="" alt="Image">
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6">
+					<h2>Maak en beheer groepen</h2>
+					<p>Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="{{STATIC_URL}}img/group.png" alt="Big Image">
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6">
+					<img src="{{STATIC_URL}}img/media.png">
+				</div>
+				<div class="col-md-6">
+					<h2>Deel media</h2>
+					<p>Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit ea amet exercitation.</p>
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6">
+					<h2>Mobiele apps</h2>
+					<p>Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="{{STATIC_URL}}img/mobile-app.png" alt="Big Image">
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6">
+					<img src="{{STATIC_URL}}img/public.png">
+				</div>
+				<div class="col-md-6">
+					<h2>Publiceer berichten</h2>
+					<p>Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit ea amet exercitation.</p>
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6">
+					<h2>Kleurthema</h2>
+					<p>Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="{{STATIC_URL}}img/theme.png" alt="Big Image">
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6"></div>
+				<div class="col-md-6">
+					<h2>Publiceer berichten</h2>
+					<p>Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit ea amet exercitation.</p>
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-6">
+					<h2>Parnassys</h2>
+					<p>Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim.</p>
+				</div>
+				<div class="col-md-6">
+					<img src="{{STATIC_URL}}img/par-import.png" alt="Big Image">
+				</div>
+			</div>
+			<div class="row socialschools-container-item well">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h1>Benieuwd hoe deze functies precies werken?</h1>
+					<a href="" class="btn btn-success btn-lg">Probeer het zelf</a>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>			
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-4">
+					<a href="" class="btn btn-lg btn-success">Mail Ons</a>
+				</div>
+				<div class="col-md-4">
+					<h4>of bel met ons:</h4>
+					<h3>080-100-1300</h3>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="footer-text">
+				<p>Powered by <a href="http://changer.nl">Changer</a></p>
+			</div>
+			<div class="row footer-container-links">
+				<div class="col-md-3">
+					<h5>SITEMAP</h5>
+					<ul class="list-unstyled">
+						<li>
+		          <a href="/functies">Functies</a>
+		        </li>
+		        <li>
+		          <a href="/support">Support</a>
+		        </li>
+		        <li>
+		          <a href="/wat-kost-het">Wat kost het?</a>
+		        </li>
+		        <li>
+		          <a href="/over-ons">Over ons</a>
+		        </li>
+		        <li>
+		          <a href="/contact">Contact</a>
+		        </li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>OVERIG</h5>
+					<ul class="list-unstyled">
+						<a href="">Gebruiksvoorwaarden</a>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>CONTACT</h5>
+						<p>Social Schools</p>
+						<p>Maerten Trompstraat 25 2628 RC Delft</p>
+						<p>+31 88 100 1300</p>
+						<a href="mailto:info@socialschools.nl">info@socialschools.nl</a>
+				</div>
+				<div class="col-md-3">
+					<h5>VOLG ONS OP</h5>
+					<a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook"alt=""></a>
+					<a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
+				</div>
+			</div>	
+		</div>
+		{% render_block "js" %}
+	</body>
+</html>
