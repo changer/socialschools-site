@@ -16,7 +16,7 @@
 		font-weight: lighter;
 	}
 	.container > .jumbotron {
-		height: 328px;
+		height: 323px;
 		border-radius: 0px;
 		padding: 0px;
 		background-color: @school-blue;
@@ -31,7 +31,7 @@
 		margin-right: -40px;
 	}
 	.green-belt {
-		height: 55px;
+		height:60px;
 		background-color: @school-green;
 		margin-top: -30px;
 	}
@@ -61,19 +61,40 @@
 	.redirect-button-container {
 		text-align: center;
 	}
-	.reference-container{
-		margin-bottom: 45px;
-		margin-top: 45px;
+	.reference-container {
+		.container-margin(45px);
 	}
 	.socialschools-cms-container {
-		margin-bottom: 45px;
-		margin-top: 45px;
+		.container-margin(45px);
+	}
+	.email-container {
+		.container-margin(45px);
 	}
 	.ios-intro-text {
 		margin-top: 87px;
 	}
 	.team-container {
 		margin-top: 45px;
+	}
+	.btn-demo {
+		margin-top: -100px;
+		.green-button();
+	}
+	.btn-email {
+		.green-button();
+	}
+	.icon-facebook {
+		margin-left: 10px;		
+	}
+	.icon-twitter {
+		margin-left: 10px;
+	}
+	.follow-header {
+		font-weight: lighter;
+		display: inline-block;
+	}
+	.phone-header {
+		color:@black;
 	}
 }
 
