@@ -1,32 +1,28 @@
 {% extends "default.html" %}
 {% block "content" %}
-	<div class="container">	
+<div class=" container socialschools-container">
+	<div class="container jumbo-container">	
 		<div class="jumbotron">
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-xs-12 col-md-4">
 					<img src="{{STATIC_URL}}img/homepage-header.png" alt="Circular Image">
 				</div>
-				<div class="col-md-7 header-text">
+				<div class="col-xs-12 col-md-8 header-text pull-left">
 					<img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo">
-					<h2>Social media platform voor het basisonderwijs</h2> 
+					<h2 class="intro-header"><span class="white-header">Social media platform</span> voor het basisonderwijs</h2> 
 				</div>
 			</div>
 		</div>
 		<div class="green-belt">
 		</div>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-5"></div>
-			<div class="col-md-7">
-				<a class="btn btn-lg btn-success" href="#">Probeer nu!</a>
-				<p>Lees meer over hoe je Social Schools zelf kunt proberen</p>		
-			</div>
-		</div>			
+	<div class="redirect-button-container">
+		<a class="btn btn-lg btn-success" href="#">Probeer nu!</a>
+		<p>Lees meer over hoe je Social Schools zelf kunt proberen</p>		
 	</div>
-
+	<hr>
 	<div class="container vision">
-		<h2>Waar wij geloven</h2>
+		<h2>Waar wij in <span class="blue-header"> geloven</span></h2>
 		<div class="row">
 			<div class="col-md-4">
 				<h3>Ouderbetrokkenheid</h3>
@@ -47,7 +43,7 @@
 	</div>
 
 	<div class="container">
-		<h2>Anderen over Social Schools</h2>
+		<h2>Anderen <span class="blue-header">over Social Schools</span></h2>
 		<div class="col-md-6">
 			<img src="" class="pull-right" alt="User Image">
 		</div>
@@ -63,7 +59,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<h2>Voorbeelden van Social School</h2>
+		<h2>Voorbeelden <span class="blue-header">van Social School</span></h2>
 		<div class="col-md-3">
 			<a href=""><img src="{{STATIC_URL}}img/thumbnail-cbsalbertschweitzer.png" alt="SS Thumbnail1"></a>
 		</div>
@@ -79,11 +75,11 @@
 	</div>
 
 	<div class="container">
-		<h2>Binnerkort in Social Schools</h2>
+		<h2>Binnerkort <span class="blue-header">in Social Schools</span></h2>
 		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-4">
-				<h1>iOS App</h1>
+			<div class="col-md-1"></div>
+			<div class="col-md-4 pull-left">
+				<h1 class="app-intro-header"><span class="green-header">iOS</span><span class="blue-header"> App</span></h1>
 				<p>Lorem ipsum Sit amet nostrud velit labore sint non et do dolor reprehenderit qui minim amet voluptate in pariatur qui dolore occaecat velit ea.</p>
 			</div>
 			<div class="col-md-1"></div>
@@ -93,7 +89,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<h2>Over ons</h2>
+		<h2>Over<span class="blue-header"> ons</span></h2>
 		<div class="col-md-6">
 			<p>Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id velit eu id minim exercitation proident magna enim cillum eu elit consequat mollit exercitation esse pariatur elit reprehenderit minim aute commodo dolore laborum in voluptate non culpa commodo dolor Excepteur.</p>
 			<h2>Volg ons op</h2>
@@ -140,4 +136,5 @@
 			<div class="col-md-2"></div>
 		</div>
 	</div>
+</div>
 {% endblock %}	
