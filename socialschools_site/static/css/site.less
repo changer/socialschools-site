@@ -1,11 +1,54 @@
+// Body styling.
 body {
 	padding-top: 90px;
+	font-family: "Ubuntu", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background-color: lightblue;
 }
 
-h1, h2, h3, h4 {
-	color: black;
+//Typography
+h1, h2, h3, h4, .meta, p , a {
+	font-family: "Ubuntu", Helvetica, sans-serif;
+}
+
+h1 {
+	font: 28px medium @header1-color;
 }
 
 h2 {
-	font-size: 30px;
+	font: 24px medium @header2-color;
+}
+
+h3 {
+	font-size: 18px @header3-color;
+	font-weight: lighter;
+}
+
+h4 {
+	font: 16px medium @header4-color;
+}
+
+p {
+	font: 14px regular @text-color;
+}
+
+.meta {
+	font: 14px regular @meta-color;
+}
+
+a {
+	font: 14px medium @theme-color;
+}
+
+//Colorful headers
+.green-header {
+	color: @school-green;
+}
+
+.white-header {
+	color: white;
+}
+
+.blue-header {
+	color: @school-blue;
 }

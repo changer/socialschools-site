@@ -1,24 +1,36 @@
-.footer {
-	text-align: center;
-}
-
-.footer-container-links {
-	a, p {
+.footer-container {
+	.container-padding();
+	.footer-container-links {
+		a, p {
+			color: white;
+			font-weight: bold;
+		}
+		.icon-facebook {
+			margin-right: 5px;	
+		}
+		.icon-twitter {
+			margin-left: 5px;
+		}
+		background-color: @school-green;
+		padding-left:40px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	address {
 		color: white;
+		font-weight: bold;
 	}
-	.icon-facebook {
-		margin-right: 5px;	
-	}
-	.icon-twitter {
-		margin-left: 5px;
-	}
-	background-color: @school-green;
-	padding-left:40px;
-	margin-left: 0px;
-	margin-right: 0px;
 }
 
 .footer-text {
+	p {
+		color: @header1-color;
+		font-weight: bold;
+	}
+	a {
+		color: white;
+		font-weight: bold;
+	}
 	height: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
