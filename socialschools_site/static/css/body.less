@@ -50,8 +50,12 @@
 	.logo {
 		height: 75px;
 	}
-	.form-price {
+	.form-price-header {
 		text-align: center;
+		color: @black;
+	}
+	.form-price {
+		.container-margin(45px);
 	}
 	.team-profile {
 		.team {
@@ -134,6 +138,69 @@
 		.color-themes-image {
 			margin-left: -11px;
 		}
+	}
+	.price-container-item {
+		padding-left: 20px;
+		.feature-list-container {
+			padding-top: 25px;
+			padding-right: 40px;
+			border-right: 1px solid @gray-lighter;
+		}
+		.price-circle-container {
+			padding-left: 40px;
+			.circle-container {
+				display: inline-block;
+			}
+			.price-circle {
+				.circle(150px, @school-blue);
+				.price {
+					color: white;
+					font-weight: bold;
+					line-height: 150px;
+					text-align: center;
+				}
+			}
+			.price-text {
+				display: inline-block;
+				padding-left: 20px;
+			}
+		}
+	}
+	.pricing-container {
+		.price-header {
+			padding-bottom: 20px;
+		}
+		.price-box-cms {
+			.price-euro {
+				font-weight: bold;
+				color: @black;
+				margin-bottom: 0px;
+			}
+			.box(@school-orange);
+			margin-right: 20px;
+		}
+		.price-box-newsfeed {
+			.price-euro {
+				font-weight: bold;
+				color: @black;
+				margin-bottom: 0px;
+			}
+			.box(@school-blue);
+			margin-right: 20px;
+		}
+		.price-box-workshop {
+			.price-euro {
+				font-weight: bold;
+				color: @black;
+				margin-bottom: 0px;
+			}
+			.box(@school-green);
+		}
+	}
+	.feature-list {
+		direction: rtl;
+		clear: right;
+		margin-right: -20px;
 	}
 }
 
