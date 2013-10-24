@@ -16,3 +16,20 @@
 	margin-top: @value;
 	margin-bottom: @value;
 }
+
+.circle(@diameter, @color) {
+	height: @diameter;
+	width: @diameter;
+	background-color: @color;
+	border-radius: 50%;
+}
+
+.box(@color) {
+	width: 350px;
+	height: 300px;
+	border: 1px solid @gray-lighter;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	border-top: 3px solid @color;
+}
