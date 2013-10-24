@@ -30,6 +30,19 @@
 	border-radius: 50%;
 }
 
+.small-circle(@color) {
+	.circle(50px, @color);
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	.point {
+		color: white;
+		font-weight: bold;
+		margin-top: 8px;
+		text-align: center;
+	}
+}
+
 .box(@color) {
 	width: 350px;
 	height: 300px;
