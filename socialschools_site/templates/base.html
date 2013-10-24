@@ -1,4 +1,5 @@
 {% extends "default.html" %}
+{% load i18n %}
 {% block "content" %}
 <div class=" container socialschools-container">
 	<div class="container jumbo-container">	
@@ -9,7 +10,7 @@
 				</div>
 				<div class="col-xs-12 col-md-8 header-text pull-left">
 					<img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo">
-					<h1 class="intro-header"><span class="white-header">Social media platform</span> for primary education</h1> 
+					<h1 class="intro-header"><span class="white-header">Social media platform</span> {% trans 'for primary education' %}</h1> 
 				</div>
 			</div>
 		</div>
@@ -17,32 +18,36 @@
 		</div>
 	</div>
 	<div class="redirect-button-container">
-		<a class="btn btn-lg btn-demo" href="#">Try now!</a>		
+		<a class="btn btn-lg btn-demo" href="#">{% trans 'Try now' %}!</a>		
 	</div>
 	<hr>
 	<div class="container vision">
-		<h2>Waar wij in <span class="blue-header"> geloven</span></h2>
+		<h2>{% trans 'Our' %} <span class="blue-header">{% trans 'beliefs' %}</span></h2>
 		<div class="row">
 			<div class="col-md-4">
-				<h3>Ouderbetrokkenheid</h3>
+				<h3>Engaged parents</h3>
 				<img src="{{STATIC_URL}}img/parent-small.png" alt="">
-				<p>Lorem ipsum Magna mollit consequat et ex minim tempor adipisicing velit dolore laborum tempor ut amet cillum exercitation occaecat tempor.</p>
+				<p>We make it possible for parents to take a look in the classroom and share the daily activities of
+					thier children.</p>
+				<a href="" class="blue-header">> Read more</a>
 			</div>
 			<div class="col-md-4">
-				<h3>Technologie opent deuren</h3>
+				<h3>The opportunities of technology</h3>
 				<img src="{{STATIC_URL}}img/devices-small.png" alt="">
-				<p>Lorem ipsum Magna mollit consequat et ex minim tempor adipisicing velit dolore laborum tempor ut amet cillum exercitation occaecat tempor.</p>
+				<p>We believe technology provides a large amount of opportunities to enrich the development of children.</p>
+				<a href="" class="blue-header">> Read more</a>
 			</div>
 			<div class="col-md-4">
-				<h3>Veilig opgroeien</h3>
+				<h3>Growing up safely</h3>
 				<img src="{{STATIC_URL}}img/safety-small.png" alt="">
-				<p>Lorem ipsum Magna mollit consequat et ex minim tempor adipisicing velit dolore laborum tempor ut amet cillum exercitation occaecat tempor.</p>
+				<p>We believe we can contribute to the way children explore the modern online world. We provide a safe environment for children to learn the do's and dont's of social media.</p>
+				<a href="" class="blue-header">> Read more</a>
 			</div>
 		</div>
 	</div>
 	<hr>
 	<div class="container">
-		<h2>Anderen <span class="blue-header">over Social Schools</span></h2>
+		<h2>Others <span class="blue-header">about Social Schools</span></h2>
 		<div class="row reference-container">
 			<div class="col-md-6">
 				<img src="{{STATIC_URL}}img/image-reference.png" class="pull-right" alt="User Image">
@@ -58,7 +63,7 @@
 	</div>
 	<hr>
 	<div class="container">
-		<h2>Voorbeelden <span class="blue-header">van Social School</span></h2>
+		<h2>Examples <span class="blue-header">of Social Schools</span></h2>
 		<div class="row socialschools-cms-container">
 			<div class="col-md-3">
 				<a href=""><img src="{{STATIC_URL}}img/thumbnail-cbsalbertschweitzer.png" alt="SS Thumbnail1"></a>
@@ -76,12 +81,12 @@
 	</div>
 	<hr>
 	<div class="container">
-		<h2>Binnerkort <span class="blue-header">in Social Schools</span></h2>
+		<h2>New <span class="blue-header">in Social Schools</span></h2>
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-4 pull-left ios-intro-text">
 				<h1 class="app-intro-header"><span class="green-header">iOS</span><span class="blue-header"> App</span></h1>
-				<p>Lorem ipsum Sit amet nostrud velit labore sint non et do dolor reprehenderit qui minim amet voluptate in pariatur qui dolore occaecat velit ea.</p>
+				<p>Read and create posts in your groups with our mobile apps. Upload pictures straight from your smartphones. This way it's even easier for teachers to share what happens in the classroom and for parents to stay engaged.</p>
 			</div>
 			<div class="col-md-1"></div>
 			<div class="col-md-5">
@@ -91,7 +96,7 @@
 	</div>
 	<hr>
 	<div class="container">
-		<h2>Over<span class="blue-header"> ons</span></h2>
+		<h2>About<span class="blue-header"> us</span></h2>
 			<div class="row team-container">
 				<div class="col-md-6">
 					<p>Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id velit eu id minim exercitation proident magna enim cillum eu elit consequat mollit exercitation esse pariatur elit reprehenderit minim aute commodo dolore laborum in voluptate non culpa commodo dolor Excepteur.</p>
@@ -160,7 +165,7 @@
 				<a href="" class="btn btn-lg btn-email pull-right">Send us an Email</a>
 			</div>
 			<div class="col-md-6">
-				<h3 class="phone-header">or call us : <span class="blue-header">088-100-1300</span></h3>
+				<h3 class="phone-header">or call us: <span class="blue-header">088-100-1300</span></h3>
 			</div>
 		</div>
 	</div>
