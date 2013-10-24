@@ -1,18 +1,18 @@
 {% extends "default.html" %}
 {% block "content" %}
-	<div class="container">
-		<h3>{{request.current_page}}</h3>
+	<div class="container socialschools-container">
+		<h2>{{request.current_page}}</h2>
 		<ul class="nav nav-tabs">
 			<li class="active">
-				<a href="/over-ons/onze-visie">Onze visie</a>
+				<a href="/over-ons/onze-visie">Our beliefs</a>
 			</li>
 			<li>
-				<a href="/over-ons/ons-team">Ons team</a>
+				<a href="/over-ons/ons-team">Our team</a>
 			</li>
 		</ul>
-		<div class="row">
+		<div class="row dialouge-container">
 			<div class="col-md-6">
-				<h1>Onze visie</h1>
+				<h1 class="feature-header"><span class="green-header">Our <span class="blue-header">beliefs</span></h1>
 			</div>
 			<div class="col-md-6">
 				<p>Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore.</p>
@@ -20,7 +20,7 @@
 			</div>
 		</div>
 		<hr>
-		<div class="row">
+		<div class="row vision-item-container">
 			<div class="col-md-7">
 				<img src="{{STATIC_URL}}img/parent.png" alt="">
 			</div>
@@ -29,7 +29,7 @@
 				<p>Lorem ipsum Sint nostrud Ut quis magna dolor reprehenderit eiusmod fugiat est exercitation sit ut aliquip esse amet ex.</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row vision-item-container">
 			<div class="col-md-5">
 				<h2>Technologie opent deuren</h2>
 				<p>Wij geloven dat technologie enorme mogelijkheden biedt voor het onderwijs en de mogelijkheden tot ontplooiing van kinderen. Technologie verbindt over grenzen en taalbarrières heen.
@@ -39,7 +39,7 @@ Social Schools ziet het als haar opgave om nu en in de toekomst educatieve toepa
 				<img src="{{STATIC_URL}}img/devices.png" alt="">		
 			</div>
 		</div>
-		<div class="row">
+		<div class="row vision-item-container">
 			<div class="col-md-7">
 				<img src="{{STATIC_URL}}img/safety.png" alt="">
 			</div>
