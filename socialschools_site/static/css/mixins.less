@@ -3,9 +3,9 @@
 	padding-right: @width;
 }
 
-.green-button(@font-size:24, @padding:30px) {
+.green-button(@font:24px, @padding:30px) {
 	background-color: @school-green;
-	font-size: @font-size;
+	font-size: @font;
 	font-weight: bold;
 	color: white;
 	padding-left: @padding;
@@ -51,4 +51,11 @@
 	margin-bottom: 10px;
 	text-align: center;
 	border-top: 3px solid @color;
+}
+
+.dialog-box() {
+	padding: 10px;
+	background-color: @gray-lighter;
+	border-radius: 11px;
+	max-width: 350px;
 }

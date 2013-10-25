@@ -1,43 +1,52 @@
 {% extends "default.html" %}
 {% block "content" %}
 	<div class="container socialschools-container">
-		<h3>{{request.current_page}}</h3>
+		<h2>{{request.current_page}}</h2>
 		<div class="row">
 			<div class="col-md-6">
-				<h1>Wat onze klant-en zeggen</h1>
+				<h1 class="feature-header"><span class="green-header">Testimonials</span></h1>
 			</div>
 			<div class="col-md-6">
-				<p>Hopelijk vind je hier wat je nodig hebt. Zoniet, stuur ons een mail op info@socialschools.nl of ons op 088-100-1300</p>
-				<img src="{{STATIC_URL}}img/icon-marieke.png" alt="">
+				<div class="dialog-box-container pull-left">
+					<p>Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore.</p>	
+				</div>
+				<img src="{{STATIC_URL}}img/icon-marieke.png"  class="pull-right" alt="">
 			</div>
 		</div>
-		<div class="row">
+		<hr>
+		<div class="row socialschools-container-item">
 			<div class="col-md-6">
-				<img src="{{STATIC_URL}}img/icon-marieke.png" alt="">
+				<img src="{{STATIC_URL}}img/marieke-big.png" class="pull-right" alt="">
 			</div>
 			<div class="col-md-6">
-				<p>Lorem ipsum Ad dolore sint qui incididunt magna in magna culpa sint qui Duis veniam sint est anim dolore.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<p>Lorem ipsum Ad dolore sint qui incididunt magna in magna culpa sint qui Duis veniam sint est anim dolore.</p>
-			</div>
-			<div class="col-md-6">
-				<img src="{{STATIC_URL}}img/icon-marieke.png" alt="">
+				<h2 class="pull-left testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse 		commodo enim culpa adipisicing."
+				<h3>Lorentz Ruiter</h3>
+				<p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row socialschools-container-item">
 			<div class="col-md-6">
-				<img src="{{STATIC_URL}}img/icon-marieke.png" alt="">
+				<h2 class="pull-right testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse 		commodo enim culpa adipisicing."
+				<h3>Lorentz Ruiter</h3>
+				<p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
 			</div>
 			<div class="col-md-6">
-				<p>Lorem ipsum Ad dolore sint qui incididunt magna in magna culpa sint qui Duis veniam sint est anim dolore.</p>
+				<img src="{{STATIC_URL}}img/makiel-big.png" alt="">
+			</div>
+		</div>
+		<div class="row socialschools-container-item">
+			<div class="col-md-6">
+				<img src="{{STATIC_URL}}img/marieke-big.png" class="pull-right" alt="">
+			</div>
+			<div class="col-md-6">
+				<h2 class="pull-left testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse 		commodo enim culpa adipisicing."
+				<h3>Lorentz Ruiter</h3>
+				<p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
 			</div>
 		</div>
 		<div class="bottom-link">
-			<h1>Wil jij het ook proberen?</h1>
-			<a href="" class="btn btn-success btn-lg">Probeer nu</a>
+			<h2><span class="blue-header">Want to</span> try too?</h2>
+			<a href="" class="btn btn-success btn-email">Try it yourself</a>
 		</div>
 	</div>		
 {% endblock %}
