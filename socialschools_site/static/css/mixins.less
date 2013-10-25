@@ -3,13 +3,13 @@
 	padding-right: @width;
 }
 
-.green-button() {
+.green-button(@font-size:24, @padding:30px) {
 	background-color: @school-green;
-	font-size: 24px;
+	font-size: @font-size;
 	font-weight: bold;
 	color: white;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: @padding;
+	padding-right: @padding;
 }
 
 .blue-button() {
@@ -18,7 +18,7 @@
 	font-weight: bold;
 }
 
-.container-margin(@value) {
+.container-margin(@value:45px) {
 	margin-top: @value;
 	margin-bottom: @value;
 }
