@@ -68,13 +68,17 @@
 		margin-bottom: 10px;
 		text-align: center;	
 	}
-		.bottom-link {
+	.bottom-link {
 		text-align: center;
+		.container-margin();
 	}
 	.redirect-button-container {
 		text-align: center;
 	}
 	.reference-container, .socialschools-cms-container, .email-container, .dialouge-container {
+		.container-margin(45px);
+	}
+	.video-container {
 		.container-margin(45px);
 	}
 	.demo-container {
@@ -145,6 +149,8 @@
 	.socialschools-container-item {
 		padding-left: 20px;
 		padding-top: 30px;
+		margin-left: 2px;
+		margin-right: 2px;
 		border: 1px solid @gray-lighter;
 		margin-bottom: 20px;
 		h2 {
@@ -264,6 +270,21 @@
 	.socialschools-map-marker {
 		margin-left: -18px;
 	}
+	.dialog-box-container {
+		.dialog-box();
+		&:after {
+			width: 0;
+			height: 0;
+			position: absolute;
+			left: 65%;
+			top: 21%;
+			content: "";	
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid @gray-lighter;
+		}
+	}
+
 }
 
 
