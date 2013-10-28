@@ -1,18 +1,19 @@
 {% extends "default.html" %}
+{% load i18n %}
 {% block "content" %}
   <div class="container socialschools-container">
     <h2>{{request.current_page}}</h2>
     <ul class="nav nav-tabs">
       <li class="active">
-        <a href="/over-ons/onze-visie">Our beliefs</a>
+        <a href="/over-ons/onze-visie">{% trans "Our beliefs" %}</a>
       </li>
       <li>
-        <a href="/over-ons/ons-team">Our team</a>
+        <a href="/over-ons/ons-team">{% trans "Our team" %}</a>
       </li>
     </ul>
     <div class="row dialouge-container">
       <div class="col-md-6">
-        <h1 class="feature-header"><span class="green-header">Our <span class="blue-header">team</span></h1>
+        <h1 class="feature-header"><span class="green-header">{% trans "Our" %} <span class="blue-header">{% trans "team" %}</span></h1>
       </div>
       <div class="col-md-6">
         <div class="dialog-box-container pull-left">
@@ -29,7 +30,7 @@
           <h2>Jonathan Stolk</h2>
           <h3><span class="blue-header">Sales manager</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -38,7 +39,7 @@
           <h2>Marieke van der Zwan</h2>
           <h3><span class="blue-header">Product manager</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -47,7 +48,7 @@
           <h2>Robert Korteland</h2>
           <h3><span class="blue-header">Designer</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -56,7 +57,7 @@
           <h2>Nar Kumar</h2>
           <h3><span class="blue-header">Developer</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -65,7 +66,7 @@
           <h2>Maikel Boos</h2>
           <h3><span class="blue-header">Sales and account manager</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -74,7 +75,7 @@
           <h2>Bas de Bruin</h2>
           <h3><span class="blue-header">Marketing Manager</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -83,7 +84,7 @@
           <h2>Jos van Velzen</h2>
           <h3><span class="blue-header">Lead developer</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -92,7 +93,7 @@
           <h2>Vinit Kumar</h2>
           <h3><span class="blue-header">Developer</span></h3>
           <p>Description</p>
-          <a href="" class="btn btn-mail">Mail me!</a>
+          <a href="" class="btn btn-mail">{% trans "Mail me" %}!</a>
         </div>
       </div>
     </div>
