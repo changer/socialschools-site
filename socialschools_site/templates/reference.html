@@ -1,0 +1,53 @@
+{% extends "default.html" %}
+{% load i18n %}
+{% block "content" %}
+  <div class="container socialschools-container">
+    <h2>{{request.current_page}}</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="feature-header"><span class="green-header">{% trans "Testimonials" %}</span></h1>
+      </div>
+      <div class="col-md-6">
+        <div class="dialog-box-container pull-left">
+          <p>{% trans "Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore." %}</p>  
+        </div>
+        <img src="{{STATIC_URL}}img/icon-marieke.png"  class="pull-right" alt="">
+      </div>
+    </div>
+    <hr>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/marieke-big.png" class="pull-right" alt="">
+      </div>
+      <div class="col-md-6">
+        <h2 class="pull-left testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse    commodo enim culpa adipisicing."
+        <h3>Lorentz Ruiter</h3>
+        <p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <h2 class="pull-right testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse     commodo enim culpa adipisicing."
+        <h3>Lorentz Ruiter</h3>
+        <p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/makiel-big.png" alt="">
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/marieke-big.png" class="pull-right" alt="">
+      </div>
+      <div class="col-md-6">
+        <h2 class="pull-left testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse    commodo enim culpa adipisicing."
+        <h3>Lorentz Ruiter</h3>
+        <p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
+      </div>
+    </div>
+    <div class="bottom-link">
+      <h2><span class="blue-header">{% trans "Want to" %}</span> {% trans "try too" %}?</h2>
+      <a href="" class="btn btn-success btn-email">{% trans "Try it yourself" %}</a>
+    </div>
+  </div>    
+{% endblock %}

@@ -1,103 +1,59 @@
+// Body styling.
 body {
-	padding-top: 90px;
+  padding-top: 90px;
+  font-family: "Ubuntu", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: lightblue;
+  font-size: 16px;
 }
 
-@school-blue: #55c1eb;
-@school-green: #39b549;
-
-.aside {
-	background: transparent url("http://placekitten.com/600/570") no-repeat center center;
-	height: 570px;
-	padding: 0;
+//Typography
+h1, h2, h3, h4, .meta, p , a {
+  font-family: "Ubuntu", Helvetica, sans-serif;
 }
 
-.footer {
-	text-align: center;
-}
-
-h1, h2, h3, h4 {
-	color: black;
+h1 {
+  font: 28px medium @header1-color;
 }
 
 h2 {
-	font-size: 30px;
+  font: 24px medium @header2-color;
 }
 
-.nav > li { 
-	height: 75px;
-	padding-left: 20px;
-	padding-right: 20px;
+h3 {
+  font-size: 18px @header3-color;
+  font-weight: lighter;
 }
 
-.logo {
-	height: 75px;
+h4 {
+  font: 16px medium @header4-color;
 }
 
-.navbar-nav > li > a {
-	line-height: 40px;
+p {
+  font: 16px regular @text-color;
 }
 
-.container > .jumbotron {
-	border-radius: 0px;
-	padding: 0px;
-	background-color: @schoolBlue;
-	padding-top: 25px;
-	.header-text {
-		padding-right: 100px;
-	}
+.meta {
+  font: 14px regular @meta-color;
 }
 
-.navbar {
-	background-color: white;
+a {
+  font: 14px medium @theme-color;
 }
 
-.price-box {
-	border: 1px solid lightgrey;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	text-align: center;
+//Colorful headers
+.green-header {
+  color: @school-green;
 }
 
-.form-price {
-	text-align: center;
+.white-header {
+  color: white;
 }
 
-.footer-text {
-	height: 40px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 40px;
-	background-color: @schoolBlue;
+.blue-header {
+  color: @school-blue;
 }
 
-.socialschools-container {
-	padding-left: 40px;
+.orange-header {
+  color: @school-orange;
 }
-
-.footer-container-links {
-	a, p {
-		color: white;
-	}
-	.icon-facebook {
-		margin-right: 5px;	
-	}
-	.icon-twitter {
-		margin-left: 5px;
-	}
-	background-color: @schoolGreen;
-	padding-left:40px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
-.team {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
-}
-// .socialschools-container-item {
-// 	border: 1px solid lightgrey;
-// 	padding-left: 40px;
-// 	margin-bottom: 20px;
-// 	padding-right: 40px;
-// }

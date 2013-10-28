@@ -1,0 +1,88 @@
+{% extends "default.html" %}
+{% load i18n %}
+{% block "content" %}
+  <div class="container socialschools-container">
+    <h2>{{request.current_page}}</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="feature-header"><span class="green-header">{% trans "The" %}</span> <span class="blue-header"> {% trans "most important features" %}</span></h1>
+      </div>
+      <div class="col-md-6">
+        <div class="dialog-box-container pull-left">
+          <p>{% trans "Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore." %}</p>  
+        </div>
+        <img src="{{STATIC_URL}}img/icon-marieke.png"  class="pull-right" alt="">
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <h2><span class="blue-header">{% trans "Create and manage" %}</span> {% trans "groups" %}</h2>
+        <p>{% trans "Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim." %}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/group.png" alt="Big Image">
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/media.png">
+      </div>
+      <div class="col-md-6">
+        <h2><span class="green-header">{% trans "Share" %}</span> {% trans "media" %}</h2>
+        <p>{% trans "Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit ea amet exercitation." %}</p>
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <h2><span class="blue-header">{% trans "Mobile" %}</span> {% trans "apps" %}</h2>
+        <p>{% trans "Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim." %}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/mobile-app.png" alt="Big Image">
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/public.png">
+      </div>
+      <div class="col-md-6">
+        <h2>{% trans "Publish" %} <span class="green-header">{% trans "posts" %}</span></h2>
+        <p>{% trans "Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit ea amet exercitations" %}</p>
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <h2><span class="blue-header">{% trans "Color" %}</span>{% trans "themes" %}</h2>
+        <p>{% trans "Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim." %}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/theme.png" class="color-themes-image" alt="Big Image">
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6"></div>
+      <div class="col-md-6">
+        <h2><span class="green-header">{% trans "Automated" %}</span> {% trans "newsletter" %}</h2>
+        <p>{% trans "Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit ea amet exercitation." %}</p>
+      </div>
+    </div>
+    <div class="row socialschools-container-item">
+      <div class="col-md-6">
+        <h2>{% trans "Parnassys" %} <span class="blue-header">{% trans "import" %}</span></h2>
+        <p>{% trans "Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur aliqua anim." %}</p>
+      </div>
+      <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/par-import.png" alt="Big Image">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6 demo-container">
+        <h1>{% trans "Wondering" %} <span class="blue-header">{% trans "how these features work exactly" %}?</span></h1>
+        <a href="" class="btn btn-success btn-email">{% trans "Try it yourself" %}</a>
+        <p>or request a<a href="" class="blue-header"> demo</a></p>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+{% endblock %}    

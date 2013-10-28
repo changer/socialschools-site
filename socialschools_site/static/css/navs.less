@@ -1,0 +1,40 @@
+header > .nav > li { 
+  height: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-nav > li > a {
+  line-height: 40px;
+  color: @black;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid @gray-lighter;
+}
+
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.sidebar-nav > li {
+  height: 42px;
+  a {
+    border-radius: 0px;
+    border: 1px solid @gray-lighter;
+  }
+}
+.sidebar-nav li.active a, .sidebar-nav > li.active > a:hover, .sidebar-nav > li.active > a:focus { 
+  background-color: transparent;
+  border-left: 3px solid @school-blue;
+  color: @black;
+}

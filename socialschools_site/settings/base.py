@@ -131,11 +131,17 @@ TEMPLATE_CONTEXT_PROCESSORS = (
 
 CMS_TEMPLATES = (
     ('base.html', gettext('default')),
-    ('home.html', gettext('function')),
+    ('default.html', gettext('common')),
+    ('feature.html', gettext('function')),
     ('contact.html', gettext('contact')),
     ('support.html', gettext('support')),
     ('price.html', gettext('rate')),
     ('overons.html', gettext('overons')),
+    ('reference.html', gettext('reference')),
+    ('videos.html', gettext('videos')),
+    ('downloads.html', gettext('downloads')),
+    ('team.html', gettext('team')),
+    ('vision.html', gettext('vision')),
 )
 
 CMS_PLUGIN_PROCESSORS = (
