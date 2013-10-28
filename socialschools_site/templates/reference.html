@@ -1,14 +1,15 @@
 {% extends "default.html" %}
+{% load i18n %}
 {% block "content" %}
   <div class="container socialschools-container">
     <h2>{{request.current_page}}</h2>
     <div class="row">
       <div class="col-md-6">
-        <h1 class="feature-header"><span class="green-header">Testimonials</span></h1>
+        <h1 class="feature-header"><span class="green-header">{% trans "Testimonials" %}</span></h1>
       </div>
       <div class="col-md-6">
         <div class="dialog-box-container pull-left">
-          <p>Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore.</p>  
+          <p>{% trans "Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore." %}</p>  
         </div>
         <img src="{{STATIC_URL}}img/icon-marieke.png"  class="pull-right" alt="">
       </div>
@@ -45,8 +46,8 @@
       </div>
     </div>
     <div class="bottom-link">
-      <h2><span class="blue-header">Want to</span> try too?</h2>
-      <a href="" class="btn btn-success btn-email">Try it yourself</a>
+      <h2><span class="blue-header">{% trans "Want to" %}</span> {% trans "try too" %}?</h2>
+      <a href="" class="btn btn-success btn-email">{% trans "Try it yourself" %}</a>
     </div>
   </div>    
 {% endblock %}
