@@ -1,61 +1,61 @@
 .container-padding(@width:0px) {
-	padding-left: @width;
-	padding-right: @width;
+  padding-left: @width;
+  padding-right: @width;
 }
 
 .green-button(@font:24px, @padding:30px) {
-	background-color: @school-green;
-	font-size: @font;
-	font-weight: bold;
-	color: white;
-	padding-left: @padding;
-	padding-right: @padding;
+  background-color: @school-green;
+  font-size: @font;
+  font-weight: bold;
+  color: white;
+  padding-left: @padding;
+  padding-right: @padding;
 }
 
 .blue-button() {
-	background-color: @school-blue;
-	color: white;
-	font-weight: bold;
+  background-color: @school-blue;
+  color: white;
+  font-weight: bold;
 }
 
 .container-margin(@value:45px) {
-	margin-top: @value;
-	margin-bottom: @value;
+  margin-top: @value;
+  margin-bottom: @value;
 }
 
 .circle(@diameter, @color) {
-	height: @diameter;
-	width: @diameter;
-	background-color: @color;
-	border-radius: 50%;
+  height: @diameter;
+  width: @diameter;
+  background-color: @color;
+  border-radius: 50%;
 }
 
 .small-circle(@color) {
-	.circle(50px, @color);
-	display: inline-block;
-	vertical-align: middle;
-	margin-bottom: 10px;
-	.point {
-		color: white;
-		font-weight: bold;
-		margin-top: 8px;
-		text-align: center;
-	}
+  .circle(50px, @color);
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+  .point {
+    color: white;
+    font-weight: bold;
+    margin-top: 8px;
+    text-align: center;
+  }
 }
 
 .box(@color) {
-	width: 350px;
-	height: 300px;
-	border: 1px solid @gray-lighter;
-	padding-top: 20px;
-	margin-bottom: 10px;
-	text-align: center;
-	border-top: 3px solid @color;
+  width: 350px;
+  height: 300px;
+  border: 1px solid @gray-lighter;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-top: 3px solid @color;
 }
 
 .dialog-box() {
-	padding: 10px;
-	background-color: @gray-lighter;
-	border-radius: 11px;
-	max-width: 350px;
+  padding: 10px;
+  background-color: @gray-lighter;
+  border-radius: 11px;
+  max-width: 350px;
 }
