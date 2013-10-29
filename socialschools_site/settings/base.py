@@ -181,6 +181,7 @@ INSTALLED_APPS = (
     'cms.plugins.picture',
     'cms.plugins.link',
     'cms.plugins.file',
+    'cms.plugins.googlemap',
 
     'south',
 )
