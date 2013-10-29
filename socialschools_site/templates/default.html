@@ -8,9 +8,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link rel="shortcut icon" href="/favicon.ico">
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,500,700,400italic" rel="stylesheet" type="text/css">
+  
+  {% if debug %}
   <script src="{{ STATIC_URL }}js/jquery.min.js"></script>
   <script src="{{ STATIC_URL }}bootstrap/js/tab.js"></script>
   <script src="{{ STATIC_URL }}js/socialschools.js"></script>
+  {% else %}
+  <script src="{{ STATIC_URL }}js/socialschools-site.min.js"></script>
+  {% endif %}
+  
   {% if debug %}
   <link href="{{ STATIC_URL }}css/styles.less" rel="stylesheet/less" >
   <script src="{{ STATIC_URL }}js/less-1.3.3.min.js"></script>
