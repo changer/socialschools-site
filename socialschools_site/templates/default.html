@@ -34,24 +34,7 @@
       </div>
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav">
-          <li>
-            <a href="/features">{% trans "Features" %}</a>
-          </li>
-          <li>
-            <a href="/support">{% trans "Support" %}</a>
-          </li>
-          <li>
-            <a href="/costs">{% trans "The costs" %}</a>
-          </li>
-          <li>
-            <a href="/about-us">{% trans "About us" %}</a>
-          </li>
-          <li>
-            <a href="/contact">{% trans "Contact" %}</a>
-          </li>
-          <li>
-            <a href="/testimonials">{% trans "Testimonials" %}</a>
-          </li>
+          {% show_menu 0 0 0 0 %}
         </ul>
       </nav>
     </div>
@@ -65,33 +48,16 @@
       <div class="col-md-3 sitemap-container">
         <h5>SITEMAP</h5>
         <ul class="list-unstyled">
-          <li>
-            <a href="/functies">{% trans "Features" %}</a>
-          </li>
-          <li>
-            <a href="/support">{% trans "Support" %}</a>
-          </li>
-          <li>
-            <a href="/wat-kost-het">{% trans "The Costs" %}</a>
-          </li>
-          <li>
-            <a href="/over-ons">{% trans "About us" %}</a>
-          </li>
-          <li>
-            <a href="/contact">{% trans "Contact" %}</a>
-          </li>
-          <li>
-            <a href="/referenties">{% trans "Testimonials" %}</a>
-          </li>
+          {% show_menu 0 0 0 0 %}   
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 sitemap-container">
         <h5>OTHER</h5>
         <ul class="list-unstyled">
           <a href="">{% trans "Terms and conditions" %}</a>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 sitemap-container">
         <h5>CONTACT</h5>
         <address>
           <strong>Social Schools</strong><br>
@@ -103,7 +69,7 @@
           <a href="mailto:#">info@socialschools.nl</a>
         </address>        
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 sitemap-container">
         <h5>{% trans "FOLLOW US ON" %}</h5>
         <a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook"alt=""></a>
         <a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
