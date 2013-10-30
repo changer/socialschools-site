@@ -23,31 +23,35 @@ if "GONDOR_DATABASE_URL" in os.environ:
         }
     }
 
-if "GONDOR_DATA_DIR" in os.environ:
-	STATIC_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"], "static")
-    FILE_UPLOAD_PERMISSIONS = 0640
-    LOGGING = {
-        "version": 1,
-        "disable_existing_loggers": False,
-        "formatters": {
-            "simple": {
-                "format": "%(levelname)s %(message)s"
-            },
+STATIC_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"],"site_media", "static")
+
+STATIC_URL = "/static/" # make sure this maps inside of site_media_url
+STATIC_ROOT = os.path.join(os.environ["GONDOR_DATA_DIR"],"site_media", "static")
+
+STATIC_URL = "/static/" # make sure this maps inside of site_media_url
+
+LOGGING = {
+    "version": 1,
+    "disable_existing_loggers": False,
+    "formatters": {
+        "simple": {
+            "format": "%(levelname)s %(message)s"
         },
-        "handlers": {
-            "console": {
-                "level": "DEBUG",
-                "class": "logging.StreamHandler",
-                "formatter": "simple"
-            }
-        },
-        "root": {
-            "handlers": ["console"],
-            "level": "INFO",
-        },
-        "loggers": {
-            "django.request": {
-                "propagate": True,
-            },
+    },
+    "handlers": {
+        "console": {
+            "level": "DEBUG",
+            "class": "logging.StreamHandler",
+            "formatter": "simple"
         }
+    },
+    "root": {
+        "handlers": ["console"],
+        "level": "INFO",
+    },
+    "loggers": {
+        "django.request": {
+            "propagate": True,
+        },
     }
+}
