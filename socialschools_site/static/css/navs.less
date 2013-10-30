@@ -1,20 +1,26 @@
-header > .nav > li { 
-  height: 75px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.navbar-nav > li > a {
-  line-height: 40px;
-  color: @black;
-  font-weight: bold;
+header {
+  background-color: white;
+  .nav > li {
+    height: 75px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .container > nav > .navbar-nav {
+    margin-left: 25px;
+    li > a {
+          line-height: 43px;
+          color: black;
+          font-weight: bold;
+    }
+    li.active > a {
+      border-bottom: 3px solid @school-blue;
+    }          
+  }
 }
 
 .navbar {
-  background-color: white;
   border-bottom: 1px solid @gray-lighter;
 }
-
 
 .tab-content > .tab-pane,
 .pill-content > .pill-pane {
