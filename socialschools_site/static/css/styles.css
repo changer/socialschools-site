@@ -5953,7 +5953,7 @@ body {
   padding-top: 90px;
   font-family: "Ubuntu", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: lightblue;
+  background: url(../img/background.png) no-repeat;
   font-size: 16px;
 }
 h1,
@@ -6000,6 +6000,7 @@ a {
   color: #ff921e;
 }
 .socialschools-container {
+  border: 1px solid #eeeeee;
   background-color: white;
   padding-left: 0px;
   padding-right: 0px;
@@ -6008,7 +6009,7 @@ a {
   margin-top: 10px;
 }
 .socialschools-container h2 {
-  padding-bottom: 20px;
+  color: #000000;
 }
 .socialschools-container .intro-header {
   font-size: 48px;
@@ -6035,6 +6036,22 @@ a {
   margin-left: -40px;
   margin-right: -40px;
 }
+.socialschools-container .feature-redirect-container {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.socialschools-container .feature-redirect-container h1 {
+  color: #000000;
+}
+.socialschools-container .feature-redirect-container a {
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+.socialschools-container .feature-redirect-container h1,
+.socialschools-container .feature-redirect-container a {
+  display: inline-block;
+}
 .socialschools-container .green-belt {
   height: 60px;
   background-color: #31c659;
@@ -6049,17 +6066,35 @@ a {
 .socialschools-container .vision,
 .socialschools-container .about-container,
 .socialschools-container .examples-container,
-.socialschools-container .new-container,
-.socialschools-container .about-container {
+.socialschools-container .new-container {
   padding-left: 0px;
   padding-right: 0px;
 }
 .socialschools-container .vision .row > .col-md-4,
 .socialschools-container .about-container .row > .col-md-4,
 .socialschools-container .examples-container .row > .col-md-4,
-.socialschools-container .new-container .row > .col-md-4,
-.socialschools-container .about-container .row > .col-md-4 {
+.socialschools-container .new-container .row > .col-md-4 {
   text-align: center;
+}
+.socialschools-container .vision a,
+.socialschools-container .about-container a,
+.socialschools-container .examples-container a,
+.socialschools-container .new-container a {
+  font-weight: bold;
+}
+.socialschools-container .vision h2,
+.socialschools-container .about-container h2,
+.socialschools-container .examples-container h2,
+.socialschools-container .new-container h2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.socialschools-container .examples-container {
+  background: url(../img/shadow.png) center 183px no-repeat;
+}
+.socialschools-container .new-container {
+  background: url(../img/shadow.png) center bottom no-repeat;
+  margin-bottom: -21px;
 }
 .socialschools-container .logo {
   height: 75px;
@@ -6072,6 +6107,9 @@ a {
   margin-top: 45px;
   margin-bottom: 45px;
 }
+.socialschools-container .form-price h4 {
+  color: #000000;
+}
 .socialschools-container .team-profile {
   margin-bottom: 10px;
   text-align: center;
@@ -6082,8 +6120,8 @@ a {
 }
 .socialschools-container .bottom-link {
   text-align: center;
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .socialschools-container .redirect-button-container {
   text-align: center;
@@ -6110,8 +6148,12 @@ a {
   margin-bottom: 30px;
 }
 .socialschools-container .question-container {
-  margin-top: 45px;
-  margin-bottom: 45px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.socialschools-container .question-container h1,
+.socialschools-container .question-container h4 {
+  color: #000000;
 }
 .socialschools-container .address-container {
   margin-left: 17px;
@@ -6149,7 +6191,18 @@ a {
   color: white;
   padding-left: 30px;
   padding-right: 30px;
-  margin-top: 4px;
+  margin-top: 7px;
+  border-radius: 3px;
+}
+.socialschools-container .btn-features {
+  background-color: #31c659;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #37bde7;
+  display: inline-block;
 }
 .socialschools-container .btn-download {
   background-color: #31c659;
@@ -6184,8 +6237,10 @@ a {
 }
 .socialschools-container .testimonial-detail-meta {
   margin-top: -12px;
+  margin-bottom: 26px;
 }
 .socialschools-container .socialschools-container-item {
+  background: url(../img/shadow.png) center bottom no-repeat;
   padding-left: 20px;
   padding-top: 30px;
   margin-left: 2px;
@@ -6228,6 +6283,10 @@ a {
 .socialschools-container .price-container-item .price-circle-container .price-text {
   display: inline-block;
   padding-left: 20px;
+}
+.socialschools-container .pricing-container {
+  margin-left: 0px;
+  margin-right: -2px;
 }
 .socialschools-container .pricing-container .price-header {
   padding-bottom: 20px;
@@ -6285,18 +6344,17 @@ a {
   display: inline-block;
 }
 .socialschools-container .member-info h3 {
-  margin-top: -30px;
+  margin-top: -12px;
 }
 .socialschools-container .team-member-image {
   margin-top: -120px;
   margin-right: 12px;
 }
-.socialschools-container .team-container {
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
 .socialschools-container .team-container .col-md-6 {
   padding-bottom: 40px;
+}
+.socialschools-container .vision-container {
+  background: url(../img/about-background.png) center center no-repeat;
 }
 .socialschools-container .vision-item-container {
   margin-top: 45px;
@@ -6357,6 +6415,10 @@ a {
 .socialschools-container .support-header {
   text-align: center;
 }
+.socialschools-container .demo-header,
+.socialschools-container .question-header {
+  padding-left: 15px;
+}
 .socialschools-container .download-item {
   margin-bottom: 10px;
   border-radius: 3px;
@@ -6387,18 +6449,39 @@ a {
   border-bottom: 20px solid transparent;
   border-left: 20px solid #eeeeee;
 }
-header > .nav > li {
+.socialschools-container .features-intro-container {
+  margin-bottom: 30px;
+}
+.socialschools-container .dialog {
+  margin-top: 27px;
+}
+.socialschools-container .vision-block {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.socialschools-container .vision-block a {
+  font-weight: bold;
+}
+header {
+  background-color: white;
+}
+header .nav > li {
   height: 75px;
   padding-left: 10px;
   padding-right: 10px;
 }
-.navbar-nav > li > a {
-  line-height: 40px;
-  color: #000000;
+header .container > nav > .navbar-nav {
+  margin-left: 25px;
+}
+header .container > nav > .navbar-nav li > a {
+  line-height: 43px;
+  color: black;
   font-weight: bold;
 }
+header .container > nav > .navbar-nav li.active > a {
+  border-bottom: 3px solid #37bde7;
+}
 .navbar {
-  background-color: white;
   border-bottom: 1px solid #eeeeee;
 }
 .tab-content > .tab-pane,
