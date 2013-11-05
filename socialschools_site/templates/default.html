@@ -30,7 +30,7 @@
   <header class="navbar navbar-fixed-top topbar" role="banner">
     <div class="container">
       <div class="navbar-header">
-        <a href="/"><img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo"></a>
+        <a href="/"><img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo-navbar"></a>
       </div>
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav">
@@ -46,19 +46,19 @@
     </div>
     <div class="row footer-container-links">
       <div class="col-md-3 sitemap-container">
-        <h5>SITEMAP</h5>
+        <h5 class="footer-header">SITEMAP</h5>
         <ul class="list-unstyled">
           {% show_menu 0 0 0 0 %}   
         </ul>
       </div>
       <div class="col-md-3 sitemap-container">
-        <h5>OTHER</h5>
+        <h5 class="footer-header">OTHER</h5>
         <ul class="list-unstyled">
           <a href="">{% trans "Terms and conditions" %}</a>
         </ul>
       </div>
       <div class="col-md-3 sitemap-container">
-        <h5>CONTACT</h5>
+        <h5 class="footer-header">CONTACT</h5>
         <address>
           <strong>Social Schools</strong><br>
           Maerten Trompstraat 25<br>
@@ -70,9 +70,9 @@
         </address>        
       </div>
       <div class="col-md-3 sitemap-container">
-        <h5>{% trans "FOLLOW US ON" %}</h5>
-        <a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook"alt=""></a>
-        <a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
+        <h5 class="footer-header">{% trans "FOLLOW US ON" %}</h5>
+        <a href=""><img src="{{STATIC_URL}}img/icon-facebook-white.png" class="icon-facebook"alt=""></a>
+        <a href=""><img src="{{STATIC_URL}}img/icon-twitter-white.png" class="icon-twitter" alt=""></a>
       </div>
     </div>  
   </div>

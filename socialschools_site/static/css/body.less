@@ -1,98 +1,20 @@
-//main container
+// styling common to the website
 .socialschools-container {
-  border: 1px solid @gray-lighter;
-  padding-left: 40px;
-  background-color: white;
-  .container-padding();
-  padding-left: 40px;
-  padding-right: 40px;
+  .container-padding(40px);
+  .container-widget();
+  .top-border-radius();
   margin-top: 10px;
   h2 {
     color: @black;
   }
-  .intro-header {
-    font-size: 48px;
-    font-weight: bold;
-    color: @black;
-  }
-  .app-intro-header {
-    font-size: 48px;
-    font-weight: lighter;
-  }
-  .container > .jumbotron {
-    height: 323px;
-    border-radius: 0px;
-    padding: 0px;
-    background-color: @school-blue;
-    padding-top: 25px;
-    .header-text {
-      padding-right: 100px;
-    }
-  }
-  .jumbo-container {
-    .container-padding();
-    margin-left: -40px;
-    margin-right: -40px;
-  }
-  .feature-redirect-container {
-    text-align: center;
-    .container-margin();
-    h1 {
-      color: @black;
-    }
-    a {
-      margin-bottom: 10px;
-      margin-left: 7px;
-    }
-    h1, a {
-      display: inline-block;
-    }
-
-  }
-  .green-belt {
-    height:60px;
-    background-color: @school-green;
-    margin-top: -30px;
-  }
-  .price-box {
-    border: 1px solid lightgrey;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .vision, .about-container, .examples-container, .new-container {
-    .container-padding();   
-    .row > .col-md-4 {
-      text-align: center;
-    }
-    a {
-      font-weight: bold;
-    }
-    h2 {
-      margin-top: 0px;
-      margin-bottom: 20px;
-    }
-  }
-  .examples-container {
-    background: url(../img/shadow.png) center 183px no-repeat; 
-  }
-  .new-container {
-    background: url(../img/shadow.png) center bottom no-repeat; 
-    margin-bottom: -21px;
-  }
-  .logo {
-    height: 75px;
-  }
-  .form-price-header {
-    text-align: center;
-    color: @black;
-  }
+  
   .form-price {
     .container-margin(45px);
     h4 {
       color: @black;
     }
   }
+
   .team-profile {
     .team {
       height: 80px;
@@ -101,94 +23,57 @@
     margin-bottom: 10px;
     text-align: center; 
   }
+
+  .green-belt {
+    height:60px;
+    background-color: @school-green;
+    margin-top: -30px;
+  }
+
+  .price-box {
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .container > .jumbotron {
+    height: 323px;
+    .top-border-radius();
+    padding: 0px;
+    background-color: @school-blue;
+    padding-top: 25px;
+    .header-text {
+      padding-right: 100px;
+      margin-top: 42px;
+    }
+  }
+  
+  
+  
+  .logo {
+    height: 75px;
+  }
+  
+  
+  
   .bottom-link {
     text-align: center;
     .container-margin();
   }
-  .redirect-button-container {
-    text-align: center;
-  }
-  .reference-container, .socialschools-cms-container, .email-container, .dialouge-container {
-    .container-margin(45px);
-  }
-  .video-container, .download-container {
-    .container-margin(45px);
-  }
-  .demo-container {
-    text-align: center;
-    .container-margin(45px);
-    .btn-email {
-      .container-margin(30px);
-    }
-  }
-  .question-container {
-    h1, h4 {
-      color: @black;
-    }
-    .container-margin();
-  }
-  .address-container {
-    margin-left: 17px;
-    padding-top: 25px;
-    font-size: 18px;
-    a {
-      color: @school-blue;  
-    }
-    color: @school-blue;
-  }
+  
   .ios-intro-text {
     margin-top: 87px;
   }
-  .team-container {
-    margin-top: 45px;
-  }
-  .btn-demo {
-    margin-top: -100px;
-    .green-button();
-  }
-  .btn-mail {
-    .blue-button();
-  }
-  .btn-email {
-    .green-button();
-    margin-top: 7px;
-    border-radius: 3px;
-  }
-  .btn-features {
-    .green-button();
-    background-color: @school-blue;
-    display: inline-block;
-  }
-  .btn-download {
-    .green-button(18px, 10px);
-  }
+  
   .icon-facebook {
     margin-left: 10px;    
   }
   .icon-twitter {
     margin-left: 10px;
   }
-  .follow-header {
-    font-weight: lighter;
-    display: inline-block;
-  }
-  .phone-header {
-    color:@black;
-    .blue-header {
-      font-weight: bold;
-    }
-  }
-  .testimonial-header {
-    color: @black;
-  }
-  .feature-header {
-    font-size: 48px;
-    font-weight: lighter;
-  }
-  .testimonial-detail-meta {
-    margin-top: -12px;
-    margin-bottom: 26px;
-  }
+  
+  
   .socialschools-container-item {
     background: url(../img/shadow.png) center bottom no-repeat; 
     padding-left: 20px;
@@ -197,6 +82,9 @@
     margin-right: 2px;
     border: 1px solid @gray-lighter;
     margin-bottom: 20px;
+    .manage-group-container {
+      padding-right: 0px;
+    }
     h2 {
       color: @black;
     }
@@ -204,66 +92,7 @@
       margin-left: -11px;
     }
   }
-  .price-container-item {
-    padding-left: 20px;
-    .feature-list-container {
-      padding-top: 25px;
-      padding-right: 40px;
-      border-right: 1px solid @gray-lighter;
-    }
-    .price-circle-container {
-      padding-left: 40px;
-      .circle-container {
-        display: inline-block;
-      }
-      .price-circle {
-        .circle(150px, @school-blue);
-        .price {
-          color: white;
-          font-weight: bold;
-          line-height: 150px;
-          text-align: center;
-        }
-      }
-      .price-text {
-        display: inline-block;
-        padding-left: 20px;
-      }
-    }
-  }
-  .pricing-container {
-    margin-left: 0px;
-    margin-right: -2px;
-    .price-header {
-      padding-bottom: 20px;
-    }
-    .price-box-cms {
-      .price-euro {
-        font-weight: bold;
-        color: @black;
-        margin-bottom: 0px;
-      }
-      .box(@school-orange);
-      margin-right: 20px;
-    }
-    .price-box-newsfeed {
-      .price-euro {
-        font-weight: bold;
-        color: @black;
-        margin-bottom: 0px;
-      }
-      .box(@school-blue);
-      margin-right: 20px;
-    }
-    .price-box-workshop {
-      .price-euro {
-        font-weight: bold;
-        color: @black;
-        margin-bottom: 0px;
-      }
-      .box(@school-green);
-    }
-  }
+  
   .feature-list {
     direction: rtl;
     clear: right;
@@ -275,41 +104,18 @@
       margin-top: -12px;
     }
   }
-  .team-member-image {
-    margin-top: -120px;
-    margin-right: 12px;
-  }
-  .team-container {
-    .col-md-6 {
-      padding-bottom: 40px;
+  .team-item {
+    .team-member-image {
+      margin-top: -120px;
+      margin-right: 12px;
     }
   }
-  .vision-container {
-    background: url(../img/about-background.png) center center no-repeat;
+  .team-member-image {
+      margin-top: -120px;
+      margin-right: 12px;
   }
-  .vision-item-container {
-    .container-margin(45px);
-    .col-md-5, .col-md-6 {
-      h2 {
-        display: inline-block;
-      }
-    }   
-  }
-  .point-circle-parents {
-    .small-circle(@school-blue);
-  }
-  .point-circle-tech {
-    .small-circle(@school-green);
-  }
-  .point-circle-safety {
-    .small-circle(@school-blue);
-  }
-  .support-header {
-    text-align: center;
-  }
-  .demo-header, .question-header {
-    padding-left: 15px;
-  }
+  
+ 
   .download-item {
     margin-bottom: 10px;
     border-radius: 3px;
@@ -323,23 +129,7 @@
   .socialschools-map-marker {
     margin-left: -18px;
   }
-  .dialog-box-container {
-    .dialog-box();
-    &:after {
-      width: 0;
-      height: 0;
-      position: absolute;
-      left: 65%;
-      top: 21%;
-      content: "";  
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent;
-      border-left: 20px solid @gray-lighter;
-    }
-  }
-  .features-intro-container {
-    margin-bottom: 30px;
-  }
+  
   .dialog {
     margin-top: 27px;
   }
@@ -350,6 +140,55 @@
     padding-left: 12px;
     padding-right: 12px;
   }
+  // /* entire container, keeps perspective */
+  // .team-container {
+  //   -webkit-perspective: 1000;
+  // }
+  //   /* flip the pane when hovered */
+  // .team-container:hover .team-item, .team-container.hover .team-item {
+  //   -webkit-transform: rotateY(180deg);
+  // }
+  
+  // /* flip speed goes here */
+  // .team-item {
+  //   height: 128px;
+  //   width: 128px;
+  //   border-radius: 50%;
+  //   -webkit-transition: 0.6s;
+  //   -webkit-transform-style: preserve-3d;
+
+  //   position: relative;
+  // }
+
+  // /* hide back of pane during swap */
+  // .front, .back {
+  //   -webkit-backface-visibility: hidden;
+
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  // }
+
+  // /* front pane, placed above back */
+  // .front {
+  //   z-index: 2;
+  // }
+
+  // /* back, initially hidden pane */
+  // .back {
+  //   -webkit-transform: rotateY(180deg);
+  // }
+
+  .point-circle-parents {
+    .small-circle(@school-blue);
+  }
+  .point-circle-tech {
+    .small-circle(@school-green);
+  }
+  .point-circle-safety {
+    .small-circle(@school-blue);
+  }
+  
 
 }
 
