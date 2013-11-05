@@ -4,76 +4,6 @@
   .container-widget();
   .top-border-radius();
   margin-top: 10px;
-  h2 {
-    color: @black;
-  }
-  
-  .form-price {
-    .container-margin(45px);
-    h4 {
-      color: @black;
-    }
-  }
-
-  .team-profile {
-    .team {
-      height: 80px;
-      width: 80px;
-    }
-    margin-bottom: 10px;
-    text-align: center; 
-  }
-
-  .green-belt {
-    height:60px;
-    background-color: @school-green;
-    margin-top: -30px;
-  }
-
-  .price-box {
-    border: 1px solid lightgrey;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .container > .jumbotron {
-    height: 323px;
-    .top-border-radius();
-    padding: 0px;
-    background-color: @school-blue;
-    padding-top: 25px;
-    .header-text {
-      padding-right: 100px;
-      margin-top: 42px;
-    }
-  }
-  
-  
-  
-  .logo {
-    height: 75px;
-  }
-  
-  
-  
-  .bottom-link {
-    text-align: center;
-    .container-margin();
-  }
-  
-  .ios-intro-text {
-    margin-top: 87px;
-  }
-  
-  .icon-facebook {
-    margin-left: 10px;    
-  }
-  .icon-twitter {
-    margin-left: 10px;
-  }
-  
-  
   .socialschools-container-item {
     background: url(../img/shadow.png) center bottom no-repeat; 
     padding-left: 20px;
@@ -85,37 +15,18 @@
     .manage-group-container {
       padding-right: 0px;
     }
-    h2 {
-      color: @black;
-    }
-    .color-themes-image {
-      margin-left: -11px;
-    }
   }
-  
-  .feature-list {
-    direction: rtl;
-    clear: right;
-    margin-right: -20px;
-  }
-  .member-info {
-    display: inline-block;
-    h3 {
-      margin-top: -12px;
+  .container > .jumbotron {
+    height: 323px;
+    .top-border-radius();
+    padding: 0px;
+    background-color: @school-blue;
+    padding-top: 25px;
+    .header-text {
+      padding-right: 100px;
+      margin-top: 42px;
     }
   }
-  .team-item {
-    .team-member-image {
-      margin-top: -120px;
-      margin-right: 12px;
-    }
-  }
-  .team-member-image {
-      margin-top: -120px;
-      margin-right: 12px;
-  }
-  
- 
   .download-item {
     margin-bottom: 10px;
     border-radius: 3px;
@@ -126,12 +37,35 @@
     padding: 6px;
     border: 1px solid @gray-lighter;
   }
-  .socialschools-map-marker {
-    margin-left: -18px;
+  .team-profile {
+    .team {
+      height: 80px;
+      width: 80px;
+    }
+    margin-bottom: 10px;
+    text-align: center; 
   }
-  
-  .dialog {
-    margin-top: 27px;
+  .price-box {
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .green-belt {
+    height:60px;
+    background-color: @school-green;
+    margin-top: -30px;
+  }
+  .feature-list {
+    direction: rtl;
+    clear: right;
+    margin-right: -20px;
+  }
+  .team-item {
+    .team-member-image {
+      margin-top: -120px;
+      margin-right: 12px;
+    }
   }
   .vision-block {
     a {
@@ -140,45 +74,50 @@
     padding-left: 12px;
     padding-right: 12px;
   }
-  // /* entire container, keeps perspective */
-  // .team-container {
-  //   -webkit-perspective: 1000;
-  // }
-  //   /* flip the pane when hovered */
-  // .team-container:hover .team-item, .team-container.hover .team-item {
-  //   -webkit-transform: rotateY(180deg);
-  // }
-  
-  // /* flip speed goes here */
-  // .team-item {
-  //   height: 128px;
-  //   width: 128px;
-  //   border-radius: 50%;
-  //   -webkit-transition: 0.6s;
-  //   -webkit-transform-style: preserve-3d;
-
-  //   position: relative;
-  // }
-
-  // /* hide back of pane during swap */
-  // .front, .back {
-  //   -webkit-backface-visibility: hidden;
-
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  // }
-
-  // /* front pane, placed above back */
-  // .front {
-  //   z-index: 2;
-  // }
-
-  // /* back, initially hidden pane */
-  // .back {
-  //   -webkit-transform: rotateY(180deg);
-  // }
-
+  .form-price {
+    .container-margin(45px);
+    h4 {
+      color: @black;
+    }
+  }
+  .member-info {
+    display: inline-block;
+    h3 {
+      margin-top: -12px;
+    }
+  }  
+  .team-member-image {
+      margin-top: -120px;
+      margin-right: 12px;
+  }
+  .socialschools-map-marker {
+    margin-left: -18px;
+  }
+   h2 {
+    color: @black;
+  }
+  .color-themes-image {
+    margin-left: -11px;
+  }
+  .dialog {
+    margin-top: 27px;
+  }
+  .logo {
+    height: 75px;
+  }
+  .bottom-link {
+    text-align: center;
+    .container-margin();
+  }
+  .ios-intro-text {
+    margin-top: 87px;
+  }
+  .icon-facebook {
+    margin-left: 10px;    
+  }
+  .icon-twitter {
+    margin-left: 10px;
+  }
   .point-circle-parents {
     .small-circle(@school-blue);
   }
@@ -188,8 +127,6 @@
   .point-circle-safety {
     .small-circle(@school-blue);
   }
-  
-
 }
 
 
