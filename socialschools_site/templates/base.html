@@ -3,15 +3,15 @@
 {% block "content" %}
   <div class="container socialschools-container">
     <!-- Jumbotron container -->
-    <div class="container jumbo-container"> 
+    <div class="container jumbo-container">
       <div class="jumbotron">
         <div class="row">
-          <div class="col-xs-6">
+          <div class="col-xs-5">
             <img src="{{STATIC_URL}}img/homepage-header.png" alt="Circular Image">
           </div>
-          <div class="col-xs-6 header-text">
+          <div class="col-xs-7 header-text">
             <img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo hidden-xs hidden-sm">
-            <h1 class="intro-header"><span class="white-header">Social media platform</span> {% trans "for primary education" %}</h1> 
+            <h1 class="intro-header"><span class="white-header">Social media platform</span> {% trans "for primary education" %}</h1>
           </div>
         </div>
       </div>
@@ -19,13 +19,13 @@
     </div>
     <!-- End container -->
     <div class="redirect-button-container">
-      <a class="btn btn-lg btn-demo" href="#">{% trans "Try now" %}!</a>    
+      <a class="btn btn-lg btn-demo" href="http://app.socialschools.nl/register/school" target="blank">{% trans "Try now" %}!</a>
     </div>
     <hr>
 
     <div class="vision">
       <h2>{% trans "Our" %} <span class="blue-header">{% trans "beliefs" %}</span></h2>
-      <div class="row">     
+      <div class="row">
         <div class="col-xs-4 vision-block">
           <h3>{% trans "Engaged parents" %}</h3>
           <img src="{{STATIC_URL}}img/parent-small.png" alt="">
@@ -55,9 +55,9 @@
           <img src="{{STATIC_URL}}img/testimonial-wimvdbosch.png" class="pull-right" alt="User Image">
         </div>
         <div class="col-xs-6">
-          <h2 class="pull-left testimonial-header">{% trans '"Je bent als school veel meer bezig met de berichtgeving naar buiten. Wat vertel ik? Welke leuke dingen heb ik te vertellen? Met Social Schools kijken ouders veel meer op de website om te zien wat hun kinderen bezig houdt."' %}</h2>
-          <h3>Lorentz de Ruiter</h3>
-          <p class="meta testimonial-detail-meta">{% trans "Stichting De Vier Windstreken" %}</p>
+          <h2 class="pull-left testimonial-header">{% trans '"I see lots of nice school activities on Social Schools. Parents and colleagues are enthusiastic; Social Schools turns out to be a conventient platform for communication!"' %}</h2>
+          <h3>Wim van den Bosch</h3>
+          <p class="meta testimonial-detail-meta">{% trans "Rehoboth Zeist" %}</p>
         </div>
       </div>
     </div>
@@ -67,24 +67,24 @@
       <h2>{% trans "Examples" %} <span class="blue-header">{% trans "of Social Schools" %}</span></h2>
       <div class="row socialschools-cms-container">
         <div class="col-xs-3">
-          <a href=""><img src="{{STATIC_URL}}img/thumbnail-cbsalbertschweitzer.png" alt="SS Thumbnail1"></a>
+          <a href="http://cbsalbertschweitzer.nl" target="blank"><img src="{{STATIC_URL}}img/thumbnail-cbsalbertschweitzer.png" alt="SS Thumbnail1"></a>
         </div>
         <div class="col-xs-3">
-          <a href=""><img src="{{STATIC_URL}}img/thumbnail-kameleon.png" alt="SS Thumbnail1"></a>
+          <a href="http://nutswassenaar.nl" target="blank"><img src="{{STATIC_URL}}img/thumbnail-nutswassenaar.png" alt="SS Thumbnail1"></a>
         </div>
         <div class="col-xs-3">
-          <a href=""><img src="{{STATIC_URL}}img/thumbnail-kompas.png" alt="SS Thumbnail1"></a>
+          <a href="http://kompas-denbommel.nl" target="blank"><img src="{{STATIC_URL}}img/thumbnail-kompas.png" alt="SS Thumbnail1"></a>
         </div>
         <div class="col-xs-3">
-          <a href=""><img src="{{STATIC_URL}}img/thumbnail-rehoboth.png" alt="SS Thumbnail1"></a>
-        </div>  
-      </div>    
+          <a href="http://rehobothzeist.nl" target="blank"><img src="{{STATIC_URL}}img/thumbnail-rehoboth.png" alt="SS Thumbnail1"></a>
+        </div>
+      </div>
     </div>
     <hr>
 
     <div class="new-container">
       <h2>{% trans "New" %} <span class="blue-header">{% trans "in Social Schools" %}</span></h2>
-      
+
       <div class="row">
         <div class="col-xs-6 pull-left ios-intro-text">
           <h1 class="app-intro-header"><span class="green-header">iOS</span><span class="blue-header"> App</span></h1>
@@ -99,23 +99,23 @@
 
     <div class="about-container">
       <h2>{% trans "About" %}<span class="blue-header"> {% trans "us" %}</span></h2>
-        
+
         <div class="row team-container">
           <div class="col-xs-6">
             <p>{% trans "Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id velit eu id minim exercitation proident magna enim cillum eu elit consequat mollit exercitation esse pariatur elit reprehenderit minim aute commodo dolore laborum in voluptate non culpa commodo dolor Excepteur." %}</p>
             <h2 class="follow-header"><span class="green-header">Follow</span><span class="blue-header"> us on</span></h2>
-            <a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook" alt=""></a>
-            <a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
+            <a href="http://facebook.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook" alt=""></a>
+            <a href="http://twitter.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
           </div>
-          
-          <div class="col-xs-6">          
+
+          <div class="col-xs-6">
             <div class="row">
 
               <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-bas.png" class="team">
                   <p>Bas</p>
-                </div>  
+                </div>
               </div>
 
               <div class="col-xs-3">
@@ -128,13 +128,13 @@
               <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-jonathan.png" class="team">
-                  <p>Jonathon</p> 
+                  <p>Jonathon</p>
                 </div>
               </div>
 
               <div class="col-xs-3">
                 <div class="team-profile">
-                  <img src="{{STATIC_URL}}img/icon-marieke.png" class="team"> 
+                  <img src="{{STATIC_URL}}img/icon-marieke.png" class="team">
                   <p>Marieke</p>
                 </div>
               </div>
@@ -142,13 +142,13 @@
               <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-maikel.png" class="team">
-                  <p>Maikel</p> 
+                  <p>Maikel</p>
                 </div>
               </div>
 
               <div class="col-xs-3">
                 <div class="team-profile">
-                  <img src="{{STATIC_URL}}img/icon-nar.png" class="team"> 
+                  <img src="{{STATIC_URL}}img/icon-nar.png" class="team">
                   <p>Nar</p>
                 </div>
               </div>
@@ -156,15 +156,15 @@
               <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-robert.png" class="team">
-                  <p>Robert</p> 
+                  <p>Robert</p>
                 </div>
               </div>
 
               <div class="col-xs-3">
                 <div class="team-profile">
-                  <img src="{{STATIC_URL}}img/icon-vinit.png" class="team"> 
+                  <img src="{{STATIC_URL}}img/icon-vinit.png" class="team">
                   <p>Vinit</p>
-                </div>    
+                </div>
               </div>
 
             </div>
@@ -172,11 +172,10 @@
         </div>
     </div>
     <hr>
-    
     <div class="email-container">
       <div class="row">
         <div class="col-xs-6 ">
-          <a href="" class="btn btn-lg btn-email pull-right">{% trans "Send us an Email" %}</a>
+          <a href="mailto:info@socialschools.nl" class="btn btn-lg btn-email pull-right">{% trans "Send us an Email" %}</a>
         </div>
         <div class="col-xs-6">
           <h3 class="phone-header">{% trans "or call us" %}: <span class="blue-header">088-100-1300</span></h3>
@@ -184,4 +183,4 @@
       </div>
     </div>
   </div>
-{% endblock %}  
+{% endblock %}
