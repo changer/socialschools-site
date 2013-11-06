@@ -1,0 +1,1 @@
+web: newrelic-admin run-program gunicorn -w 3 socialschools_site.wsgi:application

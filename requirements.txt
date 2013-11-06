@@ -16,6 +16,7 @@ django-sekizai==0.7
 django-storages==1.1.8
 gunicorn==18.0
 html5lib==1.0b3
+newrelic==2.4.0.4
 psycopg2==2.5.1
 six==1.4.1
 static==0.4
