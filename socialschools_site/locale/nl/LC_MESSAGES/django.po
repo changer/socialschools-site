@@ -1,0 +1,541 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-11-06 19:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: socialschools_site/settings/base.py:136
+msgid "default"
+msgstr ""
+
+#: socialschools_site/settings/base.py:137
+msgid "common"
+msgstr ""
+
+#: socialschools_site/settings/base.py:138
+msgid "function"
+msgstr ""
+
+#: socialschools_site/settings/base.py:139
+msgid "contact"
+msgstr ""
+
+#: socialschools_site/settings/base.py:140
+msgid "rate"
+msgstr ""
+
+#: socialschools_site/settings/base.py:141
+msgid "reference"
+msgstr ""
+
+#: socialschools_site/settings/base.py:142
+#: socialschools_site/templates/videos.html:19
+msgid "videos"
+msgstr ""
+
+#: socialschools_site/settings/base.py:143
+msgid "vision"
+msgstr ""
+
+#: socialschools_site/settings/base.py:160
+msgid "English"
+msgstr ""
+
+#: socialschools_site/settings/base.py:161
+msgid "Dutch"
+msgstr ""
+
+#: socialschools_site/templates/base.html:14
+msgid "for primary education"
+msgstr ""
+
+#: socialschools_site/templates/base.html:22
+msgid "Try now"
+msgstr ""
+
+#: socialschools_site/templates/base.html:27
+#: socialschools_site/templates/price.html:7
+#: socialschools_site/templates/vision.html:21
+#: socialschools_site/templates/vision.html:85
+msgid "Our"
+msgstr "Onze"
+
+#: socialschools_site/templates/base.html:27
+#: socialschools_site/templates/vision.html:21
+msgid "beliefs"
+msgstr "visie"
+
+#: socialschools_site/templates/base.html:30
+#: socialschools_site/templates/vision.html:41
+msgid "Engaged parents"
+msgstr "Betrokken ouders"
+
+#: socialschools_site/templates/base.html:32
+msgid ""
+"We make it possible for parents to take a look in the classroom and share "
+"the daily activities of thier children."
+msgstr ""
+
+#: socialschools_site/templates/base.html:33
+#: socialschools_site/templates/base.html:39
+#: socialschools_site/templates/base.html:45
+msgid "Read more"
+msgstr ""
+
+#: socialschools_site/templates/base.html:36
+#: socialschools_site/templates/vision.html:52
+msgid "The opportunities of technology"
+msgstr ""
+
+#: socialschools_site/templates/base.html:38
+msgid ""
+"We believe technology provides a large amount of opportunities to enrich the "
+"development of children."
+msgstr ""
+
+#: socialschools_site/templates/base.html:42
+#: socialschools_site/templates/vision.html:68
+msgid "Growing up safely"
+msgstr ""
+
+#: socialschools_site/templates/base.html:44
+msgid ""
+"We believe we can contribute to the way children explore the modern online "
+"world. We provide a safe environment for children to learn the do's and "
+"dont's of social media."
+msgstr ""
+
+#: socialschools_site/templates/base.html:52
+msgid "Others"
+msgstr ""
+
+#: socialschools_site/templates/base.html:52
+msgid "about Social Schools"
+msgstr ""
+
+#: socialschools_site/templates/base.html:58
+msgid ""
+"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor "
+"esse    commodo enim culpa adipisicing."
+msgstr ""
+
+#: socialschools_site/templates/base.html:60
+msgid "Director van basisschool Prins William Alexander te Waarder"
+msgstr ""
+
+#: socialschools_site/templates/base.html:61
+msgid "More testimonials"
+msgstr ""
+
+#: socialschools_site/templates/base.html:68
+msgid "Examples"
+msgstr ""
+
+#: socialschools_site/templates/base.html:68
+msgid "of Social Schools"
+msgstr ""
+
+#: socialschools_site/templates/base.html:87
+msgid "New"
+msgstr ""
+
+#: socialschools_site/templates/base.html:87
+msgid "in Social Schools"
+msgstr ""
+
+#: socialschools_site/templates/base.html:93
+msgid ""
+"Read and create posts in your groups with our mobile apps. Upload pictures "
+"straight from your smartphones. This way it's even easier for teachers to "
+"share what happens in the classroom and for parents to stay engaged."
+msgstr ""
+
+#: socialschools_site/templates/base.html:104
+msgid "About"
+msgstr ""
+
+#: socialschools_site/templates/base.html:104
+#: socialschools_site/templates/contact.html:10
+msgid "us"
+msgstr ""
+
+#: socialschools_site/templates/base.html:108
+msgid ""
+"Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id "
+"velit eu id minim exercitation proident magna enim cillum eu elit consequat "
+"mollit exercitation esse pariatur elit reprehenderit minim aute commodo "
+"dolore laborum in voluptate non culpa commodo dolor Excepteur."
+msgstr ""
+
+#: socialschools_site/templates/base.html:182
+msgid "Send us an Email"
+msgstr ""
+
+#: socialschools_site/templates/base.html:185
+msgid "or call us"
+msgstr ""
+
+#: socialschools_site/templates/contact.html:10
+msgid "Contact"
+msgstr ""
+
+#: socialschools_site/templates/contact.html:14
+msgid ""
+"Don't hesistate to send us email: <span class='green-"
+"header'>info@socialschools.nl</span> or to call us at <span class='green-"
+"header'>080-100-1300</span> "
+msgstr ""
+
+#: socialschools_site/templates/contact.html:22
+msgid "Our address"
+msgstr ""
+
+#: socialschools_site/templates/contact.html:29
+msgid ""
+"You are always welcome for a cup of coffee in our old schoolbuilding in "
+"Delft."
+msgstr ""
+
+#: socialschools_site/templates/contact.html:48
+msgid ""
+"Prefer a personal demonstration of Social Schools? We are happy to drop by "
+"and explain the product."
+msgstr ""
+
+#: socialschools_site/templates/contact.html:57
+msgid "Questions?"
+msgstr ""
+
+#: socialschools_site/templates/contact.html:59
+#: socialschools_site/templates/videos.html:113
+msgid "Ask us a question"
+msgstr ""
+
+#: socialschools_site/templates/contact.html:60
+#: socialschools_site/templates/videos.html:114
+msgid "Ask us a question using the form on the right or call us at"
+msgstr ""
+
+#: socialschools_site/templates/contact.html:60
+#: socialschools_site/templates/videos.html:114
+msgid "Of course you can also send us an email"
+msgstr ""
+
+#: socialschools_site/templates/default.html:44
+msgid "Powered by"
+msgstr ""
+
+#: socialschools_site/templates/default.html:56
+msgid "Terms and conditions"
+msgstr ""
+
+#: socialschools_site/templates/default.html:72
+msgid "FOLLOW US ON"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:8
+msgid "The"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:8
+msgid "most important features"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:12
+msgid ""
+"We are constantly trying to improve Social School with new and improved "
+"features!"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:21
+msgid "Create and Manage"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:21
+msgid "groups"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:22
+#: socialschools_site/templates/feature.html:43
+#: socialschools_site/templates/feature.html:63
+#: socialschools_site/templates/feature.html:83
+msgid ""
+"Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed "
+"dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit "
+"proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur "
+"aliqua anim."
+msgstr ""
+
+#: socialschools_site/templates/feature.html:35
+msgid "Share"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:35
+msgid "media"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:36
+#: socialschools_site/templates/feature.html:76
+msgid ""
+"Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip "
+"culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit "
+"ea amet exercitation."
+msgstr ""
+
+#: socialschools_site/templates/feature.html:42
+msgid "Mobile"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:42
+msgid "apps"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:55
+msgid "Publish"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:55
+msgid "posts"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:56
+msgid ""
+"Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip "
+"culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit "
+"ea amet exercitations"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:62
+msgid "Color"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:62
+msgid "themes"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:75
+msgid "Automated"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:75
+msgid "newsletter"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:82
+msgid "Parnassys"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:82
+msgid "import"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:93
+msgid "Wondering"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:93
+msgid "how these features work exactly"
+msgstr ""
+
+#: socialschools_site/templates/feature.html:94
+#: socialschools_site/templates/reference.html:51
+msgid "Try it yourself"
+msgstr ""
+
+#: socialschools_site/templates/price.html:7
+msgid "prices"
+msgstr ""
+
+#: socialschools_site/templates/price.html:11
+msgid "The core"
+msgstr ""
+
+#: socialschools_site/templates/price.html:13
+msgid "Social Schools platform including"
+msgstr ""
+
+#: socialschools_site/templates/price.html:28
+msgid "per student per year"
+msgstr ""
+
+#: socialschools_site/templates/price.html:29
+msgid "With a minimum of"
+msgstr ""
+
+#: socialschools_site/templates/price.html:29
+msgid "per year"
+msgstr ""
+
+#: socialschools_site/templates/price.html:40
+msgid "A new school that completey matches Social Schools."
+msgstr ""
+
+#: socialschools_site/templates/price.html:42
+#: socialschools_site/templates/price.html:50
+msgid "per school per year"
+msgstr ""
+
+#: socialschools_site/templates/price.html:48
+msgid ""
+"Show public messages on your existing school website using our newsfeed "
+"plugin"
+msgstr ""
+
+#: socialschools_site/templates/price.html:55
+msgid "Workshops"
+msgstr ""
+
+#: socialschools_site/templates/price.html:56
+msgid ""
+"Workshop for teachers, ICT-co-ordinators, board members or during evenings. "
+"We love to show you how to use Social Schools."
+msgstr ""
+
+#: socialschools_site/templates/price.html:58
+msgid "per session"
+msgstr ""
+
+#: socialschools_site/templates/price.html:63
+msgid "Curious"
+msgstr ""
+
+#: socialschools_site/templates/price.html:63
+msgid "about the costs for your school"
+msgstr ""
+
+#: socialschools_site/templates/price.html:66
+msgid "Request an offer"
+msgstr ""
+
+#: socialschools_site/templates/price.html:67
+msgid "Fill out the form and recieve a non-commital offer"
+msgstr ""
+
+#: socialschools_site/templates/reference.html:8
+msgid "Testimonials"
+msgstr ""
+
+#: socialschools_site/templates/reference.html:12
+#: socialschools_site/templates/videos.html:75
+#: socialschools_site/templates/vision.html:25
+#: socialschools_site/templates/vision.html:89
+msgid ""
+"We hope you will find what you need. If you don't dont hesistate to send us "
+"email: <span class='green-header'>info@socialschools.nl</span> or to call us "
+"at <span class='green-header'>080-100-1300</span> "
+msgstr ""
+
+#: socialschools_site/templates/reference.html:50
+msgid "Want to"
+msgstr ""
+
+#: socialschools_site/templates/reference.html:50
+msgid "try too"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:6
+msgid "Support"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:9
+msgid "Videos"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:12
+msgid "Downloads"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:19
+msgid "Tutorial"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:23
+msgid ""
+"We hope you will find what you need. If you don't, don't hesitate to send us "
+"email: <span class='green-header'>info@socialschools.nl</span> or to call us "
+"at <span class='green-header'>080-100-1300</span> "
+msgstr ""
+
+#: socialschools_site/templates/videos.html:34
+msgid "Create groups"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:37
+msgid "Create a message"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:40
+msgid "Invite members"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:43
+msgid "Publish a post"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:83
+msgid "Documents"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:86
+#: socialschools_site/templates/videos.html:90
+#: socialschools_site/templates/videos.html:98
+#: socialschools_site/templates/videos.html:102
+msgid "Download"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:94
+msgid "Extra"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:95
+msgid "A collection of icons to be used as group profile pictures"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:111
+msgid "Didn't find"
+msgstr ""
+
+#: socialschools_site/templates/videos.html:111
+msgid "what you were looking for"
+msgstr ""
+
+#: socialschools_site/templates/vision.html:9
+msgid "Our beliefs"
+msgstr ""
+
+#: socialschools_site/templates/vision.html:12
+msgid "Our team"
+msgstr ""
+
+#: socialschools_site/templates/vision.html:85
+msgid "team"
+msgstr ""
+
+#: socialschools_site/templates/vision.html:104
+#: socialschools_site/templates/vision.html:114
+#: socialschools_site/templates/vision.html:124
+#: socialschools_site/templates/vision.html:134
+#: socialschools_site/templates/vision.html:144
+#: socialschools_site/templates/vision.html:154
+#: socialschools_site/templates/vision.html:164
+#: socialschools_site/templates/vision.html:174
+msgid "Mail me"
+msgstr ""
+
+#: socialschools_site/templates/admin/base_site.html:5
+msgid "Site directory | Changer V"
+msgstr ""
