@@ -109,6 +109,9 @@
 .price-container-item {
   padding-left: 20px;
   .feature-list-container {
+    h3 {
+      text-align: right;
+    }
     padding-top: 25px;
     padding-right: 40px;
     border-right: 1px solid @gray-lighter;
@@ -159,12 +162,13 @@
 // triangle for dialog box
 .dialog-box-container {
   .dialog-box();
-  &:after {
+  position: relative;
+  &:before {
     width: 0;
     height: 0;
     position: absolute;
-    left: 65%;
-    top: 21%;
+    right: -20px;
+    top: 50px;
     content: "";  
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
