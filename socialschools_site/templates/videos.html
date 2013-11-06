@@ -1,8 +1,9 @@
 {% extends "default.html" %}
+{% load cms_tags %}
 {% load i18n %}
 {% block "content" %}
   <div class="container socialschools-container">
-    <h2>{% trans "Support" %}</h2>
+    <h2 class="about-header">{% trans "Support" %}</h2>
     <ul class="nav nav-tabs" id="support">
       <li class="active">
         <a href="#videos">{% trans "Videos" %}</a>
@@ -19,10 +20,10 @@
           </div>
           <div class="col-md-6">
             <div class="dialog-box-container pull-left">
-              <p>{% trans "We hope you will find what you need. If you don't dont hesistate to send us email: <span class='green-header'>info@socialschools.nl</span> or to call us at <span class='green-header'>080-100-1300</span> " %}.</p> 
+              <p>{% trans "We hope you will find what you need. If you don't, don't hesitate to send us email: <span class='green-header'>info@socialschools.nl</span> or to call us at <span class='green-header'>080-100-1300</span> " %}.</p> 
               <a href="">Marieke van der Zwan - Product Manager</a> 
             </div>
-            <img src="{{STATIC_URL}}img/icon-marieke.png"  class="pull-right" alt="">
+            <img src="{{STATIC_URL}}img/thumbnail-marieke.png"  class="pull-right" alt="">
           </div>
         </div>
         <hr>
@@ -71,9 +72,10 @@
           </div>
           <div class="col-md-6">
             <div class="dialog-box-container pull-left">
-              <p>{% trans "Lorem ipsum Nostrud et irure ad pariatur reprehenderit fugiat Excepteur sed Duis est anim est dolore" %}.</p>  
+              <p>{% trans "We hope you will find what you need. If you don't dont hesistate to send us email: <span class='green-header'>info@socialschools.nl</span> or to call us at <span class='green-header'>080-100-1300</span> " %}.</p> 
+              <a href="">Marieke van der Zwan - Product Manager</a> 
             </div>
-            <img src="{{STATIC_URL}}img/icon-marieke.png"  class="pull-right" alt="">
+            <img src="{{STATIC_URL}}img/thumbnail-marieke.png"  class="pull-right" alt="">
           </div>
         </div>
         <hr>
@@ -112,7 +114,6 @@
         <p>{% trans "Ask us a question using the form on the right or call us at" %} <span class="blue-header">088-1001300</span> {% trans "Of course you can also send us an email" %}: <a href="mailto:support@socialschools.nl">support@socialschools.nl</a></p>
       </div>
       <div class="col-md-8">
-        <form action=""></form>
       </div>
     </div>    
 </div>

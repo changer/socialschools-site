@@ -172,6 +172,9 @@ INSTALLED_APPS = (
     'menus',
     'mptt',
     'sekizai',
+    'cmsplugin_demo',
+    'cmsplugin_question',
+    'cmsplugin_price',
 
     'cms.plugins.text',
     'cms.plugins.picture',

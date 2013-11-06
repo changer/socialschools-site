@@ -37,7 +37,7 @@ module.exports = function(grunt) {
       }
     },
     cssmin: {
-      'socialschools_site/css/styles.css': [
+      'socialschools_site/static/css/styles.css': [
         'socialschools_site/static/css/styles.css'
       ]
     },
