@@ -101,6 +101,7 @@
     font-weight: bold;
   }
   h2 {
+    font-size: 24px;
     margin-top: 0px;
     margin-bottom: 20px;
   }
@@ -148,6 +149,9 @@
     .price-euro {
       .euro();
     }
+    p {
+      font-size: 14px;
+    }
     .box(@school-orange);
     margin-right: 20px;
   }  
@@ -155,13 +159,21 @@
     .price-euro {
       .euro();
     }
+    p {
+      font-size: 14px;
+    }
     .box(@school-green);
   }
 }
 
 // triangle for dialog box
 .dialog-box-container {
+  display: inline-block;
   .dialog-box();
+  p {
+    font-size: 12px;
+  }
+  margin-right: 20px;
   position: relative;
   &:before {
     width: 0;
