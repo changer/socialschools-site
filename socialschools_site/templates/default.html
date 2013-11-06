@@ -5,16 +5,15 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="/favicon.ico">
-  
+  <!--[if IE 8]><script src="{{ STATIC_URL }}js/respond.min.js"></script><![endif]-->
   {% if debug %}
   <link href="{{ STATIC_URL }}css/styles.less" rel="stylesheet/less" >
   <script src="{{ STATIC_URL }}js/less-1.3.3.min.js"></script>
   {% else %}
   <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/styles.css">
   {% endif %}
-
+  
   {% if debug %}
   <script src="{{ STATIC_URL }}js/jquery.min.js"></script>
   <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
@@ -46,19 +45,19 @@
       <p>{% trans "Powered by" %}<a href="http://changer.nl"> Changer</a></p>
     </div>
     <div class="row footer-container-links">
-      <div class="col-md-3 sitemap-container">
+      <div class="col-xs-3 sitemap-container">
         <h5 class="footer-header">SITEMAP</h5>
         <ul class="list-unstyled">
           {% show_menu 0 0 0 0 %}   
         </ul>
       </div>
-      <div class="col-md-3 sitemap-container">
+      <div class="col-xs-3 sitemap-container">
         <h5 class="footer-header">OTHER</h5>
         <ul class="list-unstyled">
           <a href="">{% trans "Terms and conditions" %}</a>
         </ul>
       </div>
-      <div class="col-md-3 sitemap-container">
+      <div class="col-xs-3 sitemap-container">
         <h5 class="footer-header">CONTACT</h5>
         <address>
           <strong>Social Schools</strong><br>
@@ -70,7 +69,7 @@
           <a href="mailto:#">info@socialschools.nl</a>
         </address>        
       </div>
-      <div class="col-md-3 sitemap-container">
+      <div class="col-xs-3 sitemap-container">
         <h5 class="footer-header">{% trans "FOLLOW US ON" %}</h5>
         <a href=""><img src="{{STATIC_URL}}img/icon-facebook-white.png" class="icon-facebook"alt=""></a>
         <a href=""><img src="{{STATIC_URL}}img/icon-twitter-white.png" class="icon-twitter" alt=""></a>
