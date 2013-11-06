@@ -28,39 +28,11 @@
         </div>
         <hr>
         <div class="row">
-          <div class="col-md-4">
-            <ul class="nav nav-pills nav-stacked sidebar-nav" id="videos">
-              <li class="active">
-                <a href="#home">{% trans "Create groups" %}</a>
-              </li>
-              <li>
-                <a href="#profile">{% trans "Create a message" %}</a>
-              </li>
-              <li>
-                <a href="#messages">{% trans "Invite members" %}</a>
-              </li>
-              <li>
-                <a href="#publish">{% trans "Publish a post" %}</a>
-              </li>
-            </ul>
+          <div class="video-placeholder-container">
+            <img src="{{STATIC_URL}}img/support-video-placeholder.png" alt="">
+            <h1 class="support-header">{% trans "Videos" %} <span class="blue-header">{% trans "will be available soon" %}</span></h1>
           </div>
-
-          <div class="col-md-8">
-            <div class="tab-content">
-              <div class="tab-pane active" id="home">
-                <iframe width="640" height="390" src="//www.youtube.com/embed/K5XpZU7l2v0" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="tab-pane" id="profile">
-                <iframe width="640" height="360" src="//www.youtube.com/embed/wcLWmcSNp4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="tab-pane" id="messages">
-                <iframe width="640" height="390" src="//www.youtube.com/embed/K1YrlJC8Ieo" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="tab-pane" id="publish">
-                <iframe width="640" height="360" src="//www.youtube.com/embed/RWZiA0dYqnU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <hr>
       </div>
