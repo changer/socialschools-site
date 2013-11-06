@@ -15,8 +15,7 @@ DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Jos van Velzen', 'jos.vanvelzen@changer.nl'),
-    ('Pratik Vyas', 'pratik.vyas@changer.nl'),
+    ('SocialSchools Support', 'support@socialschools.nl'),
 )
 
 MANAGERS = ADMINS
@@ -24,6 +23,10 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL', 'postgres://localhost/socialschools_site'))
 }
+
+# Allow all host headers (filtered by heroku router)
+ALLOWED_HOSTS = ['*']
+
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -220,7 +223,7 @@ LOGGING = {
 }
 
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'changer'
-EMAIL_HOST_PASSWORD = 'joop123'
+EMAIL_HOST_USER = 'socialschools'
+EMAIL_HOST_PASSWORD = 'Joop123#'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
