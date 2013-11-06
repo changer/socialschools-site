@@ -3,15 +3,15 @@
 {% load cms_tags %}
 {% block "content" %}
   <div class="container socialschools-container">
-    <h2>{{request.current_page}}</h2>
+    <h2 class="about-header">{{request.current_page}}</h2>
     <h1 class="feature-header"><span class="green-header">{% trans "Our" %}</span><span class="blue-header"> {% trans "prices" %}</span></h2>
     <hr>
 
     <div class="row price-container-item">
       <h2>{% trans "The core" %}</h2>
       <div class="col-md-6 feature-list-container">
-        <h3 class="blue-header pull-right">{% trans "Social Schools platform including" %}</h3>
-        <ul class="feature-list clearfix">
+        <h3 class="blue-header">{% trans "Social Schools platform including" %}</h3>
+        <ul class="feature-list">
           <li>Full hosting</li>
           <li>Unlimited data-storage</li>
           <li>Free updates</li>
@@ -34,7 +34,7 @@
 
     <div class="row pricing-container">
       <h2 class="price-header">Add-ons</h2>
-      <div class="col-md-4 price-box-cms">
+      <div class="col-xs-4 price-box-cms">
         <img src="{{STATIC_URL}}img/cms.png" alt="">
         <h3><span class="orange-header">CMS</span> module</h3>
         <p>{% trans "A new school that completey matches Social Schools." %}</p>
@@ -42,7 +42,7 @@
         <p>{% trans "per school per year" %}</p>
       </div>
 
-      <div class="col-md-4 price-box-newsfeed">
+      <div class="col-xs-4 price-box-newsfeed">
         <img src="{{STATIC_URL}}img/newsfeed.png" alt="">
         <h3><span class="blue-header">Newsfeed</span> plugin</h3>
         <p>{% trans "Show public messages on your existing school website using our newsfeed plugin" %}</p>
@@ -50,7 +50,7 @@
         <p>{% trans "per school per year" %}</p>            
       </div>
 
-      <div class="col-md-4 price-box-workshop">
+      <div class="col-xs-4 price-box-workshop">
         <img src="{{STATIC_URL}}img/workshop.png" alt="">
         <h3><span class="green-header">{% trans "Workshops" %}</span></h3>
         <p>{% trans "Workshop for teachers, ICT-co-ordinators, board members or during evenings. We love to show you how to use Social Schools." %}</p>

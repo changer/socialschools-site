@@ -41,6 +41,9 @@
 }
 
 .demo-container {
+  h2 {
+    font-size: 36px;
+  }
   text-align: center;
   .btn-email {
     .container-margin();
@@ -109,6 +112,9 @@
 .price-container-item {
   padding-left: 20px;
   .feature-list-container {
+    h3 {
+      text-align: right;
+    }
     padding-top: 25px;
     padding-right: 40px;
     border-right: 1px solid @gray-lighter;
@@ -145,6 +151,9 @@
     .price-euro {
       .euro();
     }
+    p {
+      font-size: 14px;
+    }
     .box(@school-orange);
     margin-right: 20px;
   }  
@@ -152,22 +161,40 @@
     .price-euro {
       .euro();
     }
+    p {
+      font-size: 14px;
+    }
     .box(@school-green);
   }
 }
 
 // triangle for dialog box
 .dialog-box-container {
+  display: inline-block;
   .dialog-box();
-  &:after {
+  p {
+    font-size: 12px;
+  }
+  margin-right: 20px;
+  position: relative;
+  &:before {
     width: 0;
     height: 0;
     position: absolute;
-    left: 65%;
-    top: 21%;
+    right: -20px;
+    top: 30px;
     content: "";  
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 20px solid @gray-lighter;
+  }
+}
+
+.video-placeholder-container {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: center;
+  img {
+    text-align: center;
   }
 }

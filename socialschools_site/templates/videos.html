@@ -19,48 +19,20 @@
             <h1 class="feature-header"><span class="green-header">{% trans "Tutorial" %}</span><span class="blue-header"> {% trans "videos" %}</span></h1>
           </div>
           <div class="col-md-6">
-            <div class="dialog-box-container pull-left">
+            <div class="dialog-box-container">
               <p>{% trans "We hope you will find what you need. If you don't, don't hesitate to send us email: <span class='green-header'>info@socialschools.nl</span> or to call us at <span class='green-header'>080-100-1300</span> " %}.</p> 
               <a href="">Marieke van der Zwan - Product Manager</a> 
             </div>
-            <img src="{{STATIC_URL}}img/thumbnail-marieke.png"  class="pull-right" alt="">
+            <img src="{{STATIC_URL}}img/thumbnail-marieke.png" class="dialog-image" alt="">
           </div>
         </div>
         <hr>
         <div class="row">
-          <div class="col-md-4">
-            <ul class="nav nav-pills nav-stacked sidebar-nav" id="videos">
-              <li class="active">
-                <a href="#home">{% trans "Create groups" %}</a>
-              </li>
-              <li>
-                <a href="#profile">{% trans "Create a message" %}</a>
-              </li>
-              <li>
-                <a href="#messages">{% trans "Invite members" %}</a>
-              </li>
-              <li>
-                <a href="#publish">{% trans "Publish a post" %}</a>
-              </li>
-            </ul>
+          <div class="video-placeholder-container">
+            <img src="{{STATIC_URL}}img/support-video-placeholder.png" alt="">
+            <h1 class="support-header">{% trans "Videos" %} <span class="blue-header">{% trans "will be available soon" %}</span></h1>
           </div>
-
-          <div class="col-md-8">
-            <div class="tab-content">
-              <div class="tab-pane active" id="home">
-                <iframe width="640" height="390" src="//www.youtube.com/embed/K5XpZU7l2v0" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="tab-pane" id="profile">
-                <iframe width="640" height="360" src="//www.youtube.com/embed/wcLWmcSNp4w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="tab-pane" id="messages">
-                <iframe width="640" height="390" src="//www.youtube.com/embed/K1YrlJC8Ieo" frameborder="0" allowfullscreen></iframe>
-              </div>
-              <div class="tab-pane" id="publish">
-                <iframe width="640" height="360" src="//www.youtube.com/embed/RWZiA0dYqnU?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <hr>
       </div>
@@ -71,11 +43,11 @@
             <h1 class="feature-header"><span class="green-header">Down</span><span class="blue-header">load</span></h1>
           </div>
           <div class="col-md-6">
-            <div class="dialog-box-container pull-left">
+            <div class="dialog-box-container">
               <p>{% trans "We hope you will find what you need. If you don't dont hesistate to send us email: <span class='green-header'>info@socialschools.nl</span> or to call us at <span class='green-header'>080-100-1300</span> " %}.</p> 
               <a href="">Marieke van der Zwan - Product Manager</a> 
             </div>
-            <img src="{{STATIC_URL}}img/thumbnail-marieke.png"  class="pull-right" alt="">
+            <img src="{{STATIC_URL}}img/thumbnail-marieke.png" class="dialog-image" alt="">
           </div>
         </div>
         <hr>
@@ -92,7 +64,7 @@
         <hr>
         
         <h2>{% trans "Extra" %}!</h2>
-        <h4>{% trans "A collection of icons to be used as group profile pictures" %}</h4>
+        <p>{% trans "A collection of icons to be used as group profile pictures" %}</p>
         <div class="download-item">
           <h4>Rainbow(1.6 MB)</h4>
           <a href="" class="btn btn-download pull-right">{% trans "Download" %}</a>     
@@ -110,7 +82,7 @@
     <div class="row question-container">
       <h1 class="support-header">{% trans "Didn't find" %} <span class="blue-header">{% trans "what you were looking for" %}?</span></h1>
       <div class="col-md-4">
-        <h4>{% trans "Ask us a question" %}</h4>
+        <h3>{% trans "Ask us a question" %}</h3>
         <p>{% trans "Ask us a question using the form on the right or call us at" %} <span class="blue-header">088-1001300</span> {% trans "Of course you can also send us an email" %}: <a href="mailto:support@socialschools.nl">support@socialschools.nl</a></p>
       </div>
       <div class="col-md-8">

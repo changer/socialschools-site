@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     concat: {
       dist: {
-        src: ['socialschools_site/static/js/jquery.min.js','socialschools_site/static/bootstrap/js/tab.js', 'socialschools_site/static/js/socialschools.js'],
+        src: ['socialschools_site/static/js/jquery.min.js','socialschools_site/static/js/bootstrap.min.js', 'socialschools_site/static/js/socialschools.js'],
         dest: 'socialschools_site/static/js/<%= pkg.name %>.add.js'
       }
     },
