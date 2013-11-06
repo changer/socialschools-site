@@ -6,12 +6,12 @@
     <div class="container jumbo-container"> 
       <div class="jumbotron">
         <div class="row">
-          <div class="hidden-xs hidden-sm col-xs-12 col-md-4">
+          <div class="col-xs-6">
             <img src="{{STATIC_URL}}img/homepage-header.png" alt="Circular Image">
           </div>
-          <div class="col-xs-12 col-md-8 header-text pull-left">
+          <div class="col-xs-6 header-text">
             <img src="{{STATIC_URL}}img/logo-socialschools.png" class="logo hidden-xs hidden-sm">
-            <h1 class="intro-header"><span class="white-header">Social media platform</span> {% trans "for primary education" %}</h1> 
+            <h2 class="intro-header"><span class="white-header">Social media platform</span> {% trans "for primary education" %}</h2> 
           </div>
         </div>
       </div>
@@ -26,19 +26,19 @@
     <div class="container vision">
       <h2>{% trans "Our" %} <span class="blue-header">{% trans "beliefs" %}</span></h2>
       <div class="row">     
-        <div class="col-md-4 vision-block">
+        <div class="col-xs-4 vision-block">
           <h3>{% trans "Engaged parents" %}</h3>
           <img src="{{STATIC_URL}}img/parent-small.png" alt="">
           <p>{% trans "We make it possible for parents to take a look in the classroom and share the daily activities of thier children." %}</p>
           <a href="/over-ons/" class="blue-header">> {% trans "Read more" %}</a>
         </div>
-        <div class="col-md-4 vision-block">
+        <div class="col-xs-4 vision-block">
           <h3>{% trans "The opportunities of technology" %}</h3>
           <img src="{{STATIC_URL}}img/devices-small.png" alt="">
           <p>{% trans "We believe technology provides a large amount of opportunities to enrich the development of children." %}</p>
           <a href="/over-ons/" class="blue-header">> {% trans "Read more" %}</a>
         </div>
-        <div class="col-md-4 vision-block">
+        <div class="col-xs-4 vision-block">
           <h3>{% trans "Growing up safely" %}</h3>
           <img src="{{STATIC_URL}}img/safety-small.png" alt="">
           <p>{% trans "We believe we can contribute to the way children explore the modern online world. We provide a safe environment for children to learn the do's and dont's of social media." %}</p>
@@ -51,10 +51,10 @@
     <div class="container about-container">
       <h2>{% trans "Others" %} <span class="blue-header">{% trans "about Social Schools" %}</span></h2>
       <div class="row reference-container">
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <img src="{{STATIC_URL}}img/image-reference.png" class="pull-right" alt="User Image">
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <h2 class="pull-left testimonial-header">{% trans "Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse    commodo enim culpa adipisicing." %}</h2>
           <h3>Lorentz Ruiter</h3>
           <p class="meta testimonial-detail-meta">{% trans "Director van basisschool Prins William Alexander te Waarder" %}</p>
@@ -67,16 +67,16 @@
     <div class="container examples-container">
       <h2>{% trans "Examples" %} <span class="blue-header">{% trans "of Social Schools" %}</span></h2>
       <div class="row socialschools-cms-container">
-        <div class="col-md-3">
+        <div class="col-xs-3">
           <a href=""><img src="{{STATIC_URL}}img/thumbnail-cbsalbertschweitzer.png" alt="SS Thumbnail1"></a>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-3">
           <a href=""><img src="{{STATIC_URL}}img/thumbnail-kameleon.png" alt="SS Thumbnail1"></a>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-3">
           <a href=""><img src="{{STATIC_URL}}img/thumbnail-kompas.png" alt="SS Thumbnail1"></a>
         </div>
-        <div class="col-md-3">
+        <div class="col-xs-3">
           <a href=""><img src="{{STATIC_URL}}img/thumbnail-rehoboth.png" alt="SS Thumbnail1"></a>
         </div>  
       </div>    
@@ -87,14 +87,12 @@
       <h2>{% trans "New" %} <span class="blue-header">{% trans "in Social Schools" %}</span></h2>
       
       <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-4 pull-left ios-intro-text">
+        <div class="col-xs-6 pull-left ios-intro-text">
           <h1 class="app-intro-header"><span class="green-header">iOS</span><span class="blue-header"> App</span></h1>
           <p>{% trans "Read and create posts in your groups with our mobile apps. Upload pictures straight from your smartphones. This way it's even easier for teachers to share what happens in the classroom and for parents to stay engaged." %}</p>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-          <img src="{{STATIC_URL}}img/iphone.png" alt="iphone Image">
+        <div class="col-xs-6">
+          <img class="iphone-image" src="{{STATIC_URL}}img/iphone.png" alt="iphone Image">
         </div>
       </div>
     </div>
@@ -104,66 +102,66 @@
       <h2>{% trans "About" %}<span class="blue-header"> {% trans "us" %}</span></h2>
         
         <div class="row team-container">
-          <div class="col-md-6">
+          <div class="col-xs-6">
             <p>{% trans "Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id velit eu id minim exercitation proident magna enim cillum eu elit consequat mollit exercitation esse pariatur elit reprehenderit minim aute commodo dolore laborum in voluptate non culpa commodo dolor Excepteur." %}</p>
             <h2 class="follow-header"><span class="green-header">Follow</span><span class="blue-header"> us on</span></h2>
             <a href=""><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook" alt=""></a>
             <a href=""><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
           </div>
           
-          <div class="col-md-6">          
+          <div class="col-xs-6">          
             <div class="row">
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-bas.png" class="team">
                   <p>Bas</p>
                 </div>  
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-jos.png" class="team">
                   <p>Jos</p>
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-jonathan.png" class="team">
                   <p>Jonathon</p> 
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-marieke.png" class="team"> 
                   <p>Marieke</p>
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-maikel.png" class="team">
                   <p>Maikel</p> 
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-nar.png" class="team"> 
                   <p>Nar</p>
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-robert.png" class="team">
                   <p>Robert</p> 
                 </div>
               </div>
 
-              <div class="col-md-3">
+              <div class="col-xs-3">
                 <div class="team-profile">
                   <img src="{{STATIC_URL}}img/icon-vinit.png" class="team"> 
                   <p>Vinit</p>
@@ -178,10 +176,10 @@
     
     <div class="container email-container">
       <div class="row">
-        <div class="col-md-6 ">
+        <div class="col-xs-6 ">
           <a href="" class="btn btn-lg btn-email pull-right">{% trans "Send us an Email" %}</a>
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <h3 class="phone-header">{% trans "or call us" %}: <span class="blue-header">088-100-1300</span></h3>
         </div>
       </div>
