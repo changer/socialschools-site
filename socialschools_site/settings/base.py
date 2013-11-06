@@ -185,6 +185,7 @@ INSTALLED_APPS = (
     'cms.plugins.picture',
     'cms.plugins.link',
     'cms.plugins.googlemap',
+    'socialschools_site',
 
     'south',
 )
