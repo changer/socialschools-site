@@ -36,7 +36,7 @@ TIME_ZONE = 'Europe/Amsterdam'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'nl-NL'
+LANGUAGE_CODE = 'en'
 
 SITE_ID = 1
 
@@ -97,16 +97,19 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
+    'django.middleware.doc.XViewMiddleware',
+    'django.middleware.common.CommonMiddleware',
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
+    'cms.middleware.language.LanguageCookieMiddleware',
 )
 
 ROOT_URLCONF = 'socialschools_site.urls'
@@ -154,6 +157,7 @@ INTERNAL_IPS = ('127.0.0.1',)
 
 
 LANGUAGES = [
+    ('en', gettext('English')),
     ('nl', gettext('Dutch')),
 ]
 
@@ -175,11 +179,11 @@ INSTALLED_APPS = (
     'cmsplugin_demo',
     'cmsplugin_question',
     'cmsplugin_price',
+    'cmsplugin_file',
 
     'cms.plugins.text',
     'cms.plugins.picture',
     'cms.plugins.link',
-    'cms.plugins.file',
     'cms.plugins.googlemap',
 
     'south',
