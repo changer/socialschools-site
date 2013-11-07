@@ -1,5 +1,15 @@
-.form-price > .col-md-6 > form > p > input, textarea {
-	background-color: @gray-lighter;
-	padding-left: 15px;
-	font-style: italic;
+.form-price, .demo-form, .question-container {
+	 div > form > p > input, textarea {
+		background-color: @gray-lighter;
+		padding-left: 15px;
+		font-style: italic;
+		&[type="submit"] {
+			.button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
+			font-style: normal;
+		}
+	}
+}
+
+.demo-form > div > form > ul > li > label {
+	font-weight: normal;
 }
