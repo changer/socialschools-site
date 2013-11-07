@@ -149,7 +149,7 @@ msgid ""
 "Read and write messages for your groups with our mobile app. Add pictures "
 "straight from your smartphone. The app allows teachers to easily share what "
 "happens in the classroom. Parents stay informed in an easy way."
-msgstr "Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor leerkrachten te delen wat er gebeurd in de klas. Ook blijven ouders zo heel makkelijk op de hoogte."
+msgstr "Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor leerkrachten te delen wat er gebeurt in de klas. Ook blijven ouders zo heel makkelijk op de hoogte."
 
 #: templates/base.html:101
 msgid "About"
@@ -165,7 +165,7 @@ msgid ""
 "Schools even further. By doing so we maintain our position of the single "
 "best communication platform for primary schools. If you'd like to get to "
 "know us a little better, check out our team page."
-msgstr "Ons team met gedreven experts is elke dag aan het werk om Social Schools te verbeteren. Zo behouden we onze positie van het beste communicatieplatform voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina. "
+msgstr "Ons team met gedreven experts is elke dag aan het werk om Social Schools te verbeteren. Zo behouden we onze positie van het beste communicatieplatform voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina."
 
 #: templates/base.html:178
 msgid "Send us an Email"
@@ -258,7 +258,7 @@ msgid ""
 "possible. You can easily create and maintain school groups. Each group "
 "consists of the teacher, the parents and the children. Of course the school "
 "decides at what age the children are granted access."
-msgstr "Social Schools faciliteert de communicatie op de meest efficiënte manier. Je kan heel gemakkelijk online groepen maken en onderhouden. In elke groep zitten leerkrachten, ouders en de leerlingen van deze groep. Natuurlijk bepaald de school vanaf welke leeftijd de leerlingen toegang krijgen."
+msgstr "Social Schools faciliteert de communicatie op de meest efficiënte manier. Je kan heel gemakkelijk online groepen maken en onderhouden. In elke groep zitten leerkrachten, ouders en de leerlingen van deze groep. Natuurlijk bepaalt de school vanaf welke leeftijd de leerlingen toegang krijgen."
 
 #: templates/feature.html:41
 msgid "Share"
@@ -306,7 +306,7 @@ msgid ""
 "actual and genuine content. Any message can be made public, and as a school "
 "you appoint the rights to publish posts to users you trust. Publishing a "
 "post takes you just 1 click, anyone can do it."
-msgstr "Elk bericht uit een groep kan publiek gemaakt worden door het op de publieke website te plaatsen. Het publiceren maakt het voor jouw school mogelijk om te delen wat er in de klassen en school gebeurd. Zo kunnen ouders die zich oriënteren op een nieuwe school zien hoe leuk het is op school! Geef de publiceerrechten aan iemand die je vertrouwd. Publiceren van een bericht doe je met één klik, iedereen kan het!"
+msgstr "Elk bericht uit een groep kan publiek gemaakt worden door het op de publieke website te plaatsen. Het publiceren maakt het voor jouw school mogelijk om te delen wat er in de klassen en school gebeurt. Zo kunnen ouders die zich oriënteren op een nieuwe school zien hoe leuk het is op school! Geef de publiceerrechten aan iemand die je vertrouwd. Publiceren van een bericht doe je met één klik, iedereen kan het!"
 
 #: templates/feature.html:68
 msgid "Personalize"
