@@ -165,7 +165,7 @@ msgid ""
 "Schools even further. By doing so we maintain our position of the single "
 "best communication platform for primary schools. If you'd like to get to "
 "know us a little better, check out our team page."
-msgstr "Ons team met gedreven experts is elke dag aan het werk om Social Schools te perfectioneren. Zou behouden we onze positive van het beste communicatie platform voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina. "
+msgstr "Ons team met gedreven experts is elke dag aan het werk om Social Schools te verbeteren. Zo behouden we onze positie van het beste communicatieplatform voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina. "
 
 #: templates/base.html:178
 msgid "Send us an Email"
