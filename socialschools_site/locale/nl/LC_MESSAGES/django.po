@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-06 19:20+0100\n"
+"POT-Creation-Date: 2013-11-06 22:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,524 +18,587 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: socialschools_site/settings/base.py:136
+#: settings/base.py:139
 msgid "default"
 msgstr ""
 
-#: socialschools_site/settings/base.py:137
+#: settings/base.py:140
 msgid "common"
 msgstr ""
 
-#: socialschools_site/settings/base.py:138
+#: settings/base.py:141
 msgid "function"
-msgstr ""
+msgstr "functies"
 
-#: socialschools_site/settings/base.py:139
+#: settings/base.py:142
 msgid "contact"
-msgstr ""
+msgstr "contact"
 
-#: socialschools_site/settings/base.py:140
+#: settings/base.py:143
 msgid "rate"
-msgstr ""
+msgstr "prijzen"
 
-#: socialschools_site/settings/base.py:141
+#: settings/base.py:144
 msgid "reference"
-msgstr ""
+msgstr "referenties"
 
-#: socialschools_site/settings/base.py:142
-#: socialschools_site/templates/videos.html:19
+#: settings/base.py:145 templates/videos.html:19
 msgid "videos"
-msgstr ""
+msgstr "videos"
 
-#: socialschools_site/settings/base.py:143
+#: settings/base.py:146
 msgid "vision"
-msgstr ""
+msgstr "visie"
 
-#: socialschools_site/settings/base.py:160
+#: settings/base.py:163
 msgid "English"
-msgstr ""
+msgstr "Engels"
 
-#: socialschools_site/settings/base.py:161
+#: settings/base.py:164
 msgid "Dutch"
-msgstr ""
+msgstr "Nederlands"
 
-#: socialschools_site/templates/base.html:14
+#: templates/base.html:14
 msgid "for primary education"
-msgstr ""
+msgstr "voor het basisonderwijs"
 
-#: socialschools_site/templates/base.html:22
+#: templates/base.html:22
 msgid "Try now"
-msgstr ""
+msgstr "Probeer nu"
 
-#: socialschools_site/templates/base.html:27
-#: socialschools_site/templates/price.html:7
-#: socialschools_site/templates/vision.html:21
-#: socialschools_site/templates/vision.html:85
+#: templates/base.html:27 templates/price.html:7 templates/vision.html:21
+#: templates/vision.html.py:85
 msgid "Our"
 msgstr "Onze"
 
-#: socialschools_site/templates/base.html:27
-#: socialschools_site/templates/vision.html:21
+#: templates/base.html:27 templates/vision.html:21
 msgid "beliefs"
 msgstr "visie"
 
-#: socialschools_site/templates/base.html:30
-#: socialschools_site/templates/vision.html:41
+#: templates/base.html:30 templates/vision.html:41
 msgid "Engaged parents"
 msgstr "Betrokken ouders"
 
-#: socialschools_site/templates/base.html:32
+#: templates/base.html:32
 msgid ""
-"We make it possible for parents to take a look in the classroom and share "
-"the daily activities of thier children."
-msgstr ""
+"We believe that the involvement of parents must go beyond the school bus "
+"stop."
+msgstr "Wij geloven dat betrokkenheid van ouders verder gaat dan het schoolplein."
 
-#: socialschools_site/templates/base.html:33
-#: socialschools_site/templates/base.html:39
-#: socialschools_site/templates/base.html:45
+#: templates/base.html:33 templates/base.html.py:39 templates/base.html:45
 msgid "Read more"
-msgstr ""
+msgstr "Lees meer"
 
-#: socialschools_site/templates/base.html:36
-#: socialschools_site/templates/vision.html:52
-msgid "The opportunities of technology"
-msgstr ""
-
-#: socialschools_site/templates/base.html:38
-msgid ""
-"We believe technology provides a large amount of opportunities to enrich the "
-"development of children."
-msgstr ""
-
-#: socialschools_site/templates/base.html:42
-#: socialschools_site/templates/vision.html:68
+#: templates/base.html:36 templates/vision.html:51
 msgid "Growing up safely"
-msgstr ""
+msgstr "Veilig opgroeien"
 
-#: socialschools_site/templates/base.html:44
+#: templates/base.html:38
 msgid ""
-"We believe we can contribute to the way children explore the modern online "
-"world. We provide a safe environment for children to learn the do's and "
-"dont's of social media."
-msgstr ""
+"We provide a safe and controlled environment for children to learn about "
+"social media and online by doing it their-selves."
+msgstr "We bieden een veilige en gecontroleerde omgeving voor kinderen zodat ze leren om gaan met Social Media en hun online beleefwereld."
 
-#: socialschools_site/templates/base.html:52
+#: templates/base.html:42 templates/vision.html:68
+msgid "The opportunities of technology"
+msgstr "De mogelijkheden van technologie"
+
+#: templates/base.html:44
+msgid ""
+"We believe that modern online technology offers enormous possibilities for "
+"educational purposes."
+msgstr "We geloven dat moderne online technologie veel mogelijkheden biedt voor educatieve doeleinden."
+
+#: templates/base.html:52
 msgid "Others"
-msgstr ""
+msgstr "Anderen"
 
-#: socialschools_site/templates/base.html:52
+#: templates/base.html:52
 msgid "about Social Schools"
-msgstr ""
+msgstr "over Social Schools"
 
-#: socialschools_site/templates/base.html:58
+#: templates/base.html:58
 msgid ""
-"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor "
-"esse    commodo enim culpa adipisicing."
-msgstr ""
+"\"I see lots of nice school activities on Social Schools. Parents and "
+"colleagues are enthusiastic; Social Schools turns out to be a conventient "
+"platform for communication!\""
+msgstr "'Ik zie allerlei leuke activiteiten op Social Schools voor onze school. Ik krijg veel positieve reacties van ouders en collega’s. Het blijkt een handig communicatieplatform te zijn!'"
 
-#: socialschools_site/templates/base.html:60
-msgid "Director van basisschool Prins William Alexander te Waarder"
-msgstr ""
+#: templates/base.html:60
+msgid "Rehoboth Zeist"
+msgstr "Rehoboth Zeist"
 
-#: socialschools_site/templates/base.html:61
-msgid "More testimonials"
-msgstr ""
-
-#: socialschools_site/templates/base.html:68
+#: templates/base.html:67
 msgid "Examples"
-msgstr ""
+msgstr "Voorbeelden"
 
-#: socialschools_site/templates/base.html:68
+#: templates/base.html:67
 msgid "of Social Schools"
-msgstr ""
+msgstr "van Social Schools"
 
-#: socialschools_site/templates/base.html:87
+#: templates/base.html:86
 msgid "New"
-msgstr ""
+msgstr "Nieuw"
 
-#: socialschools_site/templates/base.html:87
+#: templates/base.html:86
 msgid "in Social Schools"
-msgstr ""
+msgstr "in Social Schools"
 
-#: socialschools_site/templates/base.html:93
+#: templates/base.html:91
 msgid ""
-"Read and create posts in your groups with our mobile apps. Upload pictures "
-"straight from your smartphones. This way it's even easier for teachers to "
-"share what happens in the classroom and for parents to stay engaged."
-msgstr ""
+"Read and write messages for your groups with our mobile app. Add pictures "
+"straight from your smartphone. The app allows teachers to easily share what "
+"happens in the classroom. Parents stay informed in an easy way."
+msgstr "Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor leerkrachten te delen wat er gebeurd in de klas. Ook blijven ouders zo heel makkelijk op de hoogte."
 
-#: socialschools_site/templates/base.html:104
+#: templates/base.html:101
 msgid "About"
-msgstr ""
+msgstr "Over"
 
-#: socialschools_site/templates/base.html:104
-#: socialschools_site/templates/contact.html:10
+#: templates/base.html:101 templates/contact.html:10
 msgid "us"
-msgstr ""
+msgstr "ons"
 
-#: socialschools_site/templates/base.html:108
+#: templates/base.html:105
 msgid ""
-"Lorem ipsum Veniam anim proident incididunt sunt laboris ut laborum culpa id "
-"velit eu id minim exercitation proident magna enim cillum eu elit consequat "
-"mollit exercitation esse pariatur elit reprehenderit minim aute commodo "
-"dolore laborum in voluptate non culpa commodo dolor Excepteur."
-msgstr ""
+"Our team of passionate experts is working every day to improve Social "
+"Schools even further. By doing so we maintain our position of the single "
+"best communication platform for primary schools. If you'd like to get to "
+"know us a little better, check out our team page."
+msgstr "Ons team met gedreven experts is elke dag aan het werk om Social Schools te perfectioneren. Zou behouden we onze positive van het beste communicatie platform voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina. "
 
-#: socialschools_site/templates/base.html:182
+#: templates/base.html:178
 msgid "Send us an Email"
-msgstr ""
+msgstr "Stuur ons een e-mail"
 
-#: socialschools_site/templates/base.html:185
+#: templates/base.html:181
 msgid "or call us"
-msgstr ""
+msgstr "of bel ons"
 
-#: socialschools_site/templates/contact.html:10
+#: templates/contact.html:10
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
-#: socialschools_site/templates/contact.html:14
+#: templates/contact.html:14
 msgid ""
-"Don't hesistate to send us email: <span class='green-"
+"Don't hesitate to send us an email: <span class='green-"
 "header'>info@socialschools.nl</span> or to call us at <span class='green-"
 "header'>080-100-1300</span> "
 msgstr ""
 
-#: socialschools_site/templates/contact.html:22
+#: templates/contact.html:22
 msgid "Our address"
-msgstr ""
+msgstr "Ons adres"
 
-#: socialschools_site/templates/contact.html:29
+#: templates/contact.html:28
 msgid ""
 "You are always welcome for a cup of coffee in our old schoolbuilding in "
 "Delft."
-msgstr ""
+msgstr "Je bent altijd welkom voor een kopje koffie in ons oude schoogebouw in Delft"
 
-#: socialschools_site/templates/contact.html:48
+#: templates/contact.html:47
 msgid ""
 "Prefer a personal demonstration of Social Schools? We are happy to drop by "
 "and explain the product."
-msgstr ""
+msgstr "Wil je liever dat we je een persoonlijke demonstratie komen geven? Vraag hier een demo aan. We komen graag langs om Social Schools te laten zien."
 
-#: socialschools_site/templates/contact.html:57
+#: templates/contact.html:56
 msgid "Questions?"
-msgstr ""
+msgstr "Vragen?"
 
-#: socialschools_site/templates/contact.html:59
-#: socialschools_site/templates/videos.html:113
+#: templates/contact.html:58 templates/videos.html:82
 msgid "Ask us a question"
-msgstr ""
+msgstr "Stel ons een vraag"
 
-#: socialschools_site/templates/contact.html:60
-#: socialschools_site/templates/videos.html:114
+#: templates/contact.html:59 templates/videos.html:83
 msgid "Ask us a question using the form on the right or call us at"
-msgstr ""
+msgstr "Stel ons een vraag via het formulier rechts of bel ons op"
 
-#: socialschools_site/templates/contact.html:60
-#: socialschools_site/templates/videos.html:114
+#: templates/contact.html:59 templates/videos.html:83
 msgid "Of course you can also send us an email"
-msgstr ""
+msgstr "Je mag natuurlijk ook een mailtje sturen"
 
-#: socialschools_site/templates/default.html:44
+#: templates/default.html:44
 msgid "Powered by"
-msgstr ""
+msgstr "Powered by"
 
-#: socialschools_site/templates/default.html:56
+#: templates/default.html:56
 msgid "Terms and conditions"
-msgstr ""
+msgstr "Gebruiksvoorwaarden"
 
-#: socialschools_site/templates/default.html:72
+#: templates/default.html:72
 msgid "FOLLOW US ON"
-msgstr ""
+msgstr "VOLG ONS OP"
 
-#: socialschools_site/templates/feature.html:8
+#: templates/feature.html:8
 msgid "The"
-msgstr ""
+msgstr "De"
 
-#: socialschools_site/templates/feature.html:8
+#: templates/feature.html:8
 msgid "most important features"
-msgstr ""
+msgstr "belangrijkste functies"
 
-#: socialschools_site/templates/feature.html:12
+#: templates/feature.html:14
 msgid ""
 "We are constantly trying to improve Social School with new and improved "
 "features!"
-msgstr ""
+msgstr "We zijn altjd bezig om Social Schools te verbeteren  door nieuwe en verbeterde functionaliteiten toe te voegen!"
 
-#: socialschools_site/templates/feature.html:21
+#: templates/feature.html:27
 msgid "Create and Manage"
-msgstr ""
+msgstr "Creëer en beheer"
 
-#: socialschools_site/templates/feature.html:21
+#: templates/feature.html:27
 msgid "groups"
-msgstr ""
+msgstr "groepen"
 
-#: socialschools_site/templates/feature.html:22
-#: socialschools_site/templates/feature.html:43
-#: socialschools_site/templates/feature.html:63
-#: socialschools_site/templates/feature.html:83
+#: templates/feature.html:28
 msgid ""
-"Lorem ipsum Amet ullamco officia laborum Ut veniam nostrud nulla eiusmod sed "
-"dolor esse et amet ad laborum mollit et deserunt qui amet reprehenderit "
-"proident non voluptate sunt veniam non ex Ut eu aute minim eiusmod Excepteur "
-"aliqua anim."
-msgstr ""
+"Social Schools is designed to facilitate your school in the best way "
+"possible. You can easily create and maintain school groups. Each group "
+"consists of the teacher, the parents and the children. Of course the school "
+"decides at what age the children are granted access."
+msgstr "Social Schools faciliteert de communicatie op de meest efficiënte manier. Je kan heel gemakkelijk online groepen maken en onderhouden. In elke groep zitten leerkrachten, ouders en de leerlingen van deze groep. Natuurlijk bepaald de school vanaf welke leeftijd de leerlingen toegang krijgen."
 
-#: socialschools_site/templates/feature.html:35
+#: templates/feature.html:41
 msgid "Share"
-msgstr ""
+msgstr "Deel"
 
-#: socialschools_site/templates/feature.html:35
+#: templates/feature.html:41
 msgid "media"
-msgstr ""
+msgstr "media"
 
-#: socialschools_site/templates/feature.html:36
-#: socialschools_site/templates/feature.html:76
+#: templates/feature.html:42
 msgid ""
-"Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip "
-"culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit "
-"ea amet exercitation."
-msgstr ""
+"With Social Schools sharing media is easy. Create an event, post photo’s or "
+"add youtube videos in the blink of an eye. You can also post media through "
+"the mobile."
+msgstr "Met Social Schools kun je heel gemakkelijk media delen. Plan een evenement, plaats een foto of voeg een youtube-filmpje toe. Je kunt het ook posten met je smartphone."
 
-#: socialschools_site/templates/feature.html:42
+#: templates/feature.html:48
 msgid "Mobile"
-msgstr ""
+msgstr "Mobiele"
 
-#: socialschools_site/templates/feature.html:42
+#: templates/feature.html:48
 msgid "apps"
-msgstr ""
+msgstr "apps"
 
-#: socialschools_site/templates/feature.html:55
+#: templates/feature.html:49
+msgid ""
+"The mobile apps allow everybody to stay informed always and everywhere. From "
+"within the classroom or for example when on school camp, the teacher is "
+"still able to take photos and keep the parents posted on the experiences of "
+"their children. The Social Schools mobile apps come at no extra cost."
+msgstr "De mobiele apps zorgen ervoor dat iedereen overal geïnformeerd wordt en blijft. Vanuit de klas of als de leerlingen op kamp zijn kan de leerkracht foto’s maken en de ouders blijven op de hoogte van de belevenissen van hun kinderen. De Social Schools app is onderdeel van Social Schools dus geen extra kosten!"
+
+#: templates/feature.html:61
 msgid "Publish"
-msgstr ""
+msgstr "Publiceer"
 
-#: socialschools_site/templates/feature.html:55
+#: templates/feature.html:61
 msgid "posts"
-msgstr ""
+msgstr "berichten"
 
-#: socialschools_site/templates/feature.html:56
+#: templates/feature.html:62
 msgid ""
-"Lorem ipsum Dolore dolor voluptate pariatur aliquip ea velit fugiat aliquip "
-"culpa minim ad veniam aliqua culpa cillum eiusmod nostrud cillum et mollit "
-"ea amet exercitations"
-msgstr ""
+"Any post in any group can be made public. It then appears on the public "
+"website. This allows your school to present itself with great looking, "
+"actual and genuine content. Any message can be made public, and as a school "
+"you appoint the rights to publish posts to users you trust. Publishing a "
+"post takes you just 1 click, anyone can do it."
+msgstr "Elk bericht uit een groep kan publiek gemaakt worden door het op de publieke website te plaatsen. Het publiceren maakt het voor jouw school mogelijk om te delen wat er in de klassen en school gebeurd. Zo kunnen ouders die zich oriënteren op een nieuwe school zien hoe leuk het is op school! Geef de publiceerrechten aan iemand die je vertrouwd. Publiceren van een bericht doe je met één klik, iedereen kan het!"
 
-#: socialschools_site/templates/feature.html:62
-msgid "Color"
-msgstr ""
+#: templates/feature.html:68
+msgid "Personalize"
+msgstr "Personaliseer"
 
-#: socialschools_site/templates/feature.html:62
-msgid "themes"
-msgstr ""
+#: templates/feature.html:68
+msgid "your Social Schools"
+msgstr "jouw Social Schools"
 
-#: socialschools_site/templates/feature.html:75
+#: templates/feature.html:69
+msgid ""
+"The logged in environment is customizable to suit your schools’ style. It is "
+"easy and takes you administrator ample minutes to setup."
+msgstr "De Social Schools-omgeving waar je inlogt kun je zo personaliseren zodat het bij de school-stijl past."
+
+#: templates/feature.html:81
 msgid "Automated"
-msgstr ""
+msgstr "Geautomatiseerde"
 
-#: socialschools_site/templates/feature.html:75
+#: templates/feature.html:81
 msgid "newsletter"
-msgstr ""
+msgstr "nieuwsbrief"
 
-#: socialschools_site/templates/feature.html:82
-msgid "Parnassys"
-msgstr ""
+#: templates/feature.html:82
+msgid ""
+"Sending out newsletters takes a lot of time. With Social Schools this task "
+"is done professionally, great looking and more important: Fully automated. "
+"Every week a newsletter is sent out, which is customized per receiver. The "
+"reader will only be updated on news from the groups he/she is in. The school "
+"news is included too."
+msgstr "Nieuwsbrieven verzenden kost veel tijd. Met Social Schools pak je deze taak professioneel op, de nieuwsbrief ziet er goed uit en heel belangrijk: het gaat automatisch. Elke week wordt er een nieuwsbrief verstuurd welke is gepersonaliseerd per gebruiker. De lezer krijgt een update over het nieuws en evenmenten van de groepen waar zij/hij in zit. Het schoolnieuws komt ook in de nieuwsbrief."
 
-#: socialschools_site/templates/feature.html:82
-msgid "import"
-msgstr ""
+#: templates/feature.html:88
+msgid "Import users"
+msgstr "Importeer"
 
-#: socialschools_site/templates/feature.html:93
+#: templates/feature.html:88
+msgid "automatically"
+msgstr "gebruikers"
+
+#: templates/feature.html:89
+msgid ""
+"We offer the possibility to use you schools’ administration system to create "
+"the user base in Social Schools. We offer a set format so that you can "
+"import everybody. A smart wizard helps you to assign all users to groups. "
+"This makes setting up Social Schools two times more easy."
+msgstr "Social Schools biedt de mogelijkheid de gegevens uit een LeerlingVolgSysteem te importeren en zo een basis aan te brengen voor je groepen-structuur. Als de gegevens geimporteerd zijn is het heel gemakkelijk gebruikers in de juiste groepen te zetten."
+
+#: templates/feature.html:99
 msgid "Wondering"
-msgstr ""
+msgstr "Benieuwd"
 
-#: socialschools_site/templates/feature.html:93
+#: templates/feature.html:99
 msgid "how these features work exactly"
-msgstr ""
+msgstr "hoe Social Schools precies werkt?"
 
-#: socialschools_site/templates/feature.html:94
-#: socialschools_site/templates/reference.html:51
+#: templates/feature.html:100 templates/reference.html:58
 msgid "Try it yourself"
-msgstr ""
+msgstr "Probeer het zelf"
 
-#: socialschools_site/templates/price.html:7
+#: templates/feature.html:101
+msgid "or request a"
+msgstr "of doe een aanvraag voor een"
+
+#: templates/price.html:7
 msgid "prices"
-msgstr ""
+msgstr "Prijzen"
 
-#: socialschools_site/templates/price.html:11
+#: templates/price.html:11
 msgid "The core"
-msgstr ""
+msgstr "De basis"
 
-#: socialschools_site/templates/price.html:13
+#: templates/price.html:13
 msgid "Social Schools platform including"
-msgstr ""
+msgstr "Het Social Schools platform inclusief:"
 
-#: socialschools_site/templates/price.html:28
+#: templates/price.html:15
+msgid "Full access and unlimited usage of all functions in Social Schools."
+msgstr "Volledige toegang en onbeperkt gebruik van alle functionaliteiten in Social Schools."
+
+#: templates/price.html:16
+msgid "Unlimited accounts for parents and teachers at no extra cost."
+msgstr "Onbeperkte gebruikersaccounts voor ouders en leerkrachten zonder extra kosten."
+
+#: templates/price.html:17
+msgid "Hosting of your Social School instance."
+msgstr "Hosting van de Social Schools omgeving voor jouw school"
+
+#: templates/price.html:18
+msgid "Unlimited data storage (based on fair use policy)."
+msgstr "Ongelimiteerde data opslag (gebaseerd op redelijk gebruik)."
+
+#: templates/price.html:19
+msgid "Professional implementation with personal support at no extra cost."
+msgstr "Professionele implementatie met persoonlijk contact zonder extra kosten."
+
+#: templates/price.html:30
 msgid "per student per year"
-msgstr ""
+msgstr "per leerling per jaar"
 
-#: socialschools_site/templates/price.html:29
+#: templates/price.html:31
 msgid "With a minimum of"
-msgstr ""
+msgstr "met een minimum van"
 
-#: socialschools_site/templates/price.html:29
+#: templates/price.html:31
 msgid "per year"
-msgstr ""
+msgstr "per jaar"
 
-#: socialschools_site/templates/price.html:40
-msgid "A new school that completey matches Social Schools."
-msgstr ""
+#: templates/price.html:42
+msgid ""
+"The Social Schools website module enable you to present your school "
+"professionally on the web. An easy to use CMS-module which views news from "
+"the Social Schools environment."
+msgstr "De Social Schools website module maakt het mogelijk online een professionele indruk te maken. De website module heeft een gebruiksvriendelijk Content Management Systeem. Het publieke nieuws vanuit Social Schools wordt op de website weergegeven."
 
-#: socialschools_site/templates/price.html:42
-#: socialschools_site/templates/price.html:50
+#: templates/price.html:44 templates/price.html.py:52
 msgid "per school per year"
-msgstr ""
+msgstr "per school per jaar"
 
-#: socialschools_site/templates/price.html:48
+#: templates/price.html:50
 msgid ""
-"Show public messages on your existing school website using our newsfeed "
-"plugin"
-msgstr ""
+"If you already have a beautiful website, replacing it might feel like a "
+"waste. Our great looking Newsfeed Plugin enables you to show the published "
+"posts on your existing website."
+msgstr "Als je al een mooie website hebt ga je deze niet zomaar vervangen. Daarom biedt Social Schools een Nieuws-plugin die het mogelijk maakt om gepubliceerd nieuws te laten zien op je huidige website. "
 
-#: socialschools_site/templates/price.html:55
+#: templates/price.html:57
 msgid "Workshops"
-msgstr ""
+msgstr "Workshops"
 
-#: socialschools_site/templates/price.html:56
+#: templates/price.html:58
 msgid ""
-"Workshop for teachers, ICT-co-ordinators, board members or during evenings. "
-"We love to show you how to use Social Schools."
-msgstr ""
+"We support your school to learn all about using Social Schools best way "
+"possible in our interactive workshops."
+msgstr "We kunnen jullie als school op weg helpen met Social Schools op de best mogelijke manier door een interactieve workshop te geven."
 
-#: socialschools_site/templates/price.html:58
+#: templates/price.html:60
 msgid "per session"
-msgstr ""
+msgstr "per sessie"
 
-#: socialschools_site/templates/price.html:63
+#: templates/price.html:65
 msgid "Curious"
-msgstr ""
+msgstr "Benieuwd"
 
-#: socialschools_site/templates/price.html:63
+#: templates/price.html:65
 msgid "about the costs for your school"
-msgstr ""
+msgstr "naar de voordelen voor jouw school?"
 
-#: socialschools_site/templates/price.html:66
+#: templates/price.html:68
 msgid "Request an offer"
-msgstr ""
+msgstr "Vraag een offerte aan"
 
-#: socialschools_site/templates/price.html:67
+#: templates/price.html:69
 msgid "Fill out the form and recieve a non-commital offer"
-msgstr ""
+msgstr "Vul het formulier in en ontvang een vrijblijvend aanbod. "
 
-#: socialschools_site/templates/reference.html:8
+#: templates/reference.html:8
 msgid "Testimonials"
-msgstr ""
+msgstr "Referenties"
 
-#: socialschools_site/templates/reference.html:12
-#: socialschools_site/templates/videos.html:75
-#: socialschools_site/templates/vision.html:25
-#: socialschools_site/templates/vision.html:89
+#: templates/reference.html:14 templates/vision.html:91
 msgid ""
 "We hope you will find what you need. If you don't dont hesistate to send us "
 "email: <span class='green-header'>info@socialschools.nl</span> or to call us "
 "at <span class='green-header'>080-100-1300</span> "
 msgstr ""
 
-#: socialschools_site/templates/reference.html:50
+#: templates/reference.html:57
 msgid "Want to"
-msgstr ""
+msgstr "Wil je het"
 
-#: socialschools_site/templates/reference.html:50
+#: templates/reference.html:57
 msgid "try too"
-msgstr ""
+msgstr "ook proberen?"
 
-#: socialschools_site/templates/videos.html:6
+#: templates/videos.html:6
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
-#: socialschools_site/templates/videos.html:9
+#: templates/videos.html:9 templates/videos.html.py:33
 msgid "Videos"
-msgstr ""
+msgstr "Videos"
 
-#: socialschools_site/templates/videos.html:12
+#: templates/videos.html:12
 msgid "Downloads"
-msgstr ""
+msgstr "Downloads"
 
-#: socialschools_site/templates/videos.html:19
+#: templates/videos.html:19
 msgid "Tutorial"
-msgstr ""
+msgstr "Instructie"
 
-#: socialschools_site/templates/videos.html:23
+#: templates/videos.html:23 templates/videos.html.py:47
+#: templates/vision.html:25
 msgid ""
 "We hope you will find what you need. If you don't, don't hesitate to send us "
 "email: <span class='green-header'>info@socialschools.nl</span> or to call us "
 "at <span class='green-header'>080-100-1300</span> "
 msgstr ""
 
-#: socialschools_site/templates/videos.html:34
-msgid "Create groups"
-msgstr ""
+#: templates/videos.html:33
+msgid "will be available soon"
+msgstr "zijn binnenkort beschikbaar"
 
-#: socialschools_site/templates/videos.html:37
-msgid "Create a message"
-msgstr ""
-
-#: socialschools_site/templates/videos.html:40
-msgid "Invite members"
-msgstr ""
-
-#: socialschools_site/templates/videos.html:43
-msgid "Publish a post"
-msgstr ""
-
-#: socialschools_site/templates/videos.html:83
+#: templates/videos.html:56
 msgid "Documents"
-msgstr ""
+msgstr "Documenten"
 
-#: socialschools_site/templates/videos.html:86
-#: socialschools_site/templates/videos.html:90
-#: socialschools_site/templates/videos.html:98
-#: socialschools_site/templates/videos.html:102
+#: templates/videos.html:58
+msgid "CMS manual"
+msgstr "CMS handleiding"
+
+#: templates/videos.html:59 templates/videos.html.py:63
+#: templates/videos.html:71 templates/videos.html.py:75
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
-#: socialschools_site/templates/videos.html:94
+#: templates/videos.html:62
+msgid "Do's and Don'ts of social media in the classroom"
+msgstr "Do's en Don'ts van social media in de klas"
+
+#: templates/videos.html:67
 msgid "Extra"
-msgstr ""
+msgstr "Extra"
 
-#: socialschools_site/templates/videos.html:95
+#: templates/videos.html:68
 msgid "A collection of icons to be used as group profile pictures"
-msgstr ""
+msgstr "Een verzameling iconen die je kunt gebruiken als groepsprofielfoto's"
 
-#: socialschools_site/templates/videos.html:111
+#: templates/videos.html:70
+msgid "Rainbow"
+msgstr "Regenboog"
+
+#: templates/videos.html:74
+msgid "Blue"
+msgstr "Blauw"
+
+#: templates/videos.html:80
 msgid "Didn't find"
-msgstr ""
+msgstr "Niet gevonden"
 
-#: socialschools_site/templates/videos.html:111
+#: templates/videos.html:80
 msgid "what you were looking for"
-msgstr ""
+msgstr "waar je naar op zoek was"
 
-#: socialschools_site/templates/vision.html:9
+#: templates/vision.html:9
 msgid "Our beliefs"
-msgstr ""
+msgstr "Onze visie"
 
-#: socialschools_site/templates/vision.html:12
+#: templates/vision.html:12
 msgid "Our team"
-msgstr ""
+msgstr "Ons team"
 
-#: socialschools_site/templates/vision.html:85
+#: templates/vision.html:42
+msgid ""
+"With Social Schools parents get a genuine taste of what is going on in the "
+"school, and what their children learn and contribute in the classroom. "
+"Everything we do is aimed at facilitating meaningful communication between "
+"parents, children, teachers and the school."
+msgstr "Met Social Schools blijven ouders betrokken en weten wat er gaande is in de school, hoe hun kinderen leren en deel uitmaken van de klas. In alles wat we ontwikkelen voor Social Schools faciliteren we betekenisvolle communicatie tussen ouders, kinderen, leerkrachten en de school."
+
+#: templates/vision.html:53
+msgid ""
+"Being media savvy enables children to identify dangers themselves, and "
+"children have to be tutored to develop that skill. We believe that boring "
+"lessons on safe computing do not stick with anyone, and we do believe that "
+"by using social media within the school context, in a safe and fenced "
+"community, children can learn by doing. The school stays in control and we "
+"believe that shapes the conditions to safely let children engage in "
+"communicating online for the first time."
+msgstr "Mediawijsheid zal onderwezen moeten worden zodat kinderen de gevaren zien. We geloven dat saaie lessen over veilig internetten niet bij iedereen blijft hangen, en daarom geloven wij dat door social media technieken in een veilige en afgeschermde groep te gebruiken, kinderen kunnen leren door te doen. De school houdt de controle en we geloven dat deze controle bijdraagt aan veilige eerste ervaring met online communiceren. "
+
+#: templates/vision.html:69
+msgid ""
+"We believe that technology offers enormous possibilities for educational "
+"purposes. Not only in the practical sense of technology that supports the "
+"teaching process, but also by broadening the views of children.  Technology "
+"connects people across physical borders and enables children to learn about "
+"the reality and mindset of children in other countries, from another "
+"background of from different cultures."
+msgstr "We geloven dat technologie veel mogelijkheden biedt voor het onderwijs. Niet alleen ondersteund de technologie de leerkracht bij het lesgeven maar het verbreed ook de wereld van de kinderen. Techniek verbindt mensen over de grenzen heen en laat kinderen kennismaken met mensen in andere landen met een andere achtergrond en cultuur. "
+
+#: templates/vision.html:85
 msgid "team"
-msgstr ""
+msgstr "team"
 
-#: socialschools_site/templates/vision.html:104
-#: socialschools_site/templates/vision.html:114
-#: socialschools_site/templates/vision.html:124
-#: socialschools_site/templates/vision.html:134
-#: socialschools_site/templates/vision.html:144
-#: socialschools_site/templates/vision.html:154
-#: socialschools_site/templates/vision.html:164
-#: socialschools_site/templates/vision.html:174
+#: templates/vision.html:117 templates/vision.html.py:133
+#: templates/vision.html:151 templates/vision.html.py:167
+#: templates/vision.html:186 templates/vision.html.py:202
+#: templates/vision.html:221 templates/vision.html.py:236
 msgid "Mail me"
-msgstr ""
+msgstr "Stuur me een e-mail"
 
-#: socialschools_site/templates/admin/base_site.html:5
+#: templates/admin/base_site.html:5
 msgid "Site directory | Changer V"
 msgstr ""

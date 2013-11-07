@@ -110,9 +110,6 @@
 .price-container-item {
   padding-left: 20px;
   .feature-list-container {
-    h3 {
-      text-align: right;
-    }
     padding-top: 25px;
     padding-right: 40px;
     border-right: 1px solid @gray-lighter;
@@ -145,7 +142,7 @@
   .price-header {
     padding-bottom: 20px;
   }
-  .price-box-cms, .price-box-newsfeed {
+  .price-box-cms, {
     .price-euro {
       .euro();
     }
@@ -153,6 +150,15 @@
       font-size: 14px;
     }
     .box(@school-orange);
+  }
+  .price-box-newsfeed {
+    .price-euro {
+      .euro();
+    }
+    p {
+      font-size: 14px;
+    }
+    .box(@school-blue);
   }
   .price-box-workshop {
     .price-euro {
