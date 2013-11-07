@@ -130,10 +130,10 @@
     .small-circle(@school-blue);
   }
   .point-circle-tech {
-    .small-circle(@school-green);
+    .small-circle(@school-blue);
   }
   .point-circle-safety {
-    .small-circle(@school-blue);
+    .small-circle(@school-green);
   }
   .iphone-image {
     max-width: 350px;
@@ -141,12 +141,14 @@
   .dialog-image {
     height: 90px;
   }
-
+  .import-users-image {
+    margin-bottom: 20px;
+  }
   .team-container {
     perspective: 1000;
     -webkit-perspective: 1000;
   }
-  
+
   .team-item {
     &:hover {
       -webkit-transform: rotateY(180deg);
@@ -157,7 +159,7 @@
     transition: 0.7s;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    .square(128px);  
+    .square(128px);
     position: relative;
   }
 
