@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-06 22:44+0100\n"
+"POT-Creation-Date: 2013-11-07 10:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,8 @@ msgstr "Betrokken ouders"
 msgid ""
 "We believe that the involvement of parents must go beyond the school bus "
 "stop."
-msgstr "Wij geloven dat betrokkenheid van ouders verder gaat dan het schoolplein."
+msgstr ""
+"Wij geloven dat betrokkenheid van ouders verder gaat dan het schoolplein."
 
 #: templates/base.html:33 templates/base.html.py:39 templates/base.html:45
 msgid "Read more"
@@ -97,7 +98,9 @@ msgstr "Veilig opgroeien"
 msgid ""
 "We provide a safe and controlled environment for children to learn about "
 "social media and online by doing it their-selves."
-msgstr "We bieden een veilige en gecontroleerde omgeving voor kinderen zodat ze leren om gaan met Social Media en hun online beleefwereld."
+msgstr ""
+"We bieden een veilige en gecontroleerde omgeving voor kinderen zodat ze "
+"leren om gaan met Social Media en hun online beleefwereld."
 
 #: templates/base.html:42 templates/vision.html:68
 msgid "The opportunities of technology"
@@ -107,7 +110,9 @@ msgstr "De mogelijkheden van technologie"
 msgid ""
 "We believe that modern online technology offers enormous possibilities for "
 "educational purposes."
-msgstr "We geloven dat moderne online technologie veel mogelijkheden biedt voor educatieve doeleinden."
+msgstr ""
+"We geloven dat moderne online technologie veel mogelijkheden biedt voor "
+"educatieve doeleinden."
 
 #: templates/base.html:52
 msgid "Others"
@@ -122,7 +127,10 @@ msgid ""
 "\"I see lots of nice school activities on Social Schools. Parents and "
 "colleagues are enthusiastic; Social Schools turns out to be a conventient "
 "platform for communication!\""
-msgstr "'Ik zie allerlei leuke activiteiten op Social Schools voor onze school. Ik krijg veel positieve reacties van ouders en collega’s. Het blijkt een handig communicatieplatform te zijn!'"
+msgstr ""
+"'Ik zie allerlei leuke activiteiten op Social Schools voor onze school. Ik "
+"krijg veel positieve reacties van ouders en collega’s. Het blijkt een handig "
+"communicatieplatform te zijn!'"
 
 #: templates/base.html:60
 msgid "Rehoboth Zeist"
@@ -149,7 +157,11 @@ msgid ""
 "Read and write messages for your groups with our mobile app. Add pictures "
 "straight from your smartphone. The app allows teachers to easily share what "
 "happens in the classroom. Parents stay informed in an easy way."
-msgstr "Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor leerkrachten te delen wat er gebeurd in de klas. Ook blijven ouders zo heel makkelijk op de hoogte."
+msgstr ""
+"Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto "
+"toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor "
+"leerkrachten te delen wat er gebeurt in de klas. Ook blijven ouders zo heel "
+"makkelijk op de hoogte."
 
 #: templates/base.html:101
 msgid "About"
@@ -165,7 +177,10 @@ msgid ""
 "Schools even further. By doing so we maintain our position of the single "
 "best communication platform for primary schools. If you'd like to get to "
 "know us a little better, check out our team page."
-msgstr "Ons team met gedreven experts is elke dag aan het werk om Social Schools te perfectioneren. Zou behouden we onze positive van het beste communicatie platform voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina. "
+msgstr ""
+"Ons team met gedreven experts is elke dag aan het werk om Social Schools te "
+"verbeteren. Zo behouden we onze positie van het beste communicatieplatform "
+"voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina."
 
 #: templates/base.html:178
 msgid "Send us an Email"
@@ -180,11 +195,13 @@ msgid "Contact"
 msgstr "Contact"
 
 #: templates/contact.html:14
-msgid ""
-"Don't hesitate to send us an email: <span class='green-"
-"header'>info@socialschools.nl</span> or to call us at <span class='green-"
-"header'>080-100-1300</span> "
+msgid "Don't hesitate to send us an email:"
 msgstr ""
+
+#: templates/contact.html:14
+#, fuzzy
+msgid "or to call us at"
+msgstr "of bel ons"
 
 #: templates/contact.html:22
 msgid "Our address"
@@ -194,13 +211,16 @@ msgstr "Ons adres"
 msgid ""
 "You are always welcome for a cup of coffee in our old schoolbuilding in "
 "Delft."
-msgstr "Je bent altijd welkom voor een kopje koffie in ons oude schoogebouw in Delft"
+msgstr ""
+"Je bent altijd welkom voor een kopje koffie in ons oude schoogebouw in Delft"
 
 #: templates/contact.html:47
 msgid ""
 "Prefer a personal demonstration of Social Schools? We are happy to drop by "
 "and explain the product."
-msgstr "Wil je liever dat we je een persoonlijke demonstratie komen geven? Vraag hier een demo aan. We komen graag langs om Social Schools te laten zien."
+msgstr ""
+"Wil je liever dat we je een persoonlijke demonstratie komen geven? Vraag "
+"hier een demo aan. We komen graag langs om Social Schools te laten zien."
 
 #: templates/contact.html:56
 msgid "Questions?"
@@ -242,7 +262,9 @@ msgstr "belangrijkste functies"
 msgid ""
 "We are constantly trying to improve Social School with new and improved "
 "features!"
-msgstr "We zijn altjd bezig om Social Schools te verbeteren  door nieuwe en verbeterde functionaliteiten toe te voegen!"
+msgstr ""
+"We zijn altjd bezig om Social Schools te verbeteren  door nieuwe en "
+"verbeterde functionaliteiten toe te voegen!"
 
 #: templates/feature.html:27
 msgid "Create and Manage"
@@ -258,7 +280,11 @@ msgid ""
 "possible. You can easily create and maintain school groups. Each group "
 "consists of the teacher, the parents and the children. Of course the school "
 "decides at what age the children are granted access."
-msgstr "Social Schools faciliteert de communicatie op de meest efficiënte manier. Je kan heel gemakkelijk online groepen maken en onderhouden. In elke groep zitten leerkrachten, ouders en de leerlingen van deze groep. Natuurlijk bepaald de school vanaf welke leeftijd de leerlingen toegang krijgen."
+msgstr ""
+"Social Schools faciliteert de communicatie op de meest efficiënte manier. Je "
+"kan heel gemakkelijk online groepen maken en onderhouden. In elke groep "
+"zitten leerkrachten, ouders en de leerlingen van deze groep. Natuurlijk "
+"bepaalt de school vanaf welke leeftijd de leerlingen toegang krijgen."
 
 #: templates/feature.html:41
 msgid "Share"
@@ -273,7 +299,10 @@ msgid ""
 "With Social Schools sharing media is easy. Create an event, post photo’s or "
 "add youtube videos in the blink of an eye. You can also post media through "
 "the mobile."
-msgstr "Met Social Schools kun je heel gemakkelijk media delen. Plan een evenement, plaats een foto of voeg een youtube-filmpje toe. Je kunt het ook posten met je smartphone."
+msgstr ""
+"Met Social Schools kun je heel gemakkelijk media delen. Plan een evenement, "
+"plaats een foto of voeg een youtube-filmpje toe. Je kunt het ook posten met "
+"je smartphone."
 
 #: templates/feature.html:48
 msgid "Mobile"
@@ -289,7 +318,12 @@ msgid ""
 "within the classroom or for example when on school camp, the teacher is "
 "still able to take photos and keep the parents posted on the experiences of "
 "their children. The Social Schools mobile apps come at no extra cost."
-msgstr "De mobiele apps zorgen ervoor dat iedereen overal geïnformeerd wordt en blijft. Vanuit de klas of als de leerlingen op kamp zijn kan de leerkracht foto’s maken en de ouders blijven op de hoogte van de belevenissen van hun kinderen. De Social Schools app is onderdeel van Social Schools dus geen extra kosten!"
+msgstr ""
+"De mobiele apps zorgen ervoor dat iedereen overal geïnformeerd wordt en "
+"blijft. Vanuit de klas of als de leerlingen op kamp zijn kan de leerkracht "
+"foto’s maken en de ouders blijven op de hoogte van de belevenissen van hun "
+"kinderen. De Social Schools app is onderdeel van Social Schools dus geen "
+"extra kosten!"
 
 #: templates/feature.html:61
 msgid "Publish"
@@ -306,7 +340,13 @@ msgid ""
 "actual and genuine content. Any message can be made public, and as a school "
 "you appoint the rights to publish posts to users you trust. Publishing a "
 "post takes you just 1 click, anyone can do it."
-msgstr "Elk bericht uit een groep kan publiek gemaakt worden door het op de publieke website te plaatsen. Het publiceren maakt het voor jouw school mogelijk om te delen wat er in de klassen en school gebeurd. Zo kunnen ouders die zich oriënteren op een nieuwe school zien hoe leuk het is op school! Geef de publiceerrechten aan iemand die je vertrouwd. Publiceren van een bericht doe je met één klik, iedereen kan het!"
+msgstr ""
+"Elk bericht uit een groep kan publiek gemaakt worden door het op de publieke "
+"website te plaatsen. Het publiceren maakt het voor jouw school mogelijk om "
+"te delen wat er in de klassen en school gebeurt. Zo kunnen ouders die zich "
+"oriënteren op een nieuwe school zien hoe leuk het is op school! Geef de "
+"publiceerrechten aan iemand die je vertrouwd. Publiceren van een bericht doe "
+"je met één klik, iedereen kan het!"
 
 #: templates/feature.html:68
 msgid "Personalize"
@@ -320,7 +360,9 @@ msgstr "jouw Social Schools"
 msgid ""
 "The logged in environment is customizable to suit your schools’ style. It is "
 "easy and takes you administrator ample minutes to setup."
-msgstr "De Social Schools-omgeving waar je inlogt kun je zo personaliseren zodat het bij de school-stijl past."
+msgstr ""
+"De Social Schools-omgeving waar je inlogt kun je zo personaliseren zodat het "
+"bij de school-stijl past."
 
 #: templates/feature.html:81
 msgid "Automated"
@@ -337,7 +379,13 @@ msgid ""
 "Every week a newsletter is sent out, which is customized per receiver. The "
 "reader will only be updated on news from the groups he/she is in. The school "
 "news is included too."
-msgstr "Nieuwsbrieven verzenden kost veel tijd. Met Social Schools pak je deze taak professioneel op, de nieuwsbrief ziet er goed uit en heel belangrijk: het gaat automatisch. Elke week wordt er een nieuwsbrief verstuurd welke is gepersonaliseerd per gebruiker. De lezer krijgt een update over het nieuws en evenmenten van de groepen waar zij/hij in zit. Het schoolnieuws komt ook in de nieuwsbrief."
+msgstr ""
+"Nieuwsbrieven verzenden kost veel tijd. Met Social Schools pak je deze taak "
+"professioneel op, de nieuwsbrief ziet er goed uit en heel belangrijk: het "
+"gaat automatisch. Elke week wordt er een nieuwsbrief verstuurd welke is "
+"gepersonaliseerd per gebruiker. De lezer krijgt een update over het nieuws "
+"en evenmenten van de groepen waar zij/hij in zit. Het schoolnieuws komt ook "
+"in de nieuwsbrief."
 
 #: templates/feature.html:88
 msgid "Import users"
@@ -353,7 +401,11 @@ msgid ""
 "the user base in Social Schools. We offer a set format so that you can "
 "import everybody. A smart wizard helps you to assign all users to groups. "
 "This makes setting up Social Schools two times more easy."
-msgstr "Social Schools biedt de mogelijkheid de gegevens uit een LeerlingVolgSysteem te importeren en zo een basis aan te brengen voor je groepen-structuur. Als de gegevens geimporteerd zijn is het heel gemakkelijk gebruikers in de juiste groepen te zetten."
+msgstr ""
+"Social Schools biedt de mogelijkheid de gegevens uit een LeerlingVolgSysteem "
+"te importeren en zo een basis aan te brengen voor je groepen-structuur. Als "
+"de gegevens geimporteerd zijn is het heel gemakkelijk gebruikers in de "
+"juiste groepen te zetten."
 
 #: templates/feature.html:99
 msgid "Wondering"
@@ -385,11 +437,15 @@ msgstr "Het Social Schools platform inclusief:"
 
 #: templates/price.html:15
 msgid "Full access and unlimited usage of all functions in Social Schools."
-msgstr "Volledige toegang en onbeperkt gebruik van alle functionaliteiten in Social Schools."
+msgstr ""
+"Volledige toegang en onbeperkt gebruik van alle functionaliteiten in Social "
+"Schools."
 
 #: templates/price.html:16
 msgid "Unlimited accounts for parents and teachers at no extra cost."
-msgstr "Onbeperkte gebruikersaccounts voor ouders en leerkrachten zonder extra kosten."
+msgstr ""
+"Onbeperkte gebruikersaccounts voor ouders en leerkrachten zonder extra "
+"kosten."
 
 #: templates/price.html:17
 msgid "Hosting of your Social School instance."
@@ -401,7 +457,8 @@ msgstr "Ongelimiteerde data opslag (gebaseerd op redelijk gebruik)."
 
 #: templates/price.html:19
 msgid "Professional implementation with personal support at no extra cost."
-msgstr "Professionele implementatie met persoonlijk contact zonder extra kosten."
+msgstr ""
+"Professionele implementatie met persoonlijk contact zonder extra kosten."
 
 #: templates/price.html:30
 msgid "per student per year"
@@ -420,7 +477,11 @@ msgid ""
 "The Social Schools website module enable you to present your school "
 "professionally on the web. An easy to use CMS-module which views news from "
 "the Social Schools environment."
-msgstr "De Social Schools website module maakt het mogelijk online een professionele indruk te maken. De website module heeft een gebruiksvriendelijk Content Management Systeem. Het publieke nieuws vanuit Social Schools wordt op de website weergegeven."
+msgstr ""
+"De Social Schools website module maakt het mogelijk online een professionele "
+"indruk te maken. De website module heeft een gebruiksvriendelijk Content "
+"Management Systeem. Het publieke nieuws vanuit Social Schools wordt op de "
+"website weergegeven."
 
 #: templates/price.html:44 templates/price.html.py:52
 msgid "per school per year"
@@ -431,7 +492,10 @@ msgid ""
 "If you already have a beautiful website, replacing it might feel like a "
 "waste. Our great looking Newsfeed Plugin enables you to show the published "
 "posts on your existing website."
-msgstr "Als je al een mooie website hebt ga je deze niet zomaar vervangen. Daarom biedt Social Schools een Nieuws-plugin die het mogelijk maakt om gepubliceerd nieuws te laten zien op je huidige website. "
+msgstr ""
+"Als je al een mooie website hebt ga je deze niet zomaar vervangen. Daarom "
+"biedt Social Schools een Nieuws-plugin die het mogelijk maakt om "
+"gepubliceerd nieuws te laten zien op je huidige website. "
 
 #: templates/price.html:57
 msgid "Workshops"
@@ -441,7 +505,9 @@ msgstr "Workshops"
 msgid ""
 "We support your school to learn all about using Social Schools best way "
 "possible in our interactive workshops."
-msgstr "We kunnen jullie als school op weg helpen met Social Schools op de best mogelijke manier door een interactieve workshop te geven."
+msgstr ""
+"We kunnen jullie als school op weg helpen met Social Schools op de best "
+"mogelijke manier door een interactieve workshop te geven."
 
 #: templates/price.html:60
 msgid "per session"
@@ -467,7 +533,7 @@ msgstr "Vul het formulier in en ontvang een vrijblijvend aanbod. "
 msgid "Testimonials"
 msgstr "Referenties"
 
-#: templates/reference.html:14 templates/vision.html:91
+#: templates/reference.html:14
 msgid ""
 "We hope you will find what you need. If you don't dont hesistate to send us "
 "email: <span class='green-header'>info@socialschools.nl</span> or to call us "
@@ -499,7 +565,6 @@ msgid "Tutorial"
 msgstr "Instructie"
 
 #: templates/videos.html:23 templates/videos.html.py:47
-#: templates/vision.html:25
 msgid ""
 "We hope you will find what you need. If you don't, don't hesitate to send us "
 "email: <span class='green-header'>info@socialschools.nl</span> or to call us "
@@ -559,13 +624,23 @@ msgstr "Onze visie"
 msgid "Our team"
 msgstr "Ons team"
 
+#: templates/vision.html:25 templates/vision.html.py:89
+msgid ""
+"I truly believe we can make a difference in the world of education with "
+"Social Schools."
+msgstr ""
+
 #: templates/vision.html:42
 msgid ""
 "With Social Schools parents get a genuine taste of what is going on in the "
 "school, and what their children learn and contribute in the classroom. "
 "Everything we do is aimed at facilitating meaningful communication between "
 "parents, children, teachers and the school."
-msgstr "Met Social Schools blijven ouders betrokken en weten wat er gaande is in de school, hoe hun kinderen leren en deel uitmaken van de klas. In alles wat we ontwikkelen voor Social Schools faciliteren we betekenisvolle communicatie tussen ouders, kinderen, leerkrachten en de school."
+msgstr ""
+"Met Social Schools blijven ouders betrokken en weten wat er gaande is in de "
+"school, hoe hun kinderen leren en deel uitmaken van de klas. In alles wat we "
+"ontwikkelen voor Social Schools faciliteren we betekenisvolle communicatie "
+"tussen ouders, kinderen, leerkrachten en de school."
 
 #: templates/vision.html:53
 msgid ""
@@ -576,7 +651,13 @@ msgid ""
 "community, children can learn by doing. The school stays in control and we "
 "believe that shapes the conditions to safely let children engage in "
 "communicating online for the first time."
-msgstr "Mediawijsheid zal onderwezen moeten worden zodat kinderen de gevaren zien. We geloven dat saaie lessen over veilig internetten niet bij iedereen blijft hangen, en daarom geloven wij dat door social media technieken in een veilige en afgeschermde groep te gebruiken, kinderen kunnen leren door te doen. De school houdt de controle en we geloven dat deze controle bijdraagt aan veilige eerste ervaring met online communiceren. "
+msgstr ""
+"Mediawijsheid zal onderwezen moeten worden zodat kinderen de gevaren zien. "
+"We geloven dat saaie lessen over veilig internetten niet bij iedereen blijft "
+"hangen, en daarom geloven wij dat door social media technieken in een "
+"veilige en afgeschermde groep te gebruiken, kinderen kunnen leren door te "
+"doen. De school houdt de controle en we geloven dat deze controle bijdraagt "
+"aan veilige eerste ervaring met online communiceren. "
 
 #: templates/vision.html:69
 msgid ""
@@ -586,18 +667,74 @@ msgid ""
 "connects people across physical borders and enables children to learn about "
 "the reality and mindset of children in other countries, from another "
 "background of from different cultures."
-msgstr "We geloven dat technologie veel mogelijkheden biedt voor het onderwijs. Niet alleen ondersteund de technologie de leerkracht bij het lesgeven maar het verbreed ook de wereld van de kinderen. Techniek verbindt mensen over de grenzen heen en laat kinderen kennismaken met mensen in andere landen met een andere achtergrond en cultuur. "
+msgstr ""
+"We geloven dat technologie veel mogelijkheden biedt voor het onderwijs. Niet "
+"alleen ondersteund de technologie de leerkracht bij het lesgeven maar het "
+"verbreed ook de wereld van de kinderen. Techniek verbindt mensen over de "
+"grenzen heen en laat kinderen kennismaken met mensen in andere landen met "
+"een andere achtergrond en cultuur. "
 
 #: templates/vision.html:85
 msgid "team"
 msgstr "team"
 
-#: templates/vision.html:117 templates/vision.html.py:133
-#: templates/vision.html:151 templates/vision.html.py:167
-#: templates/vision.html:186 templates/vision.html.py:202
-#: templates/vision.html:221 templates/vision.html.py:236
+#: templates/vision.html:108
+msgid ""
+"I'm co-founder of socialschools. And also a dad of a boy in grade 5 and a "
+"girl in 3. I like to be in touch on what's going on in their classes!"
+msgstr "Ik ben mede-oprichter van Social Schools. En ook vader van een jongen in groep 5 en een meisje in groep 3. Ik vind het leuk om op de hoogte te blijven van wat er in hun klas en op school plaatsvind."
+
+#: templates/vision.html:109 templates/vision.html.py:125
+#: templates/vision.html:143 templates/vision.html.py:159
+#: templates/vision.html:178 templates/vision.html.py:194
+#: templates/vision.html:213 templates/vision.html.py:228
 msgid "Mail me"
 msgstr "Stuur me een e-mail"
+
+#: templates/vision.html:124
+msgid ""
+"I love to make people enthusiastic about good communication in a school.  I "
+"take care of implementations, give workshops and organize events. Happy "
+"clients are my goal so just call 'Miss Social Schools' ;-)"
+msgstr "Ik maak mensen graag enthousiast voor goede communicatie binnen een school. Ik verzorg de implementaties, geef workshops en organiseer evenementen. Tevreden klanten zijn mijn doel dus bel mij om ook zo'n tevreden klant te worden!"
+
+#: templates/vision.html:142
+msgid ""
+"I love to design screens and interaction flows and keep improving them "
+"according to your feedback. Sometimes I can't resist to write some code "
+"myself."
+msgstr "Mijn passie is het maken van mooie ontwerpen en het luisteren naar gebruikers en daar functionaliteiten voor te bedenken. Ik kan het niet laten soms ook mee te programmeren"
+
+#: templates/vision.html:158
+msgid ""
+"Passionate about software development cycle - I love when an idea sketch is "
+"turned into product, and design into functional feature."
+msgstr "Ik heb een passie voor software ontwikkeling. Ik houd ervan om een idee in een product om te zetten."
+
+#: templates/vision.html:177
+msgid ""
+"Social Schools proofs itself daily with our customers, just looking at our "
+"clients websites full of classroom pictures and messages is my ultimate "
+"reward."
+msgstr "Elke dag zie ik op de websites van onze klanten prachtige foto’s en berichten vanuit de klas. Dit is de mooiste manier om Social Schools elke dag een beetje beter te maken."
+
+#: templates/vision.html:193
+msgid ""
+"As account manager i like to advise and inspire schools to communicate in a "
+"modern way with parents, children and everybody involved with the school."
+msgstr "Als accountmanager adviseer en inspireer ik scholen te communiceren op een eigentijdse manier met ouders, leerlingen en alle betrokkenen van de school."
+
+#: templates/vision.html:212
+msgid ""
+"I'm an co-founder of socialschools. I like building apps which are easy to "
+"use and matter to the world, with technology from today and tomorrow."
+msgstr "Ik ben mede-oprichter van Social Schools. Ik bouw apps die gebruiksvriendelijk zijn en er toe doen in de wereld. We gebruiken de techniek van vandaag en morgen."
+
+#: templates/vision.html:227
+msgid ""
+"I love doing frontend development and converting design into code. I like "
+"learning new skills and solving problems that matter."
+msgstr "Ik houd van frontend software ontwikkeling; het omzetten van ontwerpen in werkende schermen. Ik leer constant nieuwe dingen en vind het leuk om mee te helpen met het oplossen van problemen die er toe doen."
 
 #: templates/admin/base_site.html:5
 msgid "Site directory | Changer V"
