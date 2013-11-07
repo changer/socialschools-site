@@ -42,7 +42,7 @@
   {% block "content" %}{% endblock %}
   <div class="container footer-container">
     <div class="footer-text">
-      <p>{% trans "Powered by" %}<a href="http://changer.nl"> Changer</a></p>
+      <p>{% trans "Powered by" %}<a href="http://changer.nl" target="blank"> Changer</a></p>
     </div>
     <div class="row footer-container-links">
       <div class="col-xs-3 sitemap-container">
@@ -54,7 +54,6 @@
       <div class="col-xs-3 sitemap-container">
         <h5 class="footer-header">OTHER</h5>
         <ul class="list-unstyled">
-          <a href="">{% trans "Terms and conditions" %}</a>
         </ul>
       </div>
       <div class="col-xs-3 sitemap-container">
@@ -71,8 +70,8 @@
       </div>
       <div class="col-xs-3 sitemap-container">
         <h5 class="footer-header">{% trans "FOLLOW US ON" %}</h5>
-        <a href=""><img src="{{STATIC_URL}}img/icon-facebook-white.png" class="icon-facebook"alt=""></a>
-        <a href=""><img src="{{STATIC_URL}}img/icon-twitter-white.png" class="icon-twitter" alt=""></a>
+        <a href="http://facebook.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-facebook-white.png" class="icon-facebook"alt=""></a>
+        <a href="http://twitter.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-twitter-white.png" class="icon-twitter" alt=""></a>
       </div>
     </div>
   </div>
