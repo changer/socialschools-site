@@ -844,7 +844,7 @@ th.visible-print,td.visible-print{display:none !important;}
 .demo-container{text-align:center;}.demo-container h2{font-size:36px;}
 .demo-container .btn-email{margin-top:30px;margin-bottom:30px;}
 .jumbo-container{margin-left:-40px;margin-right:-40px;padding-left:0px;padding-right:0px;}
-.question-container{margin-top:30px;margin-bottom:30px;}.question-container h1,.question-container h4{color:#000000;}
+.question-container{margin-top:45px;margin-bottom:45px;}.question-container h1,.question-container h4{color:#000000;}
 .vision-item-container{margin-top:45px;margin-bottom:45px;}.vision-item-container .col-xs-5 h2,.vision-item-container .col-xs-6 h2{display:inline-block;}
 .vision-item-container .col-xs-5 img,.vision-item-container .col-xs-6 img{max-width:100%;}
 .address-container{margin-left:17px;padding-top:25px;font-size:18px;}.address-container a,.address-container p,.address-container address{color:#37bde7;}
@@ -870,7 +870,7 @@ th.visible-print,td.visible-print{display:none !important;}
 .app-intro-header{font-size:48px;font-weight:lighter;}
 .form-price-header{text-align:center;color:#000000;margin-top:50px;}
 .feature-header{font-size:48px;font-weight:lighter;}
-.support-header{text-align:center;}
+.support-header{text-align:center;margin-top:50px;}
 .testimonial-header{color:#000000;}
 .follow-header{font-weight:lighter;display:inline-block;}
 .phone-header{color:#000000;}.phone-header .blue-header{font-weight:bold;}
