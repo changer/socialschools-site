@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-12 17:50+0100\n"
+"POT-Creation-Date: 2013-11-13 14:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgid "Dutch"
 msgstr "Nederlands"
 
 #: templates/base.html:14
-msgid "for primary education"
-msgstr "voor het basisonderwijs"
+msgid "for education"
+msgstr "voor het onderwijs"
 
 #: templates/base.html:22
 msgid "Try now"
@@ -248,6 +248,10 @@ msgstr "Je mag natuurlijk ook een mailtje sturen"
 #: templates/default.html:45
 msgid "Powered by"
 msgstr "Powered by"
+
+#: templates/default.html:55
+msgid "OTHER"
+msgstr "OVERIG"
 
 #: templates/default.html:72
 msgid "FOLLOW US ON"
@@ -635,6 +639,10 @@ msgid ""
 msgstr ""
 "Ik geloof dat we met Social Schools een verschil kunnen maken in de wereld "
 "van het onderwijs"
+
+#: templates/vision.html:26 templates/vision.html.py:90
+msgid "Co-founder"
+msgstr "Mede-oprichter"
 
 #: templates/vision.html:42
 msgid ""
