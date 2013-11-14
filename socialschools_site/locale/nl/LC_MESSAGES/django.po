@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-14 14:48+0100\n"
+"POT-Creation-Date: 2013-11-14 15:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,45 +65,84 @@ msgstr ""
 
 #: apps/cmsplugin_demo/cms_plugins.py:28
 msgid "Demo Form"
-msgstr ""
+msgstr "Demo formulier"
 
 #: apps/cmsplugin_demo/cms_plugins.py:38
 #: apps/cmsplugin_price/cms_plugins.py:38
 #: apps/cmsplugin_question/cms_plugins.py:38
 msgid "Spam Protection"
-msgstr ""
+msgstr "Spambeveiliging"
+
+#: apps/cmsplugin_demo/forms.py:6 apps/cmsplugin_price/forms.py:6
+msgid "Morning"
+msgstr "Ochtend"
+
+#: apps/cmsplugin_demo/forms.py:7
+msgid "Afternoon"
+msgstr "Middag"
+
+#: apps/cmsplugin_demo/forms.py:8 apps/cmsplugin_price/forms.py:8
+msgid "No preference"
+msgstr "Geen voorkeur"
 
 #: apps/cmsplugin_demo/forms.py:12
 msgid "First"
 msgstr "Eerste"
 
+#: apps/cmsplugin_demo/forms.py:12
+msgid "first possibility* (YYYY-MM-DD)"
+msgstr "Eerste mogelijkheid* (jaar-maand-dag)"
+
 #: apps/cmsplugin_demo/forms.py:14
 msgid "Second"
 msgstr "Tweede"
+
+#: apps/cmsplugin_demo/forms.py:14
+msgid "Second possiblity (YYYY-MM-DD)"
+msgstr "Tweede mogelijkheid (jaar-maand-dag)"
 
 #: apps/cmsplugin_demo/forms.py:16 apps/cmsplugin_price/forms.py:12
 #: apps/cmsplugin_question/forms.py:7
 msgid "Name"
 msgstr "Naam"
 
+#: apps/cmsplugin_demo/forms.py:16 apps/cmsplugin_price/forms.py:12
+#: apps/cmsplugin_question/forms.py:7
+msgid "Your name*"
+msgstr "Je naam*"
+
 #: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_price/forms.py:14
 #: apps/cmsplugin_question/forms.py:8
 msgid "Email"
 msgstr "Email adres"
+
+#: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_price/forms.py:14
+#: apps/cmsplugin_question/forms.py:8
+msgid "Your email address*"
+msgstr "Je e-mail adres"
 
 #: apps/cmsplugin_demo/forms.py:18 apps/cmsplugin_price/forms.py:13
 #: apps/cmsplugin_question/forms.py:9
 msgid "Phone"
 msgstr "Telefoonnummer"
 
+#: apps/cmsplugin_demo/forms.py:18 apps/cmsplugin_price/forms.py:13
+#: apps/cmsplugin_question/forms.py:9
+msgid "Phone number"
+msgstr "Telefoonnummer"
+
 #: apps/cmsplugin_demo/forms.py:19 apps/cmsplugin_price/forms.py:17
 msgid "Remarks"
+msgstr "Opmerkingen"
+
+#: apps/cmsplugin_demo/forms.py:19 apps/cmsplugin_price/forms.py:17
+msgid "Remarks*"
 msgstr "Opmerkingen"
 
 #: apps/cmsplugin_demo/models.py:24 apps/cmsplugin_price/models.py:24
 #: apps/cmsplugin_question/models.py:24
 msgid "Form name"
-msgstr ""
+msgstr "Formuliernaam"
 
 #: apps/cmsplugin_demo/models.py:27 apps/cmsplugin_price/models.py:27
 #: apps/cmsplugin_question/models.py:27
@@ -259,12 +298,26 @@ msgstr "Contact formulier"
 msgid "Price Form"
 msgstr "Offerte formulier"
 
+#: apps/cmsplugin_price/forms.py:7
+msgid "Evening"
+msgstr ""
+
 #: apps/cmsplugin_price/forms.py:15
 msgid "number of students"
 msgstr "Aantal leerlingen"
 
+#: apps/cmsplugin_price/forms.py:15
+#, fuzzy
+msgid "Number of Students"
+msgstr "Aantal leerlingen"
+
 #: apps/cmsplugin_price/forms.py:16
 msgid "Schoolname"
+msgstr "Schoolnaam"
+
+#: apps/cmsplugin_price/forms.py:16
+#, fuzzy
+msgid "Schoolname*"
 msgstr "Schoolnaam"
 
 #: apps/cmsplugin_question/forms.py:10
