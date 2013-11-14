@@ -179,9 +179,9 @@ INSTALLED_APPS = (
     'menus',
     'mptt',
     'sekizai',
-    'cmsplugin_demo',
-    'cmsplugin_question',
-    'cmsplugin_price',
+    'socialschools_site.apps.cmsplugin_demo',
+    'socialschools_site.apps.cmsplugin_question',
+    'socialschools_site.apps.cmsplugin_price',
     'cmsplugin_file',
 
     'cms.plugins.text',
