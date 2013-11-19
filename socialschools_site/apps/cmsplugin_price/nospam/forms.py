@@ -1,7 +1,7 @@
 from django import forms
 from django.conf import settings
 
-from cmsplugin_price.nospam import utils
+import utils
 
 from fields import HoneypotField
 from widgets import RecaptchaChallenge, RecaptchaResponse
