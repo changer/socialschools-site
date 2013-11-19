@@ -1,7 +1,7 @@
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 #import settings
-from cmsplugin_price.nospam.forms import HoneyPotForm, RecaptchaForm, AkismetForm
+from nospam.forms import HoneyPotForm, RecaptchaForm, AkismetForm
 
 CHOICES=[('1', _('Morning')),
          ('2', _('Evening')),
