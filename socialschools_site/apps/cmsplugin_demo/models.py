@@ -3,7 +3,7 @@ from django.utils.translation import ugettext_lazy as _
 from cms.models import CMSPlugin
 
 # Feel free to extend this class instead of Demo.
-from socialschools_site.apps.cmsplugin_demo import settings
+import settings
 
 
 class BaseDemo(CMSPlugin):
