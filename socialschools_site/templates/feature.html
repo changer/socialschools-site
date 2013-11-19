@@ -1,6 +1,7 @@
 {% extends "default.html" %}
 {% load i18n %}
 {% block "content" %}
+{% load cms_tags %}
   <div class="container socialschools-container">
     <h2 class="about-header">{{request.current_page}}</h2>
     <div class="row features-intro-container">
@@ -15,77 +16,8 @@
         <img src="{{STATIC_URL}}img/thumbnail-robert.png" class="dialog-image" alt="">
       </div>
     </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <h2><span class="blue-header">{% trans "Create and Manage" %}</span> {% trans "groups" %}</h2>
-        <p>{% trans "Social Schools is designed to facilitate your school in the best way possible. You can easily create and maintain school groups. Each group consists of the teacher, the parents and the children. Of course the school decides at what age the children are granted access." %}</p>
-      </div>
-
-      <div class="col-xs-6 manage-group-container">
-        <img src="{{STATIC_URL}}img/features-manage-groups.png" class="pull-right" alt="Big Image">
-      </div>
-    </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/features-share-media.png">
-      </div>
-      <div class="col-xs-6">
-        <h2><span class="green-header">{% trans "Share" %}</span> {% trans "media" %}</h2>
-        <p>{% trans "With Social Schools sharing media is easy. Create an event, post photos or add youtube videos in the blink of an eye. You can also post media through mobile devices." %}</p>
-      </div>
-    </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <h2><span class="blue-header">{% trans "Mobile" %}</span> {% trans "apps" %}</h2>
-        <p>{% trans "The mobile apps allow everybody to stay informed, always and everywhere. From within the classroom or for example when on school camp, the teacher is still able to take photos and keep the parents posted on the experiences of their children. The Social Schools mobile apps come at no extra cost." %}</p>
-      </div>
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/features-apps.png" alt="Big Image">
-      </div>
-    </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/features-publish.png">
-      </div>
-      <div class="col-xs-6">
-        <h2>{% trans "Publish" %} <span class="green-header">{% trans "posts" %}</span></h2>
-        <p>{% trans "Any post in any group can be made public. It then appears on the public website. This allows your school to present itself with great looking, actual and genuine content. Any message can be made public, and as a school you appoint the rights to publish posts to users you trust. Publishing a post takes you just 1 click, anyone can do it." %}</p>
-      </div>
-    </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <h2><span class="blue-header">{% trans "Personalize" %}</span> {% trans "your Social Schools" %}</h2>
-        <p>{% trans "The logged in environment is customizable to suit your school’s style. It is easy and takes your administrator ample minutes to setup." %}</p>
-      </div>
-      <div class="col-xs-6 manage-group-container">
-        <img src="{{STATIC_URL}}img/features-themes.png" class="color-themes-image pull-right" alt="Big Image">
-      </div>
-    </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/features-newsletter.png" alt="">
-      </div>
-      <div class="col-xs-6">
-        <h2><span class="green-header">{% trans "Automated" %}</span> {% trans "newsletter" %}</h2>
-        <p>{% trans "Sending out newsletters takes a lot of time. With Social Schools this task is done professionally, great looking and more importantly: Fully automated. Every week a newsletter is sent out, which is customized per receiver. The reader will only be updated on news of the groups he/she is in. The school news is included too." %}</p>
-      </div>
-    </div>
-
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <h2>{% trans "Import users" %} <span class="blue-header">{% trans "automatically" %}</span></h2>
-        <p>{% trans "We offer the possibility to use you school’s administration system to create the user base in Social Schools. We offer a set format so that you can import everybody. A smart wizard helps you to assign all users to groups. This makes setting up Social Schools two times more easy." %}</p>
-      </div>
-      <div class="col-xs-6 manage-group-container">
-        <img src="{{STATIC_URL}}img/features-import.png" class="pull-right import-users-image" alt="Big Image">
-      </div>
-    </div>
+    
+    {% placeholder features %}
 
     <div class="row">
       <div class="col-xs-3"></div>
