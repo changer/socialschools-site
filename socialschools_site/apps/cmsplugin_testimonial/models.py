@@ -13,6 +13,6 @@ class Testimonial(CMSPlugin):
 	float = models.CharField(_("Image placement"), max_length=10, blank=True, null=True,
         choices=FLOAT_CHOICES, help_text=_("Move image left, right or center."))
 	image = models.ImageField(_("image"), upload_to=CMSPlugin.get_media_path)
-	big_header  = models.CharField(_("Quotation"),null=True, max_length=150)
+	big_header  = models.TextField(_("Quotation"),null=True, max_length=150)
 	name = models.CharField(_("Name of Recommending person"), max_length=150)
 	detail = models.CharField(_("School detail"), max_length=200)
