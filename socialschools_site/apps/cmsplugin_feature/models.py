@@ -18,7 +18,7 @@ class Feature(CMSPlugin):
 	blue_header  = models.CharField(_("Blue part of title"), max_length=150, blank=True, null=True)
 	green_header = models.CharField(_("Green part of the tile"), max_length=150, blank=True, null=True )
 	black_header = models.CharField(_("Black part of the tile"), max_length=150, blank=True, null=True)
-	description = models.CharField(_("Remarks"), max_length=150)
+	description = models.TextField(_("Remarks"), max_length=150)
 
 	def __unicode__(self):
 		if self.image:
