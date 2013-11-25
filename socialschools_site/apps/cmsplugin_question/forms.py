@@ -1,7 +1,7 @@
 from django import forms
 from django.utils.translation import ugettext_lazy as _
 #import settings
-from cmsplugin_question.nospam.forms import HoneyPotForm, RecaptchaForm, AkismetForm
+from nospam.forms import HoneyPotForm, RecaptchaForm, AkismetForm
 
 class ContactForm(forms.Form):
     name = forms.CharField(label=_("Name"), widget=forms.TextInput(attrs={'placeholder': _('Your name*'), 'class':'form-control'}))

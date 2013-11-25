@@ -3,7 +3,7 @@ from django.utils.translation import ugettext_lazy as _
 from cms.models import CMSPlugin
 
 # Feel free to extend this class instead of Contact.
-from cmsplugin_question import settings
+import settings
 
 
 class BaseContact(CMSPlugin):

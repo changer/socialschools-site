@@ -8,7 +8,7 @@ from django.template.loader import render_to_string, find_template, TemplateDoes
 
 from cms.plugin_base import CMSPluginBase
 from cms.plugin_pool import plugin_pool
-from cmsplugin_demo.utils import class_for_path
+from utils import class_for_path
 
 try:
     from cms.plugins.text.settings import USE_TINYMCE
