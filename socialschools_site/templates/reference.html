@@ -1,6 +1,7 @@
 {% extends "default.html" %}
 {% load i18n %}
 {% block "content" %}
+{% load cms_tags %}
   <div class="container socialschools-container">
     <h2 class="about-header">{{request.current_page}}</h2>
     <div class="row top-container">
@@ -23,36 +24,7 @@
 
     </div>
     <hr>
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/marieke-big.png" class="pull-right" alt="">
-      </div>
-      <div class="col-xs-6">
-        <h2 class="pull-left testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse    commodo enim culpa adipisicing."
-        <h3>Lorentz Ruiter</h3>
-        <p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
-      </div>
-    </div>
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <h2 class="pull-right testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse     commodo enim culpa adipisicing."
-        <h3>Lorentz Ruiter</h3>
-        <p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
-      </div>
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/makiel-big.png" alt="">
-      </div>
-    </div>
-    <div class="row socialschools-container-item">
-      <div class="col-xs-6">
-        <img src="{{STATIC_URL}}img/marieke-big.png" class="pull-right" alt="">
-      </div>
-      <div class="col-xs-6">
-        <h2 class="pull-left testimonial-header">"Lorem ipsum Pariatur laboris sunt consequat dolor pariatur tempor dolor esse    commodo enim culpa adipisicing."
-        <h3>Lorentz Ruiter</h3>
-        <p class="meta testimonial-detail-meta">Director van basisschool Prins William Alexander te Waarder</p>
-      </div>
-    </div>
+    {% placeholder reference %}
     <div class="bottom-link">
       <h2><span class="blue-header">{% trans "Want to" %}</span> {% trans "try too" %}?</h2>
       <a href="" class="btn btn-success btn-email">{% trans "Try it yourself" %}</a>
