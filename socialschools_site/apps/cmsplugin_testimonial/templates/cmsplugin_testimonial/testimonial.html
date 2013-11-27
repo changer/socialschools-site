@@ -1,9 +1,9 @@
 <div class="row socialschools-container-item">
   <div class="col-xs-6 pull-{{ object.float }}">
-    <img src="{{ object.image.url }}" class="{% if object.float == "left" %} pull-right {% else %} pull-left {% endif %}" alt="">
+    <img src="{{ object.image.url }}" class="testimonial-image{% if object.float == "left" %} pull-right{% endif %}" alt="">
   </div>
   <div class="col-xs-6">
-    <h2 class="pull-left testimonial-header">{{ object.big_header }}</h2>
+    <h2 class="testimonial-header">{{ object.big_header }}</h2>
     <h3>{{ object.name }}</h3>
     <p class="meta testimonial-detail-meta">{{ object.detail }}</p>
   </div>
