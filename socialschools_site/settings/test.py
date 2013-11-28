@@ -1,5 +1,3 @@
-import os
-import urlparse
 
 from .base import *
 
