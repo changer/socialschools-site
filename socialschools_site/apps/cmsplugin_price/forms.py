@@ -12,9 +12,9 @@ class PriceForm(forms.Form):
     name = forms.CharField(label=_("Name"), widget=forms.TextInput(attrs={'placeholder': _('Your name*'), 'class':'form-control'}))
     phone = forms.CharField(label=_("Phone"), widget=forms.TextInput(attrs={'placeholder': _('Phone number'), 'class':'form-control'}), required=False)
     email = forms.EmailField(label=_("Email"), widget=forms.TextInput(attrs={'placeholder': _('Your email address*'), 'class':'form-control'}))
-    number_of_students = forms.IntegerField(label=_("number of students"), widget=forms.TextInput(attrs={'placeholder': _('Number of Students'), 'class':'form-control'}))
+    number_of_students = forms.IntegerField(label=_("number of students"), widget=forms.TextInput(attrs={'placeholder': _('Number of students*'), 'class':'form-control'}))
     schoolname = forms.CharField(label=_("Schoolname"), widget=forms.TextInput(attrs={'placeholder': _('Schoolname*'), 'class':'form-control'}))
-    remarks = forms.CharField(label=_("Remarks"), widget=forms.Textarea(attrs={'placeholder': _('Remarks*'), 'class':'form-control'}))
+    remarks = forms.CharField(label=_("Remarks"), widget=forms.Textarea(attrs={'placeholder': _('Remarks'), 'class':'form-control'}), required=False)
     template = "cmsplugin_price/contact.html"
 
 class HoneyPotContactForm(HoneyPotForm):
