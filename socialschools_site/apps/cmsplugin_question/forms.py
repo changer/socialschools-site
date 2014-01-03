@@ -6,8 +6,8 @@ from nospam.forms import HoneyPotForm, RecaptchaForm, AkismetForm
 class ContactForm(forms.Form):
     name = forms.CharField(label=_("Name"), widget=forms.TextInput(attrs={'placeholder': _('Your name*'), 'class':'form-control'}))
     email = forms.EmailField(label=_("Email"), widget=forms.TextInput(attrs={'placeholder': _('Your email address*'), 'class':'form-control'}))
-    phone = forms.CharField(label=_("Phone"), widget=forms.TextInput(attrs={'placeholder': _('Phone number'), 'class':'form-control'}))
-    question = forms.CharField(label=_("Question"), widget=forms.Textarea(attrs={'placeholder': _('Question'), 'class':'form-control'}))
+    phone = forms.CharField(label=_("Phone"), widget=forms.TextInput(attrs={'placeholder': _('Phone number'), 'class':'form-control'}), required=False)
+    question = forms.CharField(label=_("Question"), widget=forms.Textarea(attrs={'placeholder': _('Question*'), 'class':'form-control'}))
 
     template = "cmsplugin_question/contact.html"
 

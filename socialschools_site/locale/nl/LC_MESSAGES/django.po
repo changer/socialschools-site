@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-14 15:25+0100\n"
+"POT-Creation-Date: 2014-01-03 15:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,7 +119,7 @@ msgstr "Email adres"
 #: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_price/forms.py:14
 #: apps/cmsplugin_question/forms.py:8
 msgid "Your email address*"
-msgstr "Je e-mail adres"
+msgstr "Je e-mail adres*"
 
 #: apps/cmsplugin_demo/forms.py:18 apps/cmsplugin_price/forms.py:13
 #: apps/cmsplugin_question/forms.py:9
@@ -131,12 +131,9 @@ msgstr "Telefoonnummer"
 msgid "Phone number"
 msgstr "Telefoonnummer"
 
-#: apps/cmsplugin_demo/forms.py:19 apps/cmsplugin_price/forms.py:17
+#: apps/cmsplugin_demo/forms.py:19 apps/cmsplugin_feature/models.py:21
+#: apps/cmsplugin_price/forms.py:17
 msgid "Remarks"
-msgstr "Opmerkingen"
-
-#: apps/cmsplugin_demo/forms.py:19 apps/cmsplugin_price/forms.py:17
-msgid "Remarks*"
 msgstr "Opmerkingen"
 
 #: apps/cmsplugin_demo/models.py:24 apps/cmsplugin_price/models.py:24
@@ -147,12 +144,12 @@ msgstr "Formuliernaam"
 #: apps/cmsplugin_demo/models.py:27 apps/cmsplugin_price/models.py:27
 #: apps/cmsplugin_question/models.py:27
 msgid "Used to distinguish multiple contact forms on the same site."
-msgstr ""
+msgstr "Gebruikt om meerder contactformulieren op een pagina te onderscheiden"
 
 #: apps/cmsplugin_demo/models.py:28 apps/cmsplugin_price/models.py:28
 #: apps/cmsplugin_question/models.py:28
 msgid "Form Layout"
-msgstr ""
+msgstr "Formulier opmaak"
 
 #: apps/cmsplugin_demo/models.py:30 apps/cmsplugin_price/models.py:30
 #: apps/cmsplugin_question/models.py:30
@@ -294,6 +291,42 @@ msgstr ""
 msgid "Contact Form"
 msgstr "Contact formulier"
 
+#: apps/cmsplugin_feature/cms_plugins.py:10
+msgid "Feature Plugin"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:9 apps/cmsplugin_testimonial/models.py:7
+msgid "left"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:10 apps/cmsplugin_testimonial/models.py:8
+msgid "right"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:15 apps/cmsplugin_testimonial/models.py:13
+msgid "Image placement"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:16 apps/cmsplugin_testimonial/models.py:14
+msgid "Move image left, right or center."
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:17 apps/cmsplugin_testimonial/models.py:15
+msgid "image"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:18
+msgid "Blue part of title"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:19
+msgid "Green part of the tile"
+msgstr ""
+
+#: apps/cmsplugin_feature/models.py:20
+msgid "Black part of the tile"
+msgstr ""
+
 #: apps/cmsplugin_price/cms_plugins.py:28
 msgid "Price Form"
 msgstr "Offerte formulier"
@@ -307,26 +340,44 @@ msgid "number of students"
 msgstr "Aantal leerlingen"
 
 #: apps/cmsplugin_price/forms.py:15
-#, fuzzy
-msgid "Number of Students"
-msgstr "Aantal leerlingen"
+msgid "Number of students*"
+msgstr "Aantal leerlingen*"
 
 #: apps/cmsplugin_price/forms.py:16
 msgid "Schoolname"
 msgstr "Schoolnaam"
 
 #: apps/cmsplugin_price/forms.py:16
-#, fuzzy
 msgid "Schoolname*"
-msgstr "Schoolnaam"
+msgstr "Schoolnaam*"
 
 #: apps/cmsplugin_question/forms.py:10
 msgid "Question"
 msgstr "Vraag"
 
+#: apps/cmsplugin_question/forms.py:10
+msgid "Question*"
+msgstr "Vraag*"
+
 #: apps/cmsplugin_question/templates/cmsplugin_question/subject.txt:1
 msgid "Question - Socialschools"
 msgstr "Vraag - Social Schools"
+
+#: apps/cmsplugin_testimonial/cms_plugins.py:10
+msgid "Testimonial Plugin"
+msgstr "Referentie plugin"
+
+#: apps/cmsplugin_testimonial/models.py:16
+msgid "Quotation"
+msgstr "Offerte"
+
+#: apps/cmsplugin_testimonial/models.py:17
+msgid "Name of Recommending person"
+msgstr ""
+
+#: apps/cmsplugin_testimonial/models.py:18
+msgid "School detail"
+msgstr "School details"
 
 #: settings/base.py:140
 msgid "common"
@@ -563,15 +614,15 @@ msgstr "OVERIG"
 msgid "FOLLOW US ON"
 msgstr "VOLG ONS OP"
 
-#: templates/feature.html:8
+#: templates/feature.html:9
 msgid "The"
 msgstr "De"
 
-#: templates/feature.html:8
+#: templates/feature.html:9
 msgid "most important features"
 msgstr "belangrijkste functies"
 
-#: templates/feature.html:12
+#: templates/feature.html:13
 msgid ""
 "We are constantly trying to improve Social Schools with new and improved "
 "features!"
@@ -579,160 +630,19 @@ msgstr ""
 "We zijn altjd bezig om Social Schools te verbeteren  door nieuwe en "
 "verbeterde functionaliteiten toe te voegen!"
 
-#: templates/feature.html:21
-msgid "Create and Manage"
-msgstr "Creëer en beheer"
-
-#: templates/feature.html:21
-msgid "groups"
-msgstr "groepen"
-
-#: templates/feature.html:22
-msgid ""
-"Social Schools is designed to facilitate your school in the best way "
-"possible. You can easily create and maintain school groups. Each group "
-"consists of the teacher, the parents and the children. Of course the school "
-"decides at what age the children are granted access."
-msgstr ""
-"Social Schools faciliteert de communicatie op de meest efficiënte manier. Je "
-"kan heel gemakkelijk online groepen maken en onderhouden. In elke groep "
-"zitten leerkrachten, ouders en de leerlingen van deze groep. Natuurlijk "
-"bepaalt de school vanaf welke leeftijd de leerlingen toegang krijgen."
-
-#: templates/feature.html:35
-msgid "Share"
-msgstr "Deel"
-
-#: templates/feature.html:35
-msgid "media"
-msgstr "media"
-
-#: templates/feature.html:36
-msgid ""
-"With Social Schools sharing media is easy. Create an event, post photos or "
-"add youtube videos in the blink of an eye. You can also post media through "
-"mobile devices."
-msgstr ""
-"Met Social Schools kun je heel gemakkelijk media delen. Plan een evenement, "
-"plaats een foto of voeg een youtube-filmpje toe. Je kunt het ook posten met "
-"je smartphone."
-
-#: templates/feature.html:42
-msgid "Mobile"
-msgstr "Mobiele"
-
-#: templates/feature.html:42
-msgid "apps"
-msgstr "apps"
-
-#: templates/feature.html:43
-msgid ""
-"The mobile apps allow everybody to stay informed, always and everywhere. "
-"From within the classroom or for example when on school camp, the teacher is "
-"still able to take photos and keep the parents posted on the experiences of "
-"their children. The Social Schools mobile apps come at no extra cost."
-msgstr ""
-"De mobiele apps zorgen ervoor dat iedereen overal geïnformeerd wordt en "
-"blijft. Vanuit de klas of als de leerlingen op kamp zijn kan de leerkracht "
-"foto’s maken en de ouders op de hoogte houden van de belevenissen van hun "
-"kinderen. De Social Schools app is onderdeel van Social Schools, dus geen "
-"extra kosten!"
-
-#: templates/feature.html:55
-msgid "Publish"
-msgstr "Publiceer"
-
-#: templates/feature.html:55
-msgid "posts"
-msgstr "berichten"
-
-#: templates/feature.html:56
-msgid ""
-"Any post in any group can be made public. It then appears on the public "
-"website. This allows your school to present itself with great looking, "
-"actual and genuine content. Any message can be made public, and as a school "
-"you appoint the rights to publish posts to users you trust. Publishing a "
-"post takes you just 1 click, anyone can do it."
-msgstr ""
-"Elk bericht uit een groep kan publiek gemaakt worden door het op de publieke "
-"website te plaatsen. Het publiceren maakt het voor jouw school mogelijk om "
-"te delen wat er in de klassen en school gebeurt. Zo kunnen ouders die zich "
-"oriënteren op een nieuwe school zien hoe leuk het is op school! Geef de "
-"publiceerrechten aan iemand die je vertrouwd. Publiceren van een bericht doe "
-"je met één klik, iedereen kan het!"
-
-#: templates/feature.html:62
-msgid "Personalize"
-msgstr "Personaliseer"
-
-#: templates/feature.html:62
-msgid "your Social Schools"
-msgstr "jouw Social Schools"
-
-#: templates/feature.html:63
-msgid ""
-"The logged in environment is customizable to suit your school’s style. It is "
-"easy and takes your administrator ample minutes to setup."
-msgstr ""
-"De Social Schools-omgeving waar je inlogt kun je personaliseren zodat deze "
-"bij de huisstijl van je school aansluit."
-
-#: templates/feature.html:75
-msgid "Automated"
-msgstr "Geautomatiseerde"
-
-#: templates/feature.html:75
-msgid "newsletter"
-msgstr "nieuwsbrief"
-
-#: templates/feature.html:76
-msgid ""
-"Sending out newsletters takes a lot of time. With Social Schools this task "
-"is done professionally, great looking and more importantly: Fully automated. "
-"Every week a newsletter is sent out, which is customized per receiver. The "
-"reader will only be updated on news of the groups he/she is in. The school "
-"news is included too."
-msgstr ""
-"Nieuwsbrieven verzenden kost veel tijd. Met Social Schools pak je deze taak "
-"professioneel aan, de nieuwsbrief ziet er goed uit en heel belangrijk: het "
-"gaat automatisch. Elke week wordt er een nieuwsbrief verstuurd die is "
-"gepersonaliseerd per gebruiker. De lezer krijgt een update over het nieuws "
-"en evenmenten van de groepen waar zij/hij lid van is. Het schoolnieuws komt "
-"ook in de nieuwsbrief."
-
-#: templates/feature.html:82
-msgid "Import users"
-msgstr "Importeer"
-
-#: templates/feature.html:82
-msgid "automatically"
-msgstr "gebruikers"
-
-#: templates/feature.html:83
-msgid ""
-"We offer the possibility to use you school’s administration system to create "
-"the user base in Social Schools. We offer a set format so that you can "
-"import everybody. A smart wizard helps you to assign all users to groups. "
-"This makes setting up Social Schools two times more easy."
-msgstr ""
-"Social Schools biedt de mogelijkheid de gegevens uit een LeerlingVolgSysteem "
-"te importeren en zo een basis aan te brengen voor je groepen-structuur. Als "
-"de gegevens geimporteerd zijn is het heel gemakkelijk gebruikers in de "
-"juiste groepen te zetten."
-
-#: templates/feature.html:93
+#: templates/feature.html:25
 msgid "Wondering"
 msgstr "Benieuwd"
 
-#: templates/feature.html:93
+#: templates/feature.html:25
 msgid "how these features work exactly"
 msgstr "hoe Social Schools precies werkt"
 
-#: templates/feature.html:94 templates/reference.html:58
+#: templates/feature.html:26 templates/reference.html:30
 msgid "Try it yourself"
 msgstr "Probeer het zelf"
 
-#: templates/feature.html:95
+#: templates/feature.html:27
 msgid "or request a"
 msgstr "of doe een aanvraag voor een"
 
@@ -842,22 +752,22 @@ msgstr "Vraag een offerte aan"
 msgid "Fill out the form and recieve a non-commital offer"
 msgstr "Vul het formulier in en ontvang een vrijblijvend aanbod. "
 
-#: templates/reference.html:8
+#: templates/reference.html:9
 msgid "Testimonials"
 msgstr "Referenties"
 
-#: templates/reference.html:14
+#: templates/reference.html:15
 msgid ""
 "We hope you will find what you need. If you don't dont hesistate to send us "
 "email: <span class='green-header'>info@socialschools.nl</span> or to call us "
 "at <span class='green-header'>+31-088-100-1300</span> "
 msgstr ""
 
-#: templates/reference.html:57
+#: templates/reference.html:29
 msgid "Want to"
 msgstr "Wil je het"
 
-#: templates/reference.html:57
+#: templates/reference.html:29
 msgid "try too"
 msgstr "ook proberen?"
 
@@ -1106,6 +1016,135 @@ msgstr ""
 #: templates/admin/base_site.html:5
 msgid "Site directory | Changer V"
 msgstr ""
+
+#~ msgid "Remarks*"
+#~ msgstr "Opmerkingen"
+
+#, fuzzy
+#~ msgid "Number of Students"
+#~ msgstr "Aantal leerlingen"
+
+#~ msgid "Create and Manage"
+#~ msgstr "Creëer en beheer"
+
+#~ msgid "groups"
+#~ msgstr "groepen"
+
+#~ msgid ""
+#~ "Social Schools is designed to facilitate your school in the best way "
+#~ "possible. You can easily create and maintain school groups. Each group "
+#~ "consists of the teacher, the parents and the children. Of course the "
+#~ "school decides at what age the children are granted access."
+#~ msgstr ""
+#~ "Social Schools faciliteert de communicatie op de meest efficiënte manier. "
+#~ "Je kan heel gemakkelijk online groepen maken en onderhouden. In elke "
+#~ "groep zitten leerkrachten, ouders en de leerlingen van deze groep. "
+#~ "Natuurlijk bepaalt de school vanaf welke leeftijd de leerlingen toegang "
+#~ "krijgen."
+
+#~ msgid "Share"
+#~ msgstr "Deel"
+
+#~ msgid "media"
+#~ msgstr "media"
+
+#~ msgid ""
+#~ "With Social Schools sharing media is easy. Create an event, post photos "
+#~ "or add youtube videos in the blink of an eye. You can also post media "
+#~ "through mobile devices."
+#~ msgstr ""
+#~ "Met Social Schools kun je heel gemakkelijk media delen. Plan een "
+#~ "evenement, plaats een foto of voeg een youtube-filmpje toe. Je kunt het "
+#~ "ook posten met je smartphone."
+
+#~ msgid "Mobile"
+#~ msgstr "Mobiele"
+
+#~ msgid "apps"
+#~ msgstr "apps"
+
+#~ msgid ""
+#~ "The mobile apps allow everybody to stay informed, always and everywhere. "
+#~ "From within the classroom or for example when on school camp, the teacher "
+#~ "is still able to take photos and keep the parents posted on the "
+#~ "experiences of their children. The Social Schools mobile apps come at no "
+#~ "extra cost."
+#~ msgstr ""
+#~ "De mobiele apps zorgen ervoor dat iedereen overal geïnformeerd wordt en "
+#~ "blijft. Vanuit de klas of als de leerlingen op kamp zijn kan de "
+#~ "leerkracht foto’s maken en de ouders op de hoogte houden van de "
+#~ "belevenissen van hun kinderen. De Social Schools app is onderdeel van "
+#~ "Social Schools, dus geen extra kosten!"
+
+#~ msgid "Publish"
+#~ msgstr "Publiceer"
+
+#~ msgid "posts"
+#~ msgstr "berichten"
+
+#~ msgid ""
+#~ "Any post in any group can be made public. It then appears on the public "
+#~ "website. This allows your school to present itself with great looking, "
+#~ "actual and genuine content. Any message can be made public, and as a "
+#~ "school you appoint the rights to publish posts to users you trust. "
+#~ "Publishing a post takes you just 1 click, anyone can do it."
+#~ msgstr ""
+#~ "Elk bericht uit een groep kan publiek gemaakt worden door het op de "
+#~ "publieke website te plaatsen. Het publiceren maakt het voor jouw school "
+#~ "mogelijk om te delen wat er in de klassen en school gebeurt. Zo kunnen "
+#~ "ouders die zich oriënteren op een nieuwe school zien hoe leuk het is op "
+#~ "school! Geef de publiceerrechten aan iemand die je vertrouwd. Publiceren "
+#~ "van een bericht doe je met één klik, iedereen kan het!"
+
+#~ msgid "Personalize"
+#~ msgstr "Personaliseer"
+
+#~ msgid "your Social Schools"
+#~ msgstr "jouw Social Schools"
+
+#~ msgid ""
+#~ "The logged in environment is customizable to suit your school’s style. It "
+#~ "is easy and takes your administrator ample minutes to setup."
+#~ msgstr ""
+#~ "De Social Schools-omgeving waar je inlogt kun je personaliseren zodat "
+#~ "deze bij de huisstijl van je school aansluit."
+
+#~ msgid "Automated"
+#~ msgstr "Geautomatiseerde"
+
+#~ msgid "newsletter"
+#~ msgstr "nieuwsbrief"
+
+#~ msgid ""
+#~ "Sending out newsletters takes a lot of time. With Social Schools this "
+#~ "task is done professionally, great looking and more importantly: Fully "
+#~ "automated. Every week a newsletter is sent out, which is customized per "
+#~ "receiver. The reader will only be updated on news of the groups he/she is "
+#~ "in. The school news is included too."
+#~ msgstr ""
+#~ "Nieuwsbrieven verzenden kost veel tijd. Met Social Schools pak je deze "
+#~ "taak professioneel aan, de nieuwsbrief ziet er goed uit en heel "
+#~ "belangrijk: het gaat automatisch. Elke week wordt er een nieuwsbrief "
+#~ "verstuurd die is gepersonaliseerd per gebruiker. De lezer krijgt een "
+#~ "update over het nieuws en evenmenten van de groepen waar zij/hij lid van "
+#~ "is. Het schoolnieuws komt ook in de nieuwsbrief."
+
+#~ msgid "Import users"
+#~ msgstr "Importeer"
+
+#~ msgid "automatically"
+#~ msgstr "gebruikers"
+
+#~ msgid ""
+#~ "We offer the possibility to use you school’s administration system to "
+#~ "create the user base in Social Schools. We offer a set format so that you "
+#~ "can import everybody. A smart wizard helps you to assign all users to "
+#~ "groups. This makes setting up Social Schools two times more easy."
+#~ msgstr ""
+#~ "Social Schools biedt de mogelijkheid de gegevens uit een "
+#~ "LeerlingVolgSysteem te importeren en zo een basis aan te brengen voor je "
+#~ "groepen-structuur. Als de gegevens geimporteerd zijn is het heel "
+#~ "gemakkelijk gebruikers in de juiste groepen te zetten."
 
 #~ msgid "Terms and conditions"
 #~ msgstr "Gebruiksvoorwaarden"
