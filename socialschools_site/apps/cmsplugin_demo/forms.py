@@ -15,8 +15,8 @@ class DemoForm(forms.Form):
     second = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect(attrs={'class': 'unstyled'}), required=False)
     name = forms.CharField(label=_("Name"), widget=forms.TextInput(attrs={'placeholder': _('Your name*'), 'class':'form-control'}))
     email = forms.EmailField(label=_("Email"), widget=forms.TextInput(attrs={'placeholder': _('Your email address*'), 'class':'form-control'}))
-    phone = forms.CharField(label=_("Phone"), widget=forms.TextInput(attrs={'placeholder': _('Phone number'), 'class':'form-control'}))
-    remarks = forms.CharField(label=_("Remarks"), widget=forms.Textarea(attrs={'placeholder': _('Remarks*'), 'class':'form-control'}))
+    phone = forms.CharField(label=_("Phone"), widget=forms.TextInput(attrs={'placeholder': _('Phone number'), 'class':'form-control'}), required=False)
+    remarks = forms.CharField(label=_("Remarks"), widget=forms.Textarea(attrs={'placeholder': _('Remarks'), 'class':'form-control'}), required=False)
 
     template = "cmsplugin_demo/contact.html"
 
