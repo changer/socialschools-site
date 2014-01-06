@@ -1,5 +1,6 @@
 {% load cms_tags sekizai_tags menu_tags %}
 {% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -35,6 +36,7 @@
       <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
         <ul class="nav navbar-nav pull-right">
           {% show_menu 0 0 0 0 %}
+          {% language_chooser "menu/language_chooser.html" %}
         </ul>
       </nav>
     </div>
