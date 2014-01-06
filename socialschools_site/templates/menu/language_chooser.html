@@ -7,7 +7,9 @@
     </button>
     <ul class="dropdown-menu" role="menu">
         {% for language in languages %}
-            <li><a href="{% page_language_url language.0 %}"{% ifequal current_language language.0 %} class="current"{% endifequal %} lang="{{ language.0 }}"><img src ="{{STATIC_URL}}img/{{language.0}}.png"> {{ language.1 }}</a></li>
+            <li>
+                <a href="{% page_language_url language.0 %}" lang="{{ language.0 }}"><img src ="{{STATIC_URL}}img/{{language.0}}.png"> {{ language.1 }}</a>
+            </li>
         {% endfor %}
     </ul>
 </div>
