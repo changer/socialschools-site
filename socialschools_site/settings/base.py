@@ -113,6 +113,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
+    'django_geoip.middleware.LocationMiddleware',
 )
 
 ROOT_URLCONF = 'socialschools_site.urls'
@@ -191,6 +192,7 @@ INSTALLED_APPS = (
     'cms.plugins.link',
     'cms.plugins.googlemap',
     'socialschools_site',
+    'django_geoip',
 
     'south',
 )
