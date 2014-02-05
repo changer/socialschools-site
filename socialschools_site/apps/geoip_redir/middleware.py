@@ -22,7 +22,7 @@ class LocationMiddleWare(object):
         ip = request.META['REMOTE_ADDR']
         country = get_country_request(ip)             
         if country == "India":
-            return HttpResponseRedirect("http://socialschools-www-testing.herokuapp.com/en/")
+            return HttpResponseRedirect("/en/")
         if country == "Netherlands":
-            return HttpResponseRedirect("http://socialschools-www-testing.herokuapp.com/nl/")
+            return HttpResponseRedirect("/nl/")
         return None
