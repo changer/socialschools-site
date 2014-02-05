@@ -5,7 +5,8 @@ from django.conf import settings
 
 def get_country_request(ip):
     import pygeoip
-    gi = pygeoip.GeoIP('GeoIP.dat.dat')
+    file_path = settings.PROJECT_ROOT + '/data/GeoIP.dat.dat'
+    gi = pygeoip.GeoIP(file_path)
     country = gi.country_name_by_addr(ip)
     print 'I am here'    
     if country:
