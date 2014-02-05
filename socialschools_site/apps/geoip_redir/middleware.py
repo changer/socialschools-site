@@ -4,7 +4,7 @@ from django.utils.functional import SimpleLazyObject
 
 def get_country_request(ip):
     import pygeoip
-    gi = pygeoip.GeoIP('data/GeoIp.dat.dat')
+    gi = pygeoip.GeoIP('GeoIp.dat.dat')
     country = gi.country_name_by_addr(ip)
     print 'I am here'    
     if country:
