@@ -22,7 +22,7 @@ class LocationMiddleWare(object):
         ip = request.META['REMOTE_ADDR']
         country = get_country_request(ip)             
         if country == "India":
-            return HttpResponseRedirect("/en/")
+            print "India"        
         if country == "Netherlands":
-            return HttpResponseRedirect("/nl/")
+            print "Netherlands"
         return None
