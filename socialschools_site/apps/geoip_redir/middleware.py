@@ -23,8 +23,8 @@ class LocationMiddleWare(object):
         print request.path
         country = get_country_request(ip)             
         if country == "India":
-            print "India"        
-        if country == "Netherlands":
-            print "Netherlands"
+            return HttpResponsePermanentRedirect('/en/')        
+        if request.path == "Netherlands":
+            return HttpResponsePermanentRedirect('/nl/')
         return None
 
