@@ -20,7 +20,7 @@ class LocationMiddleWare(object):
             request.META['REMOTE_ADDR'] = request.META['HTTP_X_FORWARDED_FOR']
         ip = request.META['REMOTE_ADDR']
         country = get_country_request(ip)             
-        if country == "India"
+        if country == "India":
             return HttpResponseRedirect("http://socialschools-www-testing.herokuapp.com/en/")
         if country == "Netherlands":
             return HttpResponseRedirect("http://socialschools-www-testing.herokuapp.com/nl/")
