@@ -2,6 +2,7 @@
 
 from django.utils.functional import SimpleLazyObject
 from django.conf import settings
+from django.http import HttpResponseRedirect
 
 def get_country_request(ip):
     import pygeoip
