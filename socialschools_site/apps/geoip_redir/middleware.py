@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 
 from django.utils.functional import SimpleLazyObject
+from django.conf import settings
 
 def get_country_request(ip):
     import pygeoip
-    gi = pygeoip.GeoIP('GeoIp.dat.dat')
+    gi = pygeoip.GeoIP('GeoIP.dat.dat')
     country = gi.country_name_by_addr(ip)
     print 'I am here'    
     if country:
