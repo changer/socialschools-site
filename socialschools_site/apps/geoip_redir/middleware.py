@@ -23,8 +23,8 @@ class LocationMiddleWare(object):
         print request.path
         country = get_country_request(ip)             
         if country == "India":
-            return HttpResponsePermanentRedirect("http://socialschools-www-testing.herokuapp.com/en/")        
+            print "India"        
         if country == "Netherlands":
-            return HttpResponsePermanentRedirect("http://socialschools-www-testing.herokuapp.com/nl/")
+            print "Netherlands"
         return None
 
