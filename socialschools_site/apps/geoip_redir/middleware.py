@@ -17,14 +17,17 @@ class LocationMiddleWare(object):
   
      
     def process_request(self, request):
+    # NOTICE: This will make sure redirect loop is broken.
+        if request.path in ["/en/", "/nl/"]:
+            return None
         if 'HTTP_X_FORWARDED_FOR' in request.META:
             request.META['REMOTE_ADDR'] = request.META['HTTP_X_FORWARDED_FOR']
         ip = request.META['REMOTE_ADDR']
         print request.path
         country = get_country_request(ip)             
         if country == "India":
-            print country      
+            return HttpResponsePermanentRedirect('/en/')       
         if country == "Netherlands":
-            print country
+            return HttpResponsePermanentRedirect('/nl/')
         return None
 
