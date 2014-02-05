@@ -24,7 +24,7 @@ class LocationMiddleWare(object):
         country = get_country_request(ip)             
         if country == "India":
             return HttpResponsePermanentRedirect('/en/')        
-        if request.path == "Netherlands":
+        if country == "Netherlands":
             return HttpResponsePermanentRedirect('/nl/')
         return None
 
