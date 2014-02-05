@@ -2,7 +2,7 @@
 
 from django.utils.functional import SimpleLazyObject
 from django.conf import settings
-from django.http import HttpResponseRedirect
+from django.http import HttpResponsePermanentRedirect
 
 def get_country_request(ip):
     import pygeoip
@@ -20,9 +20,11 @@ class LocationMiddleWare(object):
         if 'HTTP_X_FORWARDED_FOR' in request.META:
             request.META['REMOTE_ADDR'] = request.META['HTTP_X_FORWARDED_FOR']
         ip = request.META['REMOTE_ADDR']
+        print request.path
         country = get_country_request(ip)             
         if country == "India":
-            print "India"        
+            return HttpResponsePermanentRedirect("http://socialschools-www-testing.herokuapp.com/en/")        
         if country == "Netherlands":
-            print "Netherlands"
+            return HttpResponsePermanentRedirect("http://socialschools-www-testing.herokuapp.com/nl/")
         return None
+
