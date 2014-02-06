@@ -2,7 +2,7 @@
 import pygeoip
 from django.utils.functional import SimpleLazyObject
 from django.conf import settings
-from django.http import HttpResponsePermanentRedirect
+from django.http import HttpResponseRedirect
 
 def get_country_request(ip):
     
@@ -22,8 +22,8 @@ class LocationMiddleWare(object):
         ip = request.META['REMOTE_ADDR']
         country = get_country_request(ip)             
         if country == "India":
-            return HttpResponsePermanentRedirect('/en/')       
+            return HttpResponseRedirect('/en/')       
         if country == "Netherlands":
-            return HttpResponsePermanentRedirect('/nl/')
+            return HttpResponseRedirect('/nl/')
         return None
 
