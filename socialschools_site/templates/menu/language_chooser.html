@@ -1,10 +1,12 @@
 {% load i18n menu_tags %}
 {% get_current_language as LANGUAGE_CODE %}
 
-<div class="btn-group pull-right btn-group-language">
+{% if lang == "nl" %}
+<div class="btn-group pull-right btn-group-language">   
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
         <img src ="{{STATIC_URL}}img/{{LANGUAGE_CODE}}.png"> <span class="caret"></span>
     </button>
+    
     <ul class="dropdown-menu" role="menu">
         {% for language in languages %}
             <li>
@@ -13,3 +15,4 @@
         {% endfor %}
     </ul>
 </div>
+{% endif %}
