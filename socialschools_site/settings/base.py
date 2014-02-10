@@ -113,7 +113,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
-    'socialschools_site.apps.geoip_redir.middleware.LocationMiddleWare',
+    #'socialschools_site.apps.geoip_redir.middleware.LocationMiddleWare',
 )
 
 ROOT_URLCONF = 'socialschools_site.urls'
@@ -163,6 +163,8 @@ INTERNAL_IPS = ('127.0.0.1',)
 LANGUAGES = [
     ('en', gettext('English')),
     ('nl', gettext('Dutch')),
+    ('cl', gettext('Chile')),
+    ('in', gettext('India')),
 ]
 
 INSTALLED_APPS = (
