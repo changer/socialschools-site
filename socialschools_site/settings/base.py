@@ -113,6 +113,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
+    #'socialschools_site.apps.geoip_redir.middleware.LocationMiddleWare',
 )
 
 ROOT_URLCONF = 'socialschools_site.urls'
@@ -162,6 +163,8 @@ INTERNAL_IPS = ('127.0.0.1',)
 LANGUAGES = [
     ('en', gettext('English')),
     ('nl', gettext('Dutch')),
+    ('cl', gettext('Chile')),
+    ('in', gettext('India')),
 ]
 
 INSTALLED_APPS = (
@@ -191,7 +194,8 @@ INSTALLED_APPS = (
     'cms.plugins.link',
     'cms.plugins.googlemap',
     'socialschools_site',
-
+    'pygeoip',
+    'socialschools_site.apps.geoip_redir',
     'south',
 )
 
@@ -229,3 +233,12 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ['SENDGRID_USERNAME']
 EMAIL_HOST_PASSWORD = os.environ['SENDGRID_PASSWORD']
+
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+
+AWS_STORAGE_BUCKET_NAME = 'assets.socialschools-www.nl'
+AWS_S3_SECURE_URLS = False
+AWS_PRELOAD_METADATA = True
+AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
+AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
+
