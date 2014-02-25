@@ -1,0 +1,62 @@
+{% load i18n %}
+
+<h1 class="feature-header"><span class="green-header">{% trans "Our" %}</span><span class="blue-header"> {% trans "prices" %}</span></h2>
+<hr>
+
+<div class="row price-container-item">
+      <h2>{% trans "The core" %}</h2>
+      <div class="col-xs-6 feature-list-container">
+        <h3 class="blue-header">{% trans "Social Schools platform including" %}</h3>
+        <ul class="feature-list">
+          <li>{% trans "Full access and unlimited usage of all functions in Social Schools." %}</li>
+          <li>{% trans "Unlimited accounts for parents and teachers at no extra cost." %}</li>
+          <li>{% trans "Hosting of your Social Schools instance." %}</li>
+          <li>{% trans "Unlimited data storage (based on fair use policy)." %}</li>
+          <li>{% trans "Professional implementation with personal support at no extra cost." %}</li>
+        </ul>
+      </div>
+
+      <div class="col-xs-6 price-circle-container">
+        <div class="circle-container">
+          <div class="price-circle">
+            <h1 class="price">€2,69</h1>
+          </div>
+        </div>
+        <div class="price-text">
+          <h3>{% trans "per student per year" %}</h3>
+          <p>{% trans "With a minimum of" %} €500,- {% trans "per year" %}</p>
+        </div>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row pricing-container">
+      <h2 class="price-header">Add-ons</h2>
+      <div class="col-xs-4 price-box-cms">
+        <img src="{{STATIC_URL}}img/cms.png" alt="">
+        <h3><span class="orange-header">CMS</span> module</h3>
+        <p>{% trans "The Social Schools website module enables you to present your school professionally on the web. It exists of an easy to use CMS-module which shows news from the Social Schools environment out of the box." %}</p>
+        <h3 class="price-euro">€250,-</h3>
+        <p>{% trans "per school per year" %}</p>
+      </div>
+
+      <div class="col-xs-4 price-box-newsfeed">
+        <img src="{{STATIC_URL}}img/newsfeed.png" alt="">
+        <h3><span class="blue-header">Newsfeed</span> plugin</h3>
+        <p>{% trans "If you already have a beautiful website, replacing it might feel like a waste. Our great looking Newsfeed Plugin enables you to show the published posts on your existing website." %}</p>
+        <h3 class="price-euro">€100,-</h3>
+        <p>{% trans "per school per year" %}</p>
+      </div>
+
+      <div class="col-xs-4 price-box-workshop">
+        <img src="{{STATIC_URL}}img/workshop.png" alt="">
+        <h3><span class="green-header">{% trans "Workshops" %}</span></h3>
+        <p>{% trans "We support your school to learn all about using Social Schools in our interactive workshops." %}</p>
+        <h3 class="price-euro">€500,-</h3>
+        <p>{% trans "per session" %}</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <h1 class="form-price-header"><span class="blue-header">{% trans "Curious" %}</span> {% trans "about the costs for your school" %}?</h1>
