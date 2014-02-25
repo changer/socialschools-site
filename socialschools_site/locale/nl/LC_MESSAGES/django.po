@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-03 15:39+0100\n"
+"POT-Creation-Date: 2014-02-25 13:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -197,7 +197,7 @@ msgid "ReCAPTCHA theme"
 msgstr ""
 
 #: apps/cmsplugin_demo/settings.py:7 apps/cmsplugin_price/settings.py:7
-#: apps/cmsplugin_question/settings.py:7 settings/base.py:139
+#: apps/cmsplugin_question/settings.py:7 settings/base.py:140
 msgid "default"
 msgstr ""
 
@@ -379,41 +379,49 @@ msgstr ""
 msgid "School detail"
 msgstr "School details"
 
-#: settings/base.py:140
+#: settings/base.py:141
 msgid "common"
 msgstr ""
 
-#: settings/base.py:141
+#: settings/base.py:142
 msgid "function"
 msgstr "functies"
 
-#: settings/base.py:142
+#: settings/base.py:143
 msgid "contact"
 msgstr "contact"
 
-#: settings/base.py:143
+#: settings/base.py:144
 msgid "rate"
 msgstr "prijzen"
 
-#: settings/base.py:144
+#: settings/base.py:145
 msgid "reference"
 msgstr "referenties"
 
-#: settings/base.py:145 templates/videos.html:19
+#: settings/base.py:146 templates/videos.html:19
 msgid "videos"
 msgstr "videos"
 
-#: settings/base.py:146
+#: settings/base.py:147
 msgid "vision"
 msgstr "visie"
 
-#: settings/base.py:163
+#: settings/base.py:164
 msgid "English"
 msgstr "Engels"
 
-#: settings/base.py:164
+#: settings/base.py:165
 msgid "Dutch"
 msgstr "Nederlands"
+
+#: settings/base.py:166
+msgid "Chile"
+msgstr ""
+
+#: settings/base.py:167
+msgid "India"
+msgstr ""
 
 #: templates/base.html:14
 msgid "for education"
@@ -423,7 +431,8 @@ msgstr "voor het onderwijs"
 msgid "Try now"
 msgstr "Probeer nu"
 
-#: templates/base.html:27 templates/price.html:7 templates/vision.html:21
+#: templates/base.html:27 templates/vision.html:21
+#: templates/snippets/pricing-nl.html:3
 msgid "Our"
 msgstr "Onze"
 
@@ -602,15 +611,15 @@ msgstr "Stel ons een vraag via het formulier rechts of bel ons op"
 msgid "Of course you can also send us an email"
 msgstr "Je mag natuurlijk ook een mailtje sturen"
 
-#: templates/default.html:45
+#: templates/default.html:47
 msgid "Powered by"
 msgstr "Powered by"
 
-#: templates/default.html:55
+#: templates/default.html:57
 msgid "OTHER"
 msgstr "OVERIG"
 
-#: templates/default.html:72
+#: templates/default.html:74
 msgid "FOLLOW US ON"
 msgstr "VOLG ONS OP"
 
@@ -646,111 +655,14 @@ msgstr "Probeer het zelf"
 msgid "or request a"
 msgstr "of doe een aanvraag voor een"
 
-#: templates/price.html:7
-msgid "prices"
-msgstr "prijzen"
-
-#: templates/price.html:11
-msgid "The core"
-msgstr "De basis"
+#: templates/price.html:12
+msgid "Contact us"
+msgstr "Neem contact met ons op"
 
 #: templates/price.html:13
-msgid "Social Schools platform including"
-msgstr "Het Social Schools platform inclusief:"
-
-#: templates/price.html:15
-msgid "Full access and unlimited usage of all functions in Social Schools."
-msgstr ""
-"Volledige toegang en onbeperkt gebruik van alle functionaliteiten in Social "
-"Schools."
-
-#: templates/price.html:16
-msgid "Unlimited accounts for parents and teachers at no extra cost."
-msgstr ""
-"Onbeperkte gebruikersaccounts voor ouders en leerkrachten zonder extra "
-"kosten."
-
-#: templates/price.html:17
-msgid "Hosting of your Social Schools instance."
-msgstr "Hosting van de Social Schools omgeving voor jouw school."
-
-#: templates/price.html:18
-msgid "Unlimited data storage (based on fair use policy)."
-msgstr "Ongelimiteerde data opslag (gebaseerd op redelijk gebruik)."
-
-#: templates/price.html:19
-msgid "Professional implementation with personal support at no extra cost."
-msgstr ""
-"Professionele implementatie met persoonlijk contact zonder extra kosten."
-
-#: templates/price.html:30
-msgid "per student per year"
-msgstr "per leerling per jaar"
-
-#: templates/price.html:31
-msgid "With a minimum of"
-msgstr "met een minimum van"
-
-#: templates/price.html:31
-msgid "per year"
-msgstr "per jaar"
-
-#: templates/price.html:42
 msgid ""
-"The Social Schools website module enables you to present your school "
-"professionally on the web. It exists of an easy to use CMS-module which "
-"shows news from the Social Schools environment out of the box."
-msgstr ""
-"De Social Schools website module maakt het mogelijk online een professionele "
-"indruk te maken. De website module heeft een gebruiksvriendelijk Content "
-"Management Systeem. Het publieke nieuws vanuit Social Schools wordt "
-"standaard op de website weergegeven."
-
-#: templates/price.html:44 templates/price.html.py:52
-msgid "per school per year"
-msgstr "per school per jaar"
-
-#: templates/price.html:50
-msgid ""
-"If you already have a beautiful website, replacing it might feel like a "
-"waste. Our great looking Newsfeed Plugin enables you to show the published "
-"posts on your existing website."
-msgstr ""
-"Als je al een mooie website hebt ga je deze niet zomaar vervangen. Daarom "
-"biedt Social Schools een Nieuws-plugin die het mogelijk maakt om "
-"gepubliceerd nieuws te laten zien op je huidige website. "
-
-#: templates/price.html:57
-msgid "Workshops"
-msgstr "Workshops"
-
-#: templates/price.html:58
-msgid ""
-"We support your school to learn all about using Social Schools in our "
-"interactive workshops."
-msgstr ""
-"We kunnen jullie als school op weg helpen met Social Schools door een "
-"interactieve workshop te geven."
-
-#: templates/price.html:60
-msgid "per session"
-msgstr "per sessie"
-
-#: templates/price.html:65
-msgid "Curious"
-msgstr "Benieuwd"
-
-#: templates/price.html:65
-msgid "about the costs for your school"
-msgstr "naar de voordelen voor jouw school"
-
-#: templates/price.html:68
-msgid "Request an offer"
-msgstr "Vraag een offerte aan"
-
-#: templates/price.html:69
-msgid "Fill out the form and recieve a non-commital offer"
-msgstr "Vul het formulier in en ontvang een vrijblijvend aanbod. "
+"Fill out the form and receive a non-commital offer, or send us an email at"
+msgstr "Vul het formulier in en ontvang een vrijblijvend aanbod of stuur een email naar "
 
 #: templates/reference.html:9
 msgid "Testimonials"
@@ -1017,134 +929,104 @@ msgstr ""
 msgid "Site directory | Changer V"
 msgstr ""
 
-#~ msgid "Remarks*"
-#~ msgstr "Opmerkingen"
+#: templates/snippets/pricing-en.html:7 templates/snippets/pricing-nl.html:62
+msgid "Curious"
+msgstr "Benieuwd"
 
-#, fuzzy
-#~ msgid "Number of Students"
-#~ msgstr "Aantal leerlingen"
+#: templates/snippets/pricing-en.html:7 templates/snippets/pricing-nl.html:62
+msgid "about the costs for your school"
+msgstr "naar de voordelen voor jouw school"
 
-#~ msgid "Create and Manage"
-#~ msgstr "Creëer en beheer"
+#: templates/snippets/pricing-en.html:8
+msgid "Contact us for more information about our prices "
+msgstr ""
 
-#~ msgid "groups"
-#~ msgstr "groepen"
+#: templates/snippets/pricing-nl.html:3
+msgid "prices"
+msgstr "prijzen"
 
-#~ msgid ""
-#~ "Social Schools is designed to facilitate your school in the best way "
-#~ "possible. You can easily create and maintain school groups. Each group "
-#~ "consists of the teacher, the parents and the children. Of course the "
-#~ "school decides at what age the children are granted access."
-#~ msgstr ""
-#~ "Social Schools faciliteert de communicatie op de meest efficiënte manier. "
-#~ "Je kan heel gemakkelijk online groepen maken en onderhouden. In elke "
-#~ "groep zitten leerkrachten, ouders en de leerlingen van deze groep. "
-#~ "Natuurlijk bepaalt de school vanaf welke leeftijd de leerlingen toegang "
-#~ "krijgen."
+#: templates/snippets/pricing-nl.html:7
+msgid "The core"
+msgstr "De basis"
 
-#~ msgid "Share"
-#~ msgstr "Deel"
+#: templates/snippets/pricing-nl.html:9
+msgid "Social Schools platform including"
+msgstr "Het Social Schools platform inclusief:"
 
-#~ msgid "media"
-#~ msgstr "media"
+#: templates/snippets/pricing-nl.html:11
+msgid "Full access and unlimited usage of all functions in Social Schools."
+msgstr ""
+"Volledige toegang en onbeperkt gebruik van alle functionaliteiten in Social "
+"Schools."
 
-#~ msgid ""
-#~ "With Social Schools sharing media is easy. Create an event, post photos "
-#~ "or add youtube videos in the blink of an eye. You can also post media "
-#~ "through mobile devices."
-#~ msgstr ""
-#~ "Met Social Schools kun je heel gemakkelijk media delen. Plan een "
-#~ "evenement, plaats een foto of voeg een youtube-filmpje toe. Je kunt het "
-#~ "ook posten met je smartphone."
+#: templates/snippets/pricing-nl.html:12
+msgid "Unlimited accounts for parents and teachers at no extra cost."
+msgstr ""
+"Onbeperkte gebruikersaccounts voor ouders en leerkrachten zonder extra "
+"kosten."
 
-#~ msgid "Mobile"
-#~ msgstr "Mobiele"
+#: templates/snippets/pricing-nl.html:13
+msgid "Hosting of your Social Schools instance."
+msgstr "Hosting van de Social Schools omgeving voor jouw school."
 
-#~ msgid "apps"
-#~ msgstr "apps"
+#: templates/snippets/pricing-nl.html:14
+msgid "Unlimited data storage (based on fair use policy)."
+msgstr "Ongelimiteerde data opslag (gebaseerd op redelijk gebruik)."
 
-#~ msgid ""
-#~ "The mobile apps allow everybody to stay informed, always and everywhere. "
-#~ "From within the classroom or for example when on school camp, the teacher "
-#~ "is still able to take photos and keep the parents posted on the "
-#~ "experiences of their children. The Social Schools mobile apps come at no "
-#~ "extra cost."
-#~ msgstr ""
-#~ "De mobiele apps zorgen ervoor dat iedereen overal geïnformeerd wordt en "
-#~ "blijft. Vanuit de klas of als de leerlingen op kamp zijn kan de "
-#~ "leerkracht foto’s maken en de ouders op de hoogte houden van de "
-#~ "belevenissen van hun kinderen. De Social Schools app is onderdeel van "
-#~ "Social Schools, dus geen extra kosten!"
+#: templates/snippets/pricing-nl.html:15
+msgid "Professional implementation with personal support at no extra cost."
+msgstr ""
+"Professionele implementatie met persoonlijk contact zonder extra kosten."
 
-#~ msgid "Publish"
-#~ msgstr "Publiceer"
+#: templates/snippets/pricing-nl.html:26
+msgid "per student per year"
+msgstr "per leerling per jaar"
 
-#~ msgid "posts"
-#~ msgstr "berichten"
+#: templates/snippets/pricing-nl.html:27
+msgid "With a minimum of"
+msgstr "met een minimum van"
 
-#~ msgid ""
-#~ "Any post in any group can be made public. It then appears on the public "
-#~ "website. This allows your school to present itself with great looking, "
-#~ "actual and genuine content. Any message can be made public, and as a "
-#~ "school you appoint the rights to publish posts to users you trust. "
-#~ "Publishing a post takes you just 1 click, anyone can do it."
-#~ msgstr ""
-#~ "Elk bericht uit een groep kan publiek gemaakt worden door het op de "
-#~ "publieke website te plaatsen. Het publiceren maakt het voor jouw school "
-#~ "mogelijk om te delen wat er in de klassen en school gebeurt. Zo kunnen "
-#~ "ouders die zich oriënteren op een nieuwe school zien hoe leuk het is op "
-#~ "school! Geef de publiceerrechten aan iemand die je vertrouwd. Publiceren "
-#~ "van een bericht doe je met één klik, iedereen kan het!"
+#: templates/snippets/pricing-nl.html:27
+msgid "per year"
+msgstr "per jaar"
 
-#~ msgid "Personalize"
-#~ msgstr "Personaliseer"
+#: templates/snippets/pricing-nl.html:38
+msgid ""
+"The Social Schools website module enables you to present your school "
+"professionally on the web. It exists of an easy to use CMS-module which "
+"shows news from the Social Schools environment out of the box."
+msgstr ""
+"De Social Schools website module maakt het mogelijk online een professionele "
+"indruk te maken. De website module heeft een gebruiksvriendelijk Content "
+"Management Systeem. Het publieke nieuws vanuit Social Schools wordt "
+"standaard op de website weergegeven."
 
-#~ msgid "your Social Schools"
-#~ msgstr "jouw Social Schools"
+#: templates/snippets/pricing-nl.html:40 templates/snippets/pricing-nl.html:48
+msgid "per school per year"
+msgstr "per school per jaar"
 
-#~ msgid ""
-#~ "The logged in environment is customizable to suit your school’s style. It "
-#~ "is easy and takes your administrator ample minutes to setup."
-#~ msgstr ""
-#~ "De Social Schools-omgeving waar je inlogt kun je personaliseren zodat "
-#~ "deze bij de huisstijl van je school aansluit."
+#: templates/snippets/pricing-nl.html:46
+msgid ""
+"If you already have a beautiful website, replacing it might feel like a "
+"waste. Our great looking Newsfeed Plugin enables you to show the published "
+"posts on your existing website."
+msgstr ""
+"Als je al een mooie website hebt ga je deze niet zomaar vervangen. Daarom "
+"biedt Social Schools een Nieuws-plugin die het mogelijk maakt om "
+"gepubliceerd nieuws te laten zien op je huidige website. "
 
-#~ msgid "Automated"
-#~ msgstr "Geautomatiseerde"
+#: templates/snippets/pricing-nl.html:53
+msgid "Workshops"
+msgstr "Workshops"
 
-#~ msgid "newsletter"
-#~ msgstr "nieuwsbrief"
+#: templates/snippets/pricing-nl.html:54
+msgid ""
+"We support your school to learn all about using Social Schools in our "
+"interactive workshops."
+msgstr ""
+"We kunnen jullie als school op weg helpen met Social Schools door een "
+"interactieve workshop te geven."
 
-#~ msgid ""
-#~ "Sending out newsletters takes a lot of time. With Social Schools this "
-#~ "task is done professionally, great looking and more importantly: Fully "
-#~ "automated. Every week a newsletter is sent out, which is customized per "
-#~ "receiver. The reader will only be updated on news of the groups he/she is "
-#~ "in. The school news is included too."
-#~ msgstr ""
-#~ "Nieuwsbrieven verzenden kost veel tijd. Met Social Schools pak je deze "
-#~ "taak professioneel aan, de nieuwsbrief ziet er goed uit en heel "
-#~ "belangrijk: het gaat automatisch. Elke week wordt er een nieuwsbrief "
-#~ "verstuurd die is gepersonaliseerd per gebruiker. De lezer krijgt een "
-#~ "update over het nieuws en evenmenten van de groepen waar zij/hij lid van "
-#~ "is. Het schoolnieuws komt ook in de nieuwsbrief."
-
-#~ msgid "Import users"
-#~ msgstr "Importeer"
-
-#~ msgid "automatically"
-#~ msgstr "gebruikers"
-
-#~ msgid ""
-#~ "We offer the possibility to use you school’s administration system to "
-#~ "create the user base in Social Schools. We offer a set format so that you "
-#~ "can import everybody. A smart wizard helps you to assign all users to "
-#~ "groups. This makes setting up Social Schools two times more easy."
-#~ msgstr ""
-#~ "Social Schools biedt de mogelijkheid de gegevens uit een "
-#~ "LeerlingVolgSysteem te importeren en zo een basis aan te brengen voor je "
-#~ "groepen-structuur. Als de gegevens geimporteerd zijn is het heel "
-#~ "gemakkelijk gebruikers in de juiste groepen te zetten."
-
-#~ msgid "Terms and conditions"
-#~ msgstr "Gebruiksvoorwaarden"
+#: templates/snippets/pricing-nl.html:56
+msgid "per session"
+msgstr "per sessie"
