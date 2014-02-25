@@ -151,6 +151,8 @@ CMS_PLUGIN_PROCESSORS = (
     'socialschools_site.cms_plugin_processors.wrap_payoff',
 )
 
+CMS_SEO_FIELDS = True
+
 WYM_CLASSES = ",\n".join([
     "{'name': 'btn', 'title': 'Button', 'expr': 'a'}",
     "{'name': 'btn-primary', 'title': 'Primary button', 'expr': 'a'}",
