@@ -6,6 +6,9 @@
     <h2 class="about-header">{% trans "Support" %}</h2>
     <ul class="nav nav-tabs" id="support">
       <li class="active">
+        <a href="#faq">{% trans "FAQ" %}</a>
+      </li>
+      <li>
         <a href="#videos">{% trans "Videos" %}</a>
       </li>
       <li>
@@ -16,15 +19,22 @@
       <div class="tab-pane active" id="videos">
         <div class="row video-container">
           <div class="col-xs-6">
+            <h1 class="feature-header"><span class="green-header">{% trans "Frequently asked" %}</span><span class="blue-header"> {% trans "questions" %}</span></h1>
+          </div>
+          {% include "includes/teammember_marieke.html" %}
+        </div>
+        <hr>
+        <div class="panel-group" id="accordion">
+          {% placeholder faq %}
+        </div>
+        <hr>
+      </div>
+      <div class="tab-pane" id="videos">
+        <div class="row video-container">
+          <div class="col-xs-6">
             <h1 class="feature-header"><span class="green-header">{% trans "Tutorial" %}</span><span class="blue-header"> {% trans "videos" %}</span></h1>
           </div>
-          <div class="col-xs-6">
-            <div class="dialog-box-container">
-              <p>{% trans "We hope you will find what you need. If you don't, don't hesitate to send us an email:" %} <span class='green-header'>info@socialschools.nl </span>{% trans "or to call us at" %}<span class='green-header'> +31-88-100-1300</span></p>
-              <span class="blue-header">Marieke van der Zwan - Product Manager</span>
-            </div>
-            <img src="{{STATIC_URL}}img/thumbnail-marieke.png" class="dialog-image" alt="">
-          </div>
+          {% include "includes/teammember_marieke.html" %}
         </div>
         <hr>
         <div class="row">
@@ -32,27 +42,17 @@
             <img src="{{STATIC_URL}}img/support-video-placeholder.png" alt="">
             <h1 class="support-header">{% trans "Videos" %} <span class="blue-header">{% trans "will be available soon" %}</span></h1>
           </div>
-
         </div>
         <hr>
       </div>
       <div class="tab-pane" id="download">
-
         <div class="row download-container">
           <div class="col-xs-6">
             <h1 class="feature-header"><span class="green-header">Down</span><span class="blue-header">loads</span></h1>
           </div>
-          <div class="col-xs-6">
-            <div class="dialog-box-container">
-              <p>{% trans "We hope you will find what you need. If you don't, don't hesitate to send us an email:" %} <span class='green-header'>info@socialschools.nl </span>{% trans "or to call us at" %}<span class='green-header'> +31-088-100-1300</span></p>
-              <span class="blue-header">Marieke van der Zwan - Product Manager</span>
-            </div>
-            <img src="{{STATIC_URL}}img/thumbnail-marieke.png" class="dialog-image" alt="">
-
-          </div>
+          {% include "includes/teammember_marieke.html" %}
         </div>
         <hr>
-
         <h2>{% trans "Documents" %}</h2>
         <div class="download-item">
           <h4>{% trans 'CMS manual' %}</h4>

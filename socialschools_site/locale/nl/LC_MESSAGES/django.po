@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-25 13:37+0100\n"
+"POT-Creation-Date: 2014-03-25 17:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -291,6 +291,26 @@ msgstr ""
 msgid "Contact Form"
 msgstr "Contact formulier"
 
+#: apps/cmsplugin_faq/cms_plugins.py:10
+msgid "FAQ Plugin"
+msgstr ""
+
+#: apps/cmsplugin_faq/models.py:7 apps/cmsplugin_question/forms.py:10
+msgid "Question"
+msgstr "Vraag"
+
+#: apps/cmsplugin_faq/models.py:8
+msgid "Collapselink"
+msgstr ""
+
+#: apps/cmsplugin_faq/models.py:9
+msgid "Answer"
+msgstr ""
+
+#: apps/cmsplugin_faq/models.py:10
+msgid "Image"
+msgstr ""
+
 #: apps/cmsplugin_feature/cms_plugins.py:10
 msgid "Feature Plugin"
 msgstr ""
@@ -352,10 +372,6 @@ msgid "Schoolname*"
 msgstr "Schoolnaam*"
 
 #: apps/cmsplugin_question/forms.py:10
-msgid "Question"
-msgstr "Vraag"
-
-#: apps/cmsplugin_question/forms.py:10
 msgid "Question*"
 msgstr "Vraag*"
 
@@ -399,7 +415,7 @@ msgstr "prijzen"
 msgid "reference"
 msgstr "referenties"
 
-#: settings/base.py:146 templates/videos.html:19
+#: settings/base.py:146 templates/videos.html:35
 msgid "videos"
 msgstr "videos"
 
@@ -407,19 +423,19 @@ msgstr "videos"
 msgid "vision"
 msgstr "visie"
 
-#: settings/base.py:164
+#: settings/base.py:166
 msgid "English"
 msgstr "Engels"
 
-#: settings/base.py:165
+#: settings/base.py:167
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: settings/base.py:166
+#: settings/base.py:168
 msgid "Chile"
 msgstr ""
 
-#: settings/base.py:167
+#: settings/base.py:169
 msgid "India"
 msgstr ""
 
@@ -571,8 +587,8 @@ msgstr "Contact"
 msgid "Don't hesitate to send us an email:"
 msgstr "Twijfel niet om ons een e-mail te sturen:"
 
-#: templates/contact.html:14 templates/videos.html:23
-#: templates/videos.html.py:47
+#: templates/contact.html:14 templates/teammember_marieke.html:5
+#: templates/includes/teammember_marieke.html:5
 msgid "or to call us at"
 msgstr "of met ons te bellen op"
 
@@ -611,15 +627,15 @@ msgstr "Stel ons een vraag via het formulier rechts of bel ons op"
 msgid "Of course you can also send us an email"
 msgstr "Je mag natuurlijk ook een mailtje sturen"
 
-#: templates/default.html:47
+#: templates/default.html:49
 msgid "Powered by"
 msgstr "Powered by"
 
-#: templates/default.html:57
+#: templates/default.html:59
 msgid "OTHER"
 msgstr "OVERIG"
 
-#: templates/default.html:74
+#: templates/default.html:76
 msgid "FOLLOW US ON"
 msgstr "VOLG ONS OP"
 
@@ -662,7 +678,9 @@ msgstr "Neem contact met ons op"
 #: templates/price.html:13
 msgid ""
 "Fill out the form and receive a non-commital offer, or send us an email at"
-msgstr "Vul het formulier in en ontvang een vrijblijvend aanbod of stuur een email naar "
+msgstr ""
+"Vul het formulier in en ontvang een vrijblijvend aanbod of stuur een email "
+"naar "
 
 #: templates/reference.html:9
 msgid "Testimonials"
@@ -683,23 +701,8 @@ msgstr "Wil je het"
 msgid "try too"
 msgstr "ook proberen?"
 
-#: templates/videos.html:6
-msgid "Support"
-msgstr "Support"
-
-#: templates/videos.html:9 templates/videos.html.py:33
-msgid "Videos"
-msgstr "Videos"
-
-#: templates/videos.html:12
-msgid "Downloads"
-msgstr "Downloads"
-
-#: templates/videos.html:19
-msgid "Tutorial"
-msgstr "Instructie"
-
-#: templates/videos.html:23 templates/videos.html.py:47
+#: templates/teammember_marieke.html:5
+#: templates/includes/teammember_marieke.html:5
 msgid ""
 "We hope you will find what you need. If you don't, don't hesitate to send us "
 "an email:"
@@ -707,7 +710,35 @@ msgstr ""
 "We hopen dat je hier vindt wat je nodig hebt. Zoniet, twijfel niet om ons te "
 "e-mailen:"
 
-#: templates/videos.html:33
+#: templates/videos.html:6
+msgid "Support"
+msgstr "Support"
+
+#: templates/videos.html:9
+msgid "FAQ"
+msgstr "Veelgestelde vragen"
+
+#: templates/videos.html:12 templates/videos.html.py:43
+msgid "Videos"
+msgstr "Videos"
+
+#: templates/videos.html:15
+msgid "Downloads"
+msgstr "Downloads"
+
+#: templates/videos.html:22
+msgid "Frequently asked"
+msgstr "Veelgestelde"
+
+#: templates/videos.html:22
+msgid "questions"
+msgstr "Vragen"
+
+#: templates/videos.html:35
+msgid "Tutorial"
+msgstr "Instructie"
+
+#: templates/videos.html:43
 msgid "will be available soon"
 msgstr "zijn binnenkort beschikbaar"
 
