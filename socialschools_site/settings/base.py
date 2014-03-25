@@ -189,6 +189,7 @@ INSTALLED_APPS = (
     'socialschools_site.apps.cmsplugin_price',
     'socialschools_site.apps.cmsplugin_feature',
     'socialschools_site.apps.cmsplugin_testimonial',
+    'socialschools_site.apps.cmsplugin_faq',
     'cmsplugin_file',
 
     'cms.plugins.snippet',
