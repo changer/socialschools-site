@@ -5,15 +5,15 @@ from django.utils.translation import ugettext_lazy as _
 
 from models import faq
 
-class faqPlugin(CMSPluginBase):
-	model = faq
-	name = _("FAQ Plugin")
-	render_template = "cmsplugin_faq/faq_item.html"
+class FaqPlugin(CMSPluginBase):
+    model = faq
+    name = _("FAQ Plugin")
+    render_template = "cmsplugin_faq/faq_item.html"
 
-	def render(self, context, instance, placeholder):
-		context.update({
-			'object': instance
-			})
-		return context
+    def render(self, context, instance, placeholder):
+        context.update({
+            'object': instance
+            })
+        return context
 
-plugin_pool.register_plugin(faqPlugin)
+plugin_pool.register_plugin(FaqPlugin)
