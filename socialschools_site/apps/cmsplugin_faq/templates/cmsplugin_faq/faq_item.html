@@ -1,0 +1,23 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h4 class="panel-title blue-header">
+            <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#{{ object.collapselink }}">
+                {{ object.question }}
+            </a>
+        </h4>
+    </div>
+    <div id="{{ object.collapselink }}" class="panel-collapse collapse">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>{{ object.answer }}</p>
+                </div>
+                {% if object.image %}
+                    <div class="col-md-6">
+                        <img class="img-thumbnail" src="{{ object.image.url }}">
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
