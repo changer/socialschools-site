@@ -10,11 +10,7 @@
         <h1 class="feature-header"><span class="green-header">{% trans "Contact" %}</span><span class="blue-header"> {% trans "us" %}</span></h1>
       </div>
       <div class="col-xs-6">
-        <div class="dialog-box-container">
-          <p>{% trans "Don't hesitate to send us an email:" %} <span class='green-header'>info@socialschools.nl</span> {% trans 'or to call us at' %} <span class='green-header'>+31-088-100-1300</span>.</p>
-          <span class="blue-header">Maikel Boos - Account Manager</span>
-        </div>
-        <img src="{{STATIC_URL}}img/thumbnail-maikel.png" class="dialog-image" alt="">
+        {% placeholder teammember_contact %}
       </div>
     </div>
     <hr>
