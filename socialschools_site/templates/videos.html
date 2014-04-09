@@ -80,8 +80,7 @@
     <h1 class="support-header">{% trans "Didn't find" %} <span class="blue-header">{% trans "what you were looking for" %}?</span></h1>
     <div class="row question-container">
         <div class="col-xs-4">
-            <h3>{% trans "Ask us a question" %}</h3>
-            <p>{% trans "Ask us a question using the form on the right or call us at" %} <span class="blue-header">+31-88-100-1300</span> {% trans "Of course you can also send us an email" %}: <a href="mailto:support@socialschools.nl">support@socialschools.nl</a></p>
+            {% placeholder question_form_helptext %}
         </div>
         <div class="col-xs-8">
             {% placeholder question_form %}

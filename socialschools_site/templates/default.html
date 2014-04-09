@@ -60,23 +60,7 @@
         <ul class="list-unstyled">
         </ul>
       </div>
-      <div class="col-xs-3 sitemap-container">
-        <h5 class="footer-header">CONTACT</h5>
-        <address>
-          <strong>Social Schools</strong><br>
-          Maerten Trompstraat 25<br>
-          2628 RC Delft<br>
-        </address>
-        <address>
-          +31 88 100 1300<br>
-          <a href="mailto:#">info@socialschools.nl</a>
-        </address>
-      </div>
-      <div class="col-xs-3 sitemap-container">
-        <h5 class="footer-header">{% trans "FOLLOW US ON" %}</h5>
-        <a href="http://facebook.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-facebook-white.png" class="icon-facebook"alt=""></a>
-        <a href="http://twitter.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-twitter-white.png" class="icon-twitter" alt=""></a>
-      </div>
+      {% show_placeholder "footer_contact" "extra_placeholders" %}
     </div>
   </div>
   {% render_block "js" %}
