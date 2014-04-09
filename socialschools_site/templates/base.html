@@ -1,6 +1,8 @@
 {% extends "default.html" %}
 {% load i18n %}
+{% load cms_tags %}
 {% block "content" %}
+
   <div class="container socialschools-container">
     <!-- Jumbotron container -->
     <div class="container jumbo-container">
@@ -104,8 +106,7 @@
           <div class="col-xs-6">
             <p>{% trans "Our team of passionate experts is working every day to improve Social Schools even further. By doing so we maintain our position of the single best communication platform for primary schools. If you'd like to get to know us a little better, check out our team page." %}</p>
             <h2 class="follow-header"><span class="green-header">{% trans "Follow" %}</span><span class="blue-header"> {% trans "us on" %}</span></h2>
-            <a href="http://facebook.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-facebook.png" class="icon-facebook" alt=""></a>
-            <a href="http://twitter.com/socialschools" target="blank"><img src="{{STATIC_URL}}img/icon-twitter.png" class="icon-twitter" alt=""></a>
+            {% placeholder follow_us %}
           </div>
 
           <div class="col-xs-6">
@@ -173,13 +174,8 @@
     </div>
     <hr>
     <div class="email-container">
-      <div class="row">
-        <div class="col-xs-6 ">
-          <a href="mailto:info@socialschools.nl" class="btn btn-lg btn-email pull-right">{% trans "Send us an Email" %}</a>
-        </div>
-        <div class="col-xs-6">
-          <h3 class="phone-header">{% trans "or call us" %}: <span class="blue-header">088-100-1300</span></h3>
-        </div>
+      <div class="row text-center">
+        {% placeholder call_to_action %}
       </div>
     </div>
   </div>
