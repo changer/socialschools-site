@@ -10,11 +10,7 @@
         <h1 class="feature-header"><span class="green-header">{% trans "Contact" %}</span><span class="blue-header"> {% trans "us" %}</span></h1>
       </div>
       <div class="col-xs-6">
-        <div class="dialog-box-container">
-          <p>{% trans "Don't hesitate to send us an email:" %} <span class='green-header'>info@socialschools.nl</span> {% trans 'or to call us at' %} <span class='green-header'>+31-088-100-1300</span>.</p>
-          <span class="blue-header">Maikel Boos - Account Manager</span>
-        </div>
-        <img src="{{STATIC_URL}}img/thumbnail-maikel.png" class="dialog-image" alt="">
+        {% placeholder teammember_contact %}
       </div>
     </div>
     <hr>
@@ -25,15 +21,11 @@
         {% placeholder maps %}
       </div>
       <div class="col-xs-4">
-        <p>{% trans "You are always welcome for a cup of coffee in our old schoolbuilding in Delft." %}</p>
+        {% placeholder address_introduction %}
         <div class="address-container">
           <address>
             <span class="glyphicon glyphicon-map-marker socialschools-map-marker"></span>
-            Maerten Trompstraat 25<br>
-            2628 RC Delft <br>
-            <br>
-            +31-88-100-1300 <br>
-            <a href="mailto:info@socialschools.nl">info@socialschools.nl</a>
+            {% placeholder address %}
           </address>
         </div>
       </div>
@@ -55,8 +47,7 @@
     <div class="row question-container">
       <h2 class="question-header">{% trans "Questions?" %}</h2>
       <div class="col-xs-4">
-        <h4>{% trans "Ask us a question" %}</h4>
-        <p>{% trans "Ask us a question using the form on the right or call us at" %} <span class="blue-header">+31-88-100-1300</span> {% trans "Of course you can also send us an email" %}: <a href="mailto:support@socialschools.nl">support@socialschools.nl</a></p>
+        {% placeholder question_form_helptext %}
       </div>
       <div class="col-xs-8">
         {% placeholder question_form %}
