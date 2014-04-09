@@ -841,6 +841,7 @@ th.visible-print,td.visible-print{display:none !important;}
 .top-container{margin-top:30px;}
 .features-intro-container{margin-bottom:30px;}
 .team-container{margin-top:45px;margin-bottom:45px;}
+.team-row{margin-bottom:40px;}
 .demo-container{text-align:center;}.demo-container h2{font-size:36px;}
 .demo-container .btn-email{margin-top:30px;margin-bottom:30px;}
 .jumbo-container{margin-left:-40px;margin-right:-40px;padding-left:0px;padding-right:0px;}
