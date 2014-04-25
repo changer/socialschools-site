@@ -2,17 +2,14 @@
 {% get_current_language as LANGUAGE_CODE %}
 
 {% if lang == "nl" %}
-<div class="btn-group pull-right btn-group-language">   
+<div class="btn-group pull-right btn-group-language open">   
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-        <img src ="{{STATIC_URL}}img/{{LANGUAGE_CODE}}.png"> <span class="caret"></span>
-    </button>
-    
-    <ul class="dropdown-menu" role="menu">
-        {% for language in languages %}
-            <li>
-                <a href="{% page_language_url language.0 %}" lang="{{ language.0 }}"><img src ="{{STATIC_URL}}img/{{language.0}}.png"> {{ language.1 }}</a>
-            </li>
-        {% endfor %}
+        <img src="/static/img/nl.png"> <span class="caret"></span>
+    </button> 
+    <ul class="dropdown-menu" role="menu">        
+        <li>
+            <a href="/en/" lang="en"><img src="/static/img/en.png"> Engels</a>
+        </li>              
     </ul>
 </div>
 {% endif %}
