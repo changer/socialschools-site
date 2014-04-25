@@ -15,7 +15,7 @@ class LocationMiddleWare(object):
 
     def process_request(self, request):
     # NOTICE: This will make sure redirect loop is broken.
-        if request.path in ["/en/", "/nl/", "/in/"]:
+        if request.path[:4] in ["/en/", "/nl/", "/in/"]:
             return None
         if 'HTTP_X_FORWARDED_FOR' in request.META:
             request.META['REMOTE_ADDR'] = request.META['HTTP_X_FORWARDED_FOR']
