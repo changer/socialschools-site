@@ -2,14 +2,14 @@
 {% get_current_language as LANGUAGE_CODE %}
 
 {% if lang == "nl" %}
-<div class="btn-group pull-right btn-group-language open">   
+<div class="btn-group pull-right btn-group-language">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
         <img src="/static/img/nl.png"> <span class="caret"></span>
-    </button> 
-    <ul class="dropdown-menu" role="menu">        
+    </button>
+    <ul class="dropdown-menu" role="menu">
         <li>
             <a href="/en/" lang="en"><img src="/static/img/en.png"> English</a>
-        </li>              
+        </li>
     </ul>
 </div>
 {% endif %}
