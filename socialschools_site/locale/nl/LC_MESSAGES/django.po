@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-09 16:24+0200\n"
+"POT-Creation-Date: 2015-01-02 23:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,7 +211,7 @@ msgstr ""
 #: apps/cmsplugin_price/nospam/forms.py:42
 #: apps/cmsplugin_question/nospam/forms.py:42
 msgid "Please enter the two words on the image separated by a space:"
-msgstr ""
+msgstr "Vul de twee woorden in bovenstaande afbeelding in"
 
 #: apps/cmsplugin_demo/nospam/forms.py:44
 #: apps/cmsplugin_price/nospam/forms.py:44
@@ -223,7 +223,7 @@ msgstr ""
 #: apps/cmsplugin_price/nospam/forms.py:92
 #: apps/cmsplugin_question/nospam/forms.py:92
 msgid "You did not enter the two words shown in the image."
-msgstr ""
+msgstr "Je hebt de twee woorden in de afbeelding niet ingevuld"
 
 #: apps/cmsplugin_demo/nospam/forms.py:98
 #: apps/cmsplugin_price/nospam/forms.py:98
@@ -444,42 +444,42 @@ msgid "India"
 msgstr "India"
 
 #: templates/base.html:16
-msgid "for education"
-msgstr "voor het onderwijs"
+msgid "for primary education"
+msgstr "voor het basisonderwijs"
 
 #: templates/base.html:24
 msgid "Try now"
 msgstr "Probeer nu"
 
-#: templates/base.html:29 templates/vision.html:21
+#: templates/base.html:31 templates/vision.html:21
 #: templates/snippets/pricing-nl.html:3
 msgid "Our"
 msgstr "Onze"
 
-#: templates/base.html:29 templates/vision.html:21
+#: templates/base.html:31 templates/vision.html:21
 msgid "beliefs"
 msgstr "visie"
 
-#: templates/base.html:32 templates/vision.html:41
+#: templates/base.html:34 templates/vision.html:34
 msgid "Engaged parents"
 msgstr "Betrokken ouders"
 
-#: templates/base.html:34
+#: templates/base.html:36
 msgid ""
 "We believe that the involvement of parents must go beyond the school bus "
 "stop."
 msgstr ""
 "Wij geloven dat betrokkenheid van ouders verder gaat dan het schoolplein."
 
-#: templates/base.html:35 templates/base.html.py:41 templates/base.html:47
+#: templates/base.html:37 templates/base.html.py:43 templates/base.html:49
 msgid "Read more"
 msgstr "Lees meer"
 
-#: templates/base.html:38 templates/vision.html:51
+#: templates/base.html:40 templates/vision.html:44
 msgid "Growing up safely"
 msgstr "Veilig opgroeien"
 
-#: templates/base.html:40
+#: templates/base.html:42
 msgid ""
 "We provide a safe and controlled environment for children to learn about "
 "social media by doing it themselves."
@@ -487,11 +487,11 @@ msgstr ""
 "We bieden een veilige en gecontroleerde omgeving voor kinderen zodat ze "
 "leren om gaan met Social Media en hun online beleefwereld."
 
-#: templates/base.html:44 templates/vision.html:68
+#: templates/base.html:46 templates/vision.html:61
 msgid "The opportunities of technology"
 msgstr "De mogelijkheden van technologie"
 
-#: templates/base.html:46
+#: templates/base.html:48
 msgid ""
 "We believe that modern online technology offers enormous possibilities for "
 "educational purposes."
@@ -499,15 +499,15 @@ msgstr ""
 "We geloven dat moderne online technologie veel mogelijkheden biedt voor "
 "educatieve doeleinden."
 
-#: templates/base.html:54
+#: templates/base.html:56
 msgid "Others"
 msgstr "Anderen"
 
-#: templates/base.html:54
+#: templates/base.html:56
 msgid "about Social Schools"
 msgstr "over Social Schools"
 
-#: templates/base.html:60
+#: templates/base.html:62
 msgid ""
 "\"I see lots of nice school activities on Social Schools. Parents and "
 "colleagues are enthusiastic; Social Schools turns out to be a conventient "
@@ -517,61 +517,64 @@ msgstr ""
 "positieve reacties van ouders en collega’s. Het blijkt een handig "
 "communicatieplatform te zijn!'"
 
-#: templates/base.html:62
+#: templates/base.html:64
 msgid "Rehoboth Zeist"
 msgstr "Rehoboth Zeist"
 
-#: templates/base.html:69
+#: templates/base.html:71
 msgid "Examples"
 msgstr "Voorbeelden"
 
-#: templates/base.html:69
+#: templates/base.html:71
 msgid "of Social Schools"
 msgstr "van Social Schools"
 
-#: templates/base.html:88
-msgid "New"
-msgstr "Nieuw"
+#: templates/base.html:90
+msgid "Soon"
+msgstr "Binnenkort"
 
-#: templates/base.html:88
+#: templates/base.html:90
 msgid "in Social Schools"
 msgstr "in Social Schools"
 
-#: templates/base.html:93
-msgid ""
-"Read and write messages for your groups with our mobile app. Add pictures "
-"straight from your smartphone. The app allows teachers to easily share what "
-"happens in the classroom. Parents stay informed in an easy way."
-msgstr ""
-"Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto "
-"toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor "
-"leerkrachten te delen wat er gebeurt in de klas. Ook blijven ouders zo heel "
-"makkelijk op de hoogte."
+#: templates/base.html:94
+msgid "Share on"
+msgstr "Deel op"
 
-#: templates/base.html:103
+#: templates/base.html:95
+msgid ""
+"Apart from having published posts appear on your website through our "
+"newsfeed or website-module you can now extend your school's reach by "
+"tweeting published posts on your school's twitter timeline."
+msgstr ""
+"Gepubliceerde berichten kon je al eenvoudig op je schoolwebsite laten zien "
+"met onze newsfeed. Nu kun je je bereik verder vergroten door gepubliceerde "
+"berichten te delen op het twitter-account van je school."
+
+#: templates/base.html:105
 msgid "About"
 msgstr "Over"
 
-#: templates/base.html:103 templates/contact.html:10
+#: templates/base.html:105 templates/contact.html:10
 msgid "us"
 msgstr "ons"
 
-#: templates/base.html:107
+#: templates/base.html:109
 msgid ""
 "Our team of passionate experts is working every day to improve Social "
 "Schools even further. By doing so we maintain our position of the single "
-"best communication platform for primary schools. If you'd like to get to "
-"know us a little better, check out our team page."
+"best online community for primary schools. If you'd like to get to know us a "
+"little better, check out our team page."
 msgstr ""
 "Ons team met gedreven experts is elke dag aan het werk om Social Schools te "
-"verbeteren. Zo behouden we onze positie van het beste communicatieplatform "
+"verbeteren. Zo behouden we onze positie van de beste online community "
 "voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina."
 
-#: templates/base.html:108
+#: templates/base.html:110
 msgid "Follow"
 msgstr "Volg"
 
-#: templates/base.html:108
+#: templates/base.html:110
 msgid "us on"
 msgstr "ons op"
 
@@ -595,10 +598,6 @@ msgstr ""
 msgid "Questions?"
 msgstr "Vragen?"
 
-#: templates/default.html:49
-msgid "Powered by"
-msgstr "Powered by"
-
 #: templates/default.html:59
 msgid "OTHER"
 msgstr "OVERIG"
@@ -616,7 +615,7 @@ msgid ""
 "We are constantly trying to improve Social Schools with new and improved "
 "features!"
 msgstr ""
-"We zijn altjd bezig om Social Schools te verbeteren  door nieuwe en "
+"We zijn altijd bezig om Social Schools te verbeteren  door nieuwe en "
 "verbeterde functionaliteiten toe te voegen!"
 
 #: templates/feature.html:25
@@ -739,19 +738,7 @@ msgstr "Onze visie"
 msgid "Our team"
 msgstr "Ons team"
 
-#: templates/vision.html:25 templates/vision.html.py:89
-msgid ""
-"I truly believe we can make a difference in the world of education with "
-"Social Schools."
-msgstr ""
-"Ik geloof dat we met Social Schools een verschil kunnen maken in de wereld "
-"van het onderwijs"
-
-#: templates/vision.html:26 templates/vision.html.py:90
-msgid "Co-founder"
-msgstr "Mede-oprichter"
-
-#: templates/vision.html:42
+#: templates/vision.html:35
 msgid ""
 "With Social Schools parents get a genuine taste of what's going on in the "
 "school and what their children learn and do in the classroom. Everything we "
@@ -763,7 +750,7 @@ msgstr ""
 "ontwikkelen voor Social Schools faciliteren we betekenisvolle communicatie "
 "tussen ouders, kinderen, leerkrachten en de school."
 
-#: templates/vision.html:52
+#: templates/vision.html:45
 msgid ""
 "In the real world you wouldn’t lose your child out of sight, but on the "
 "internet many parents find it difficult to keep track of their activities. "
@@ -775,7 +762,7 @@ msgstr ""
 "ene kant zouden we toezicht moeten houden op onze kinderen maar het is "
 "belangrijker ze goed online gedrag te leren."
 
-#: templates/vision.html:53
+#: templates/vision.html:46
 msgid ""
 "Being media savvy enables children to identify dangers themselves, and "
 "children have to be tutored to develop that skill. We believe that boring "
@@ -792,7 +779,7 @@ msgstr ""
 "te doen. De school houdt de controle en we geloven dat deze controle "
 "bijdraagt aan een veilige eerste ervaring met online communiceren. "
 
-#: templates/vision.html:69
+#: templates/vision.html:62
 msgid ""
 "We believe that technology offers enormous possibilities for educational "
 "purposes. Not only in the practical sense of technology that supports the "
@@ -807,41 +794,39 @@ msgstr ""
 "grenzen heen en laat kinderen kennismaken met mensen in andere landen met "
 "een andere achtergrond en cultuur. "
 
-#: templates/vision.html:77
+#: templates/vision.html:70
 msgid "Check out the"
 msgstr "Bekijk de"
 
-#: templates/vision.html:78
+#: templates/vision.html:71
 msgid "features"
 msgstr "functionaliteiten"
 
-#: templates/vision.html:85
+#: templates/vision.html:78
 msgid "Our "
 msgstr "Ons "
 
-#: templates/vision.html:85
+#: templates/vision.html:78
 msgid "team"
 msgstr "team"
 
-#: templates/vision.html:110
+#: templates/vision.html:96
 msgid ""
-"I'm co-founder of socialschools. And also a dad of a boy in grade 5 and a "
-"girl in 3rd grade. I like to be in touch on what's going on in their classes!"
+"I'm passionate about helping schools improve their communication and "
+"collaboration with parents by building a community."
 msgstr ""
-"Ik ben mede-oprichter van Social Schools. En ook vader van een jongen in "
-"groep 5 en een meisje in groep 3. Ik vind het leuk om op de hoogte te "
-"blijven van wat er in hun klas en op school plaatsvind."
+"Het is mijn passie om scholen te helpen de samenwerking en communicatie met "
+"ouders te verbeteren door het bouwen van een community."
 
-#: templates/vision.html:111 templates/vision.html.py:127
-#: templates/vision.html:146 templates/vision.html.py:162
-#: templates/vision.html:181 templates/vision.html.py:197
-#: templates/vision.html:216 templates/vision.html.py:232
-#: templates/vision.html:251 templates/vision.html.py:267
-#: templates/vision.html:286
+#: templates/vision.html:97 templates/vision.html.py:113
+#: templates/vision.html:132 templates/vision.html.py:148
+#: templates/vision.html:167 templates/vision.html.py:183
+#: templates/vision.html:202 templates/vision.html.py:218
+#: templates/vision.html:237
 msgid "Mail me"
 msgstr "Stuur me een e-mail"
 
-#: templates/vision.html:126
+#: templates/vision.html:112
 msgid ""
 "I love to make people enthusiastic about good communication in schools. I "
 "take care of implementations, give workshops and organize events. Happy "
@@ -852,49 +837,40 @@ msgstr ""
 "Tevreden klanten zijn mijn doel dus bel mij om ook zo'n tevreden klant te "
 "worden!"
 
-#: templates/vision.html:145
-msgid ""
-"Through Social Schools I champion the cause of bridging the communication "
-"gap between the Schools and Parents, thereby enabling them to build a "
-"wholesome future for their pupils."
-msgstr "Met Social Schools probeer ik de communicatie tussen school en ouders te verbeteren, en ze op die manier in staat stellen om samen een betere toekomst voor de leerlingen te realiseren."
+#: templates/vision.html:131 templates/vision.html.py:182
+msgid "Description coming soon"
+msgstr "Binnenkort lees je hier meer over mij"
 
-#: templates/vision.html:161
+#: templates/vision.html:147
 msgid ""
-"I'm UI developer of social schools and I am very passionate about UI "
+"I'm UI developer of Social Schools and I am very passionate about UI "
 "designs, converting them from design to actual product. My goal is to "
 "enhance UI and UX."
-msgstr "Ik ben interface ontwikkelaar van Social Schools, mijn passie ligt bij gebruikersinterface ontwerpen en het omzetten van ontwerpen in een echt product. Mijn doel is om de gebruikersinterface te blijven verbeteren."
-
-#: templates/vision.html:180
-msgid ""
-"I love to design screens and interaction flows and keep improving them "
-"according to your feedback. Sometimes I can't resist to write some code "
-"myself."
 msgstr ""
-"Mijn passie is het maken van mooie ontwerpen en het luisteren naar "
-"gebruikers om nieuwe functionaliteiten te ontwikkelen. Ik kan het niet laten "
-"soms ook mee te programmeren"
+"Ik ben interface ontwikkelaar van Social Schools, mijn passie ligt bij "
+"gebruikersinterface ontwerpen en het omzetten van ontwerpen in een echt "
+"product. Mijn doel is om de gebruikersinterface te blijven verbeteren."
 
-#: templates/vision.html:196
+#: templates/vision.html:166
 msgid ""
-"Passionate about the software development cycle - I love it when a sketch is "
-"turned into a product, and design into functional feature."
+"I love to investigate and structure our user feedback and the market "
+"developments to help us build the best product for our users. Sometimes I "
+"can't resist to write some code myself."
 msgstr ""
-"Ik heb een passie voor software ontwikkeling. Ik houd ervan om een idee in "
-"een product om te zetten."
+"Ik houd ervan om onze gebruikersfeedback en marktontwikkelingen te "
+"structureren zodat wij het beste product kunnen bouwen voor onze gebruikers. "
+"Soms bouw ik zelf ook mee aan Social Schools."
 
-#: templates/vision.html:215
+#: templates/vision.html:201
 msgid ""
-"Social Schools proves itself daily with our customers, just looking at our "
-"clients' websites full of classroom pictures and messages is my ultimate "
-"reward."
+"My concern is to deliver a great working app on mobile devices. In this I "
+"consider the whole lifecycle of an app to accomplish the best result."
 msgstr ""
-"Elke dag zie ik op de websites van onze klanten prachtige foto’s en "
-"berichten vanuit de klas. Dit is de mooiste manier om Social Schools elke "
-"dag een beetje beter te maken."
+"Ik wil gebruikers graag een goed werkende app laten ervaren op mobiele "
+"apparaten. Ik houd hierbij de hele levenscyclus van een app in gedachten "
+"voor het beste resultaat."
 
-#: templates/vision.html:231
+#: templates/vision.html:217
 msgid ""
 "As account manager I like to advise and inspire schools to communicate in a "
 "modern way with parents, children and everybody involved with the school."
@@ -902,16 +878,7 @@ msgstr ""
 "Als accountmanager adviseer en inspireer ik scholen te communiceren op een "
 "eigentijdse manier met ouders, leerlingen en alle betrokkenen van de school."
 
-#: templates/vision.html:250
-msgid ""
-"I'm a co-founder of socialschools. I like building apps which are easy to "
-"use and matter to the world, with technology from today and tomorrow."
-msgstr ""
-"Ik ben mede-oprichter van Social Schools. Ik bouw apps die "
-"gebruiksvriendelijk zijn en er toe doen in de wereld. We gebruiken de "
-"techniek van vandaag en morgen."
-
-#: templates/vision.html:266
+#: templates/vision.html:236
 msgid ""
 "I love doing frontend development and converting design into code. I like "
 "learning new skills and solving problems that matter."
@@ -919,13 +886,6 @@ msgstr ""
 "Ik houd van frontend software ontwikkeling; het omzetten van ontwerpen in "
 "werkende schermen. Ik leer constant nieuwe dingen en vind het leuk om mee te "
 "helpen met het oplossen van problemen die er toe doen."
-
-#: templates/vision.html:285
-msgid ""
-"Making our apps look beautiful is my thing to do. I love to interact with "
-"you and bring your stories back to our team to make Social Schools more "
-"relevant for you."
-msgstr "Het is mijn missie om onze apps zo mooi mogelijk te maken. Ik kom graag met jullie als gebruikers in contact om jullie verhalen met ons team te delen en Social Schools zo beter te maken."
 
 #: templates/admin/base_site.html:5
 msgid "Site directory | Changer V"
@@ -1039,10 +999,7 @@ msgid "Don't hesitate to send us an email:"
 msgstr "Twijfel niet om ons een e-mail te sturen:"
 
 #: templates/snippets/teammember_dhruva.html:4
-#: templates/snippets/teammember_krunal.html:4
-#: templates/snippets/teammember_maikel.html:4
-#: templates/snippets/teammember_marieke.html:4
-msgid "or to call us at"
+msgid "or to call me at"
 msgstr "of met ons te bellen op"
 
 #: templates/snippets/teammember_krunal.html:4
@@ -1053,3 +1010,25 @@ msgid ""
 msgstr ""
 "We hopen dat je hier vindt wat je nodig hebt. Zoniet, twijfel niet om ons te "
 "e-mailen:"
+
+#: templates/snippets/teammember_krunal.html:4
+#: templates/snippets/teammember_maikel.html:4
+#: templates/snippets/teammember_marieke.html:4
+msgid "or to call us at"
+msgstr "of met ons te bellen op"
+
+#~ msgid "New"
+#~ msgstr "Nieuw"
+
+#~ msgid ""
+#~ "Read and write messages for your groups with our mobile app. Add pictures "
+#~ "straight from your smartphone. The app allows teachers to easily share "
+#~ "what happens in the classroom. Parents stay informed in an easy way."
+#~ msgstr ""
+#~ "Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een "
+#~ "foto toe direct vanaf je smartphone. Met deze app is het heel makkelijk "
+#~ "voor leerkrachten te delen wat er gebeurt in de klas. Ook blijven ouders "
+#~ "zo heel makkelijk op de hoogte."
+
+#~ msgid "Powered by"
+#~ msgstr "Powered by"
