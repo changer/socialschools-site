@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-02 22:16+0100\n"
+"POT-Creation-Date: 2015-01-02 23:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -444,8 +444,8 @@ msgid "India"
 msgstr "India"
 
 #: templates/base.html:16
-msgid "for education"
-msgstr "voor het onderwijs"
+msgid "for primary education"
+msgstr "voor het basisonderwijs"
 
 #: templates/base.html:24
 msgid "Try now"
@@ -530,23 +530,26 @@ msgid "of Social Schools"
 msgstr "van Social Schools"
 
 #: templates/base.html:90
-msgid "New"
-msgstr "Nieuw"
+msgid "Soon"
+msgstr "Binnenkort"
 
 #: templates/base.html:90
 msgid "in Social Schools"
 msgstr "in Social Schools"
 
+#: templates/base.html:94
+msgid "Share on"
+msgstr "Deel op"
+
 #: templates/base.html:95
 msgid ""
-"Read and write messages for your groups with our mobile app. Add pictures "
-"straight from your smartphone. The app allows teachers to easily share what "
-"happens in the classroom. Parents stay informed in an easy way."
+"Apart from having published posts appear on your website through our "
+"newsfeed or website-module you can now extend your school's reach by "
+"tweeting published posts on your school's twitter timeline."
 msgstr ""
-"Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een foto "
-"toe direct vanaf je smartphone. Met deze app is het heel makkelijk voor "
-"leerkrachten te delen wat er gebeurt in de klas. Ook blijven ouders zo heel "
-"makkelijk op de hoogte."
+"Gepubliceerde berichten kon je al eenvoudig op je schoolwebsite laten zien "
+"met onze newsfeed. Nu kun je je bereik verder vergroten door gepubliceerde "
+"berichten te delen op het twitter-account van je school."
 
 #: templates/base.html:105
 msgid "About"
@@ -560,11 +563,11 @@ msgstr "ons"
 msgid ""
 "Our team of passionate experts is working every day to improve Social "
 "Schools even further. By doing so we maintain our position of the single "
-"best communication platform for primary schools. If you'd like to get to "
-"know us a little better, check out our team page."
+"best online community for primary schools. If you'd like to get to know us a "
+"little better, check out our team page."
 msgstr ""
 "Ons team met gedreven experts is elke dag aan het werk om Social Schools te "
-"verbeteren. Zo behouden we onze positie van het beste communicatieplatform "
+"verbeteren. Zo behouden we onze positie van de beste online community "
 "voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina."
 
 #: templates/base.html:110
@@ -595,11 +598,7 @@ msgstr ""
 msgid "Questions?"
 msgstr "Vragen?"
 
-#: templates/default.html:52
-msgid "Powered by"
-msgstr "Powered by"
-
-#: templates/default.html:62
+#: templates/default.html:59
 msgid "OTHER"
 msgstr "OVERIG"
 
@@ -815,7 +814,9 @@ msgstr "team"
 msgid ""
 "I'm passionate about helping schools improve their communication and "
 "collaboration with parents by building a community."
-msgstr "Het is mijn passie om scholen te helpen de samenwerking en communicatie met ouders te verbeteren door het bouwen van een community."
+msgstr ""
+"Het is mijn passie om scholen te helpen de samenwerking en communicatie met "
+"ouders te verbeteren door het bouwen van een community."
 
 #: templates/vision.html:97 templates/vision.html.py:113
 #: templates/vision.html:132 templates/vision.html.py:148
@@ -856,13 +857,18 @@ msgid ""
 "developments to help us build the best product for our users. Sometimes I "
 "can't resist to write some code myself."
 msgstr ""
-"Ik houd ervan om onze gebruikersfeedback en marktontwikkelingen te structureren zodat wij het beste product kunnen bouwen voor onze gebruikers. Soms bouw ik zelf ook mee aan Social Schools."
+"Ik houd ervan om onze gebruikersfeedback en marktontwikkelingen te "
+"structureren zodat wij het beste product kunnen bouwen voor onze gebruikers. "
+"Soms bouw ik zelf ook mee aan Social Schools."
 
 #: templates/vision.html:201
 msgid ""
 "My concern is to deliver a great working app on mobile devices. In this I "
 "consider the whole lifecycle of an app to accomplish the best result."
-msgstr "Ik wil gebruikers graag een goed werkende app laten ervaren op mobiele apparaten. Ik houd hierbij de hele levenscyclus van een app in gedachten voor het beste resultaat."
+msgstr ""
+"Ik wil gebruikers graag een goed werkende app laten ervaren op mobiele "
+"apparaten. Ik houd hierbij de hele levenscyclus van een app in gedachten "
+"voor het beste resultaat."
 
 #: templates/vision.html:217
 msgid ""
@@ -1010,3 +1016,19 @@ msgstr ""
 #: templates/snippets/teammember_marieke.html:4
 msgid "or to call us at"
 msgstr "of met ons te bellen op"
+
+#~ msgid "New"
+#~ msgstr "Nieuw"
+
+#~ msgid ""
+#~ "Read and write messages for your groups with our mobile app. Add pictures "
+#~ "straight from your smartphone. The app allows teachers to easily share "
+#~ "what happens in the classroom. Parents stay informed in an easy way."
+#~ msgstr ""
+#~ "Lees en schrijf berichten voor je groep met onze mobiele app. Voeg een "
+#~ "foto toe direct vanaf je smartphone. Met deze app is het heel makkelijk "
+#~ "voor leerkrachten te delen wat er gebeurt in de klas. Ook blijven ouders "
+#~ "zo heel makkelijk op de hoogte."
+
+#~ msgid "Powered by"
+#~ msgstr "Powered by"
