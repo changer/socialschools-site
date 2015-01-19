@@ -54,27 +54,7 @@
                 </div>
                 {% placeholder teammember_downloads %}
             </div>
-            <hr>
-            <h2>{% trans "Documents" %}</h2>
-            <div class="download-item">
-                <h4>{% trans 'CMS manual' %}</h4>
-                <a href="{{STATIC_URL}}downloads/socialschools-cmsmanual.pdf" target="blank" class="btn btn-download pull-right">{% trans "Download" %}</a>
-            </div>
-            <div class="download-item">
-                <h4>{% trans "Do's and Don'ts of social media in the classroom" %}</h4>
-                <a href="{{STATIC_URL}}downloads/socialschools-dosanddonts.pdf" target="blank" class="btn btn-download pull-right">{% trans "Download" %}</a>
-            </div>
-            <hr>
-            <h2>{% trans "Extra" %}!</h2>
-            <p>{% trans "A collection of icons to be used as group profile pictures" %}</p>
-            <div class="download-item">
-                <h4>{% trans 'Rainbow' %}</h4>
-                <a href="{{STATIC_URL}}downloads/rainbow.zip" class="btn btn-download pull-right">{% trans "Download" %}</a>
-            </div>
-            <div class="download-item">
-                <h4>{% trans 'Blue' %}</h4>
-                <a href="{{STATIC_URL}}downloads/blue.zip" class="btn btn-download pull-right">{% trans "Download" %}</a>
-            </div>
+            {% placeholder downloads_content %}
         </div>
     </div>
     <h1 class="support-header">{% trans "Didn't find" %} <span class="blue-header">{% trans "what you were looking for" %}?</span></h1>
