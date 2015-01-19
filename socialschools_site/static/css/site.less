@@ -57,7 +57,19 @@ a {
   color: darken(@school-blue, 20%);
 }
 
-.container{
+.container {
   max-width: none !important;
   width: 970px;
+}
+
+// Styling to override file plugin styling
+
+.plugin_file {
+  border: 1px solid #c8c8c8;
+  .border-radius(4px);
+  .box-shadow(0px 1px rgba(0,0,0,0.1));
+  a {
+    display: block;
+    padding: 12px;
+  }
 }
