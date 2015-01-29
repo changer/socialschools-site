@@ -1,0 +1,11 @@
+{% load i18n %}{% trans "Message from" %}: {{ data.email }}
+
+Hi Socialschools team,
+
+You just got a new vision for the NOT campaign. Here are the details:
+
+Email: {{ data.email }}
+
+Vision: {{  data.vision}}
+
+{{ data.content|safe }}
