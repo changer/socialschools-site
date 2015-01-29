@@ -5,6 +5,7 @@
   <div class="container socialschools-container">
     <div class="row top-container">
       <div class="col-md-8 col-md-offset-2 text-center">
+        <img src="{{STATIC_URL}}img/not-logo.png" class="not-logo">
         <h1 class="feature-header"><span class="green-header">{% trans "Parental engagement " %}</span><span class="blue-header"> {% trans "is" %}</span></h1>
         {% placeholder not_campaign %}
       </div>
@@ -14,7 +15,7 @@
       <div class="col-md-10 col-md-offset-1 text-center demo-container">
         <h1>{% trans "Wondering" %} <span class="blue-header">{% trans "what features help you engage parents?" %}</span></h1>
         <a href="/nl/features" target="blank" class="btn btn-success btn-email">{% trans "Check our features" %}</a>
-        <p>{% trans 'or request a' %} <a href="/nl/contact#demo-form" class="blue-header">demo</a></p>
+        <a href="/nl/features" target="blank" class="btn btn-success btn-email">{% trans "Request a demo" %}</a>
       </div>
     </div>
   </div>
