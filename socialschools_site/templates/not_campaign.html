@@ -1,0 +1,21 @@
+{% extends "default.html" %}
+{% load cms_tags %}
+{% load i18n %}
+{% block "content" %}
+  <div class="container socialschools-container">
+    <div class="row top-container">
+      <div class="col-md-8 col-md-offset-2 text-center">
+        <h1 class="feature-header"><span class="green-header">{% trans "Parental engagement " %}</span><span class="blue-header"> {% trans "is" %}</span></h1>
+        {% placeholder not_campaign %}
+      </div>
+    </div>
+    <div class="row">
+      <hr>
+      <div class="col-md-10 col-md-offset-1 text-center demo-container">
+        <h1>{% trans "Wondering" %} <span class="blue-header">{% trans "what features help you engage parents?" %}?</span></h1>
+        <a href="http://app.socialschools.nl/register/school" target="blank" class="btn btn-success btn-email">{% trans "Check our features" %}</a>
+        <p>{% trans 'or request a' %} <a href="/nl/contact#demo-form" class="blue-header">demo</a></p>
+      </div>
+    </div>
+  </div>
+{% endblock %}

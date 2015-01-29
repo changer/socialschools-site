@@ -146,6 +146,7 @@ CMS_TEMPLATES = (
     ('videos.html', gettext('videos')),
     ('vision.html', gettext('vision')),
     ('extra_placeholders.html', gettext('Extra Placeholder Page')),
+    ('not_campaign.html', gettext('NOT campaign Page')),
 )
 
 CMS_PLUGIN_PROCESSORS = (
