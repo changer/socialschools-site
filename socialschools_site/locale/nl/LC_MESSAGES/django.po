@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-29 11:46+0100\n"
+"POT-Creation-Date: 2015-01-29 11:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -367,22 +367,19 @@ msgstr ""
 
 #: apps/cmsplugin_notcampaign/cms_plugins.py:28
 msgid "NOT 2015 Campaign Form"
-msgstr ""
+msgstr "NOT 2015 Campagne Formulier"
 
 #: apps/cmsplugin_notcampaign/forms.py:8
-#, fuzzy
 msgid "Your vision"
-msgstr "visie"
+msgstr "jouw visie"
 
 #: apps/cmsplugin_notcampaign/forms.py:8
-#, fuzzy
 msgid "Your vision*"
-msgstr "visie"
+msgstr "Jouw visie*"
 
 #: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/subject.txt:1
-#, fuzzy
 msgid "Vision - NOT campaign Socialschools"
-msgstr "Vraag - Social Schools"
+msgstr "Visie - NOT campagne Social Schools"
 
 #: apps/cmsplugin_price/cms_plugins.py:28
 msgid "Price Form"
