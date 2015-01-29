@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-29 11:51+0100\n"
+"POT-Creation-Date: 2015-01-29 13:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -656,7 +656,7 @@ msgstr ""
 "We zijn altijd bezig om Social Schools te verbeteren  door nieuwe en "
 "verbeterde functionaliteiten toe te voegen!"
 
-#: templates/feature.html:25 templates/not_campaign.html:15
+#: templates/feature.html:25 templates/not_campaign.html:16
 msgid "Wondering"
 msgstr "Benieuwd"
 
@@ -668,25 +668,29 @@ msgstr "hoe Social Schools precies werkt"
 msgid "Try it yourself"
 msgstr "Probeer het zelf"
 
-#: templates/feature.html:27 templates/not_campaign.html:17
+#: templates/feature.html:27
 msgid "or request a"
 msgstr "of doe een aanvraag voor een"
 
-#: templates/not_campaign.html:8
+#: templates/not_campaign.html:9
 msgid "Parental engagement "
 msgstr "Ouderbetrokkenheid"
 
-#: templates/not_campaign.html:8
+#: templates/not_campaign.html:9
 msgid "is"
 msgstr "is"
 
-#: templates/not_campaign.html:15
+#: templates/not_campaign.html:16
 msgid "what features help you engage parents?"
 msgstr "welke functionaliteiten jou helpen ouders te betrekken?"
 
-#: templates/not_campaign.html:16
+#: templates/not_campaign.html:17
 msgid "Check our features"
 msgstr "Bekijk de functionaliteiten"
+
+#: templates/not_campaign.html:18
+msgid "Request a demo"
+msgstr "Vraag een demo aan"
 
 #: templates/price.html:12
 msgid "Contact us"
