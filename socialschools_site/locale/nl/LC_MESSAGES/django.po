@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-02 23:33+0100\n"
+"POT-Creation-Date: 2015-01-29 13:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,46 +18,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: apps/cmsplugin_demo/admin.py:16 apps/cmsplugin_price/admin.py:16
-#: apps/cmsplugin_question/admin.py:16
+#: apps/cmsplugin_demo/admin.py:16 apps/cmsplugin_notcampaign/admin.py:16
+#: apps/cmsplugin_price/admin.py:16 apps/cmsplugin_question/admin.py:16
 msgid "Akismet API Key"
 msgstr ""
 
-#: apps/cmsplugin_demo/admin.py:16 apps/cmsplugin_price/admin.py:16
-#: apps/cmsplugin_question/admin.py:16
+#: apps/cmsplugin_demo/admin.py:16 apps/cmsplugin_notcampaign/admin.py:16
+#: apps/cmsplugin_price/admin.py:16 apps/cmsplugin_question/admin.py:16
 msgid "Get a Wordpress Key from http://akismet.com/"
 msgstr ""
 
-#: apps/cmsplugin_demo/admin.py:18 apps/cmsplugin_price/admin.py:18
-#: apps/cmsplugin_question/admin.py:18
+#: apps/cmsplugin_demo/admin.py:18 apps/cmsplugin_notcampaign/admin.py:18
+#: apps/cmsplugin_price/admin.py:18 apps/cmsplugin_question/admin.py:18
 msgid "ReCAPTCHA Public Key"
 msgstr ""
 
 #: apps/cmsplugin_demo/admin.py:18 apps/cmsplugin_demo/admin.py:19
-#: apps/cmsplugin_price/admin.py:18 apps/cmsplugin_price/admin.py:19
-#: apps/cmsplugin_question/admin.py:18 apps/cmsplugin_question/admin.py:19
+#: apps/cmsplugin_notcampaign/admin.py:18
+#: apps/cmsplugin_notcampaign/admin.py:19 apps/cmsplugin_price/admin.py:18
+#: apps/cmsplugin_price/admin.py:19 apps/cmsplugin_question/admin.py:18
+#: apps/cmsplugin_question/admin.py:19
 msgid "Get this from http://www.google.com/recaptcha"
 msgstr ""
 
-#: apps/cmsplugin_demo/admin.py:19 apps/cmsplugin_price/admin.py:19
-#: apps/cmsplugin_question/admin.py:19
+#: apps/cmsplugin_demo/admin.py:19 apps/cmsplugin_notcampaign/admin.py:19
+#: apps/cmsplugin_price/admin.py:19 apps/cmsplugin_question/admin.py:19
 msgid "ReCAPTCHA Private Key"
 msgstr ""
 
-#: apps/cmsplugin_demo/admin.py:36 apps/cmsplugin_price/admin.py:36
-#: apps/cmsplugin_question/admin.py:36
+#: apps/cmsplugin_demo/admin.py:36 apps/cmsplugin_notcampaign/admin.py:36
+#: apps/cmsplugin_price/admin.py:36 apps/cmsplugin_question/admin.py:36
 msgid ""
 "Akismet library is not installed. Use \"easy_install akismet\" or \"pip "
 "install akismet\"."
 msgstr ""
 
-#: apps/cmsplugin_demo/admin.py:50 apps/cmsplugin_price/admin.py:50
-#: apps/cmsplugin_question/admin.py:50
+#: apps/cmsplugin_demo/admin.py:50 apps/cmsplugin_notcampaign/admin.py:50
+#: apps/cmsplugin_price/admin.py:50 apps/cmsplugin_question/admin.py:50
 msgid "The API Key is not valid."
 msgstr ""
 
-#: apps/cmsplugin_demo/admin.py:58 apps/cmsplugin_price/admin.py:58
-#: apps/cmsplugin_question/admin.py:58
+#: apps/cmsplugin_demo/admin.py:58 apps/cmsplugin_notcampaign/admin.py:58
+#: apps/cmsplugin_price/admin.py:58 apps/cmsplugin_question/admin.py:58
 msgid ""
 "ReCAPTCHA library is not installed. Use \"easy_install recaptcha-client\" or "
 "\"pip install recaptcha-client\"."
@@ -68,6 +70,7 @@ msgid "Demo Form"
 msgstr "Demo formulier"
 
 #: apps/cmsplugin_demo/cms_plugins.py:38
+#: apps/cmsplugin_notcampaign/cms_plugins.py:38
 #: apps/cmsplugin_price/cms_plugins.py:38
 #: apps/cmsplugin_question/cms_plugins.py:38
 msgid "Spam Protection"
@@ -111,13 +114,13 @@ msgstr "Naam"
 msgid "Your name*"
 msgstr "Je naam*"
 
-#: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_price/forms.py:14
-#: apps/cmsplugin_question/forms.py:8
+#: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_notcampaign/forms.py:7
+#: apps/cmsplugin_price/forms.py:14 apps/cmsplugin_question/forms.py:8
 msgid "Email"
 msgstr "Email adres"
 
-#: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_price/forms.py:14
-#: apps/cmsplugin_question/forms.py:8
+#: apps/cmsplugin_demo/forms.py:17 apps/cmsplugin_notcampaign/forms.py:7
+#: apps/cmsplugin_price/forms.py:14 apps/cmsplugin_question/forms.py:8
 msgid "Your email address*"
 msgstr "Je e-mail adres*"
 
@@ -136,150 +139,165 @@ msgstr "Telefoonnummer"
 msgid "Remarks"
 msgstr "Opmerkingen"
 
-#: apps/cmsplugin_demo/models.py:24 apps/cmsplugin_price/models.py:24
-#: apps/cmsplugin_question/models.py:24
+#: apps/cmsplugin_demo/models.py:24 apps/cmsplugin_notcampaign/models.py:24
+#: apps/cmsplugin_price/models.py:24 apps/cmsplugin_question/models.py:24
 msgid "Form name"
 msgstr "Formuliernaam"
 
-#: apps/cmsplugin_demo/models.py:27 apps/cmsplugin_price/models.py:27
-#: apps/cmsplugin_question/models.py:27
+#: apps/cmsplugin_demo/models.py:27 apps/cmsplugin_notcampaign/models.py:27
+#: apps/cmsplugin_price/models.py:27 apps/cmsplugin_question/models.py:27
 msgid "Used to distinguish multiple contact forms on the same site."
 msgstr "Gebruikt om meerder contactformulieren op een pagina te onderscheiden"
 
-#: apps/cmsplugin_demo/models.py:28 apps/cmsplugin_price/models.py:28
-#: apps/cmsplugin_question/models.py:28
+#: apps/cmsplugin_demo/models.py:28 apps/cmsplugin_notcampaign/models.py:28
+#: apps/cmsplugin_price/models.py:28 apps/cmsplugin_question/models.py:28
 msgid "Form Layout"
 msgstr "Formulier opmaak"
 
-#: apps/cmsplugin_demo/models.py:30 apps/cmsplugin_price/models.py:30
-#: apps/cmsplugin_question/models.py:30
+#: apps/cmsplugin_demo/models.py:30 apps/cmsplugin_notcampaign/models.py:30
+#: apps/cmsplugin_price/models.py:30 apps/cmsplugin_question/models.py:30
 msgid "Choice the layout of contact form"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:33 apps/cmsplugin_price/models.py:33
-#: apps/cmsplugin_question/models.py:33
+#: apps/cmsplugin_demo/models.py:33 apps/cmsplugin_notcampaign/models.py:33
+#: apps/cmsplugin_price/models.py:33 apps/cmsplugin_question/models.py:33
 msgid "Email recipient"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:36 apps/cmsplugin_price/models.py:36
-#: apps/cmsplugin_question/models.py:36
+#: apps/cmsplugin_demo/models.py:36 apps/cmsplugin_notcampaign/models.py:36
+#: apps/cmsplugin_price/models.py:36 apps/cmsplugin_question/models.py:36
 msgid "Thanks message"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:37 apps/cmsplugin_price/models.py:37
-#: apps/cmsplugin_question/models.py:37
+#: apps/cmsplugin_demo/models.py:37 apps/cmsplugin_notcampaign/models.py:37
+#: apps/cmsplugin_price/models.py:37 apps/cmsplugin_question/models.py:37
 msgid "Message displayed on successful submit"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:38 apps/cmsplugin_price/models.py:38
-#: apps/cmsplugin_question/models.py:38
+#: apps/cmsplugin_demo/models.py:38 apps/cmsplugin_notcampaign/models.py:38
+#: apps/cmsplugin_price/models.py:38 apps/cmsplugin_question/models.py:38
 msgid "Thank you for your message."
 msgstr "Bedankt voor je bericht"
 
-#: apps/cmsplugin_demo/models.py:39 apps/cmsplugin_price/models.py:39
-#: apps/cmsplugin_question/models.py:39
+#: apps/cmsplugin_demo/models.py:39 apps/cmsplugin_notcampaign/models.py:39
+#: apps/cmsplugin_price/models.py:39 apps/cmsplugin_question/models.py:39
 msgid "Submit button value"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:40 apps/cmsplugin_price/models.py:40
-#: apps/cmsplugin_question/models.py:40
+#: apps/cmsplugin_demo/models.py:40 apps/cmsplugin_notcampaign/models.py:40
+#: apps/cmsplugin_price/models.py:40 apps/cmsplugin_question/models.py:40
 msgid "Submit"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:43 apps/cmsplugin_price/models.py:43
-#: apps/cmsplugin_question/models.py:43
+#: apps/cmsplugin_demo/models.py:43 apps/cmsplugin_notcampaign/models.py:43
+#: apps/cmsplugin_price/models.py:43 apps/cmsplugin_question/models.py:43
 msgid "Spam protection method"
 msgstr ""
 
-#: apps/cmsplugin_demo/models.py:53 apps/cmsplugin_price/models.py:53
-#: apps/cmsplugin_question/models.py:53
+#: apps/cmsplugin_demo/models.py:53 apps/cmsplugin_notcampaign/models.py:53
+#: apps/cmsplugin_price/models.py:53 apps/cmsplugin_question/models.py:53
 msgid "ReCAPTCHA theme"
 msgstr ""
 
-#: apps/cmsplugin_demo/settings.py:7 apps/cmsplugin_price/settings.py:7
-#: apps/cmsplugin_question/settings.py:7 settings/base.py:140
+#: apps/cmsplugin_demo/settings.py:7 apps/cmsplugin_notcampaign/settings.py:7
+#: apps/cmsplugin_price/settings.py:7 apps/cmsplugin_question/settings.py:7
+#: settings/base.py:140
 msgid "default"
 msgstr ""
 
 #: apps/cmsplugin_demo/nospam/fields.py:13
+#: apps/cmsplugin_notcampaign/nospam/fields.py:13
 #: apps/cmsplugin_price/nospam/fields.py:13
 #: apps/cmsplugin_question/nospam/fields.py:13
 msgid "Please don't check this box."
 msgstr ""
 
 #: apps/cmsplugin_demo/nospam/forms.py:42
+#: apps/cmsplugin_notcampaign/nospam/forms.py:42
 #: apps/cmsplugin_price/nospam/forms.py:42
 #: apps/cmsplugin_question/nospam/forms.py:42
 msgid "Please enter the two words on the image separated by a space:"
 msgstr "Vul de twee woorden in bovenstaande afbeelding in"
 
 #: apps/cmsplugin_demo/nospam/forms.py:44
+#: apps/cmsplugin_notcampaign/nospam/forms.py:44
 #: apps/cmsplugin_price/nospam/forms.py:44
 #: apps/cmsplugin_question/nospam/forms.py:44
 msgid "You did not enter any of the words."
 msgstr ""
 
 #: apps/cmsplugin_demo/nospam/forms.py:92
+#: apps/cmsplugin_notcampaign/nospam/forms.py:92
 #: apps/cmsplugin_price/nospam/forms.py:92
 #: apps/cmsplugin_question/nospam/forms.py:92
 msgid "You did not enter the two words shown in the image."
 msgstr "Je hebt de twee woorden in de afbeelding niet ingevuld"
 
 #: apps/cmsplugin_demo/nospam/forms.py:98
+#: apps/cmsplugin_notcampaign/nospam/forms.py:98
 #: apps/cmsplugin_price/nospam/forms.py:98
 #: apps/cmsplugin_question/nospam/forms.py:98
 msgid "The words you entered did not match the image."
 msgstr ""
 
 #: apps/cmsplugin_demo/nospam/widgets.py:30
+#: apps/cmsplugin_notcampaign/nospam/widgets.py:30
 #: apps/cmsplugin_price/nospam/widgets.py:30
 #: apps/cmsplugin_question/nospam/widgets.py:30
 msgid "Are you a robot?"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:24
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:24
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:24
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:24
 msgid "Incorrect please try again"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:27
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:27
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:27
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:27
 msgid "Enter the words above:"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:28
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:28
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:28
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:28
 msgid "Enter the numbers you hear:"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:33
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:33
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:33
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:33
 msgid "Get another CAPTCHA"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:34
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:34
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:34
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:34
 msgid "Get an audio CAPTCHA"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:35
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:35
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:35
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:35
 msgid "Get an image CAPTCHA"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/contact.html:37
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/vision.html:37
 #: apps/cmsplugin_price/templates/cmsplugin_price/contact.html:37
 #: apps/cmsplugin_question/templates/cmsplugin_question/contact.html:37
 msgid "Help"
 msgstr ""
 
 #: apps/cmsplugin_demo/templates/cmsplugin_demo/email.txt:1
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/email.txt:1
 #: apps/cmsplugin_price/templates/cmsplugin_price/email.txt:1
 #: apps/cmsplugin_question/templates/cmsplugin_question/email.txt:1
 msgid "Message from"
@@ -346,6 +364,22 @@ msgstr ""
 #: apps/cmsplugin_feature/models.py:20
 msgid "Black part of the tile"
 msgstr ""
+
+#: apps/cmsplugin_notcampaign/cms_plugins.py:28
+msgid "NOT 2015 Campaign Form"
+msgstr "NOT 2015 Campagne Formulier"
+
+#: apps/cmsplugin_notcampaign/forms.py:8
+msgid "Your vision"
+msgstr "jouw visie"
+
+#: apps/cmsplugin_notcampaign/forms.py:8
+msgid "Your vision*"
+msgstr "Jouw visie*"
+
+#: apps/cmsplugin_notcampaign/templates/cmsplugin_notcampaign/subject.txt:1
+msgid "Vision - NOT campaign Socialschools"
+msgstr "Visie - NOT campagne Social Schools"
 
 #: apps/cmsplugin_price/cms_plugins.py:28
 msgid "Price Form"
@@ -427,19 +461,23 @@ msgstr "visie"
 msgid "Extra Placeholder Page"
 msgstr ""
 
-#: settings/base.py:167
+#: settings/base.py:149
+msgid "NOT campaign Page"
+msgstr ""
+
+#: settings/base.py:168
 msgid "English"
 msgstr "Engels"
 
-#: settings/base.py:168
+#: settings/base.py:169
 msgid "Dutch"
 msgstr "Nederlands"
 
-#: settings/base.py:169
+#: settings/base.py:170
 msgid "Chile"
 msgstr "Chili"
 
-#: settings/base.py:170
+#: settings/base.py:171
 msgid "India"
 msgstr "India"
 
@@ -567,8 +605,8 @@ msgid ""
 "little better, check out our team page."
 msgstr ""
 "Ons team met gedreven experts is elke dag aan het werk om Social Schools te "
-"verbeteren. Zo behouden we onze positie van de beste online community "
-"voor basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina."
+"verbeteren. Zo behouden we onze positie van de beste online community voor "
+"basisscholen. Als je meer over ons wilt weten, bekijk onze teampagina."
 
 #: templates/base.html:110
 msgid "Follow"
@@ -598,9 +636,9 @@ msgstr ""
 msgid "Questions?"
 msgstr "Vragen?"
 
-#: templates/default.html:59
-msgid "OTHER"
-msgstr "OVERIG"
+#: templates/default.html:60
+msgid "APPS"
+msgstr ""
 
 #: templates/feature.html:9
 msgid "The"
@@ -618,7 +656,7 @@ msgstr ""
 "We zijn altijd bezig om Social Schools te verbeteren  door nieuwe en "
 "verbeterde functionaliteiten toe te voegen!"
 
-#: templates/feature.html:25
+#: templates/feature.html:25 templates/not_campaign.html:16
 msgid "Wondering"
 msgstr "Benieuwd"
 
@@ -634,6 +672,26 @@ msgstr "Probeer het zelf"
 msgid "or request a"
 msgstr "of doe een aanvraag voor een"
 
+#: templates/not_campaign.html:9
+msgid "Parental engagement "
+msgstr "Ouderbetrokkenheid"
+
+#: templates/not_campaign.html:9
+msgid "is"
+msgstr "is"
+
+#: templates/not_campaign.html:16
+msgid "what features help you engage parents?"
+msgstr "welke functionaliteiten jou helpen ouders te betrekken?"
+
+#: templates/not_campaign.html:17
+msgid "Check our features"
+msgstr "Bekijk de functionaliteiten"
+
+#: templates/not_campaign.html:18
+msgid "Request a demo"
+msgstr "Vraag een demo aan"
+
 #: templates/price.html:12
 msgid "Contact us"
 msgstr "Neem contact met ons op"
@@ -647,7 +705,7 @@ msgid ""
 "We hope you will find what you need. If you don't dont hesistate to send us "
 "email: <span class='green-header'>info@socialschools.nl</span> or to call us "
 "at <span class='green-header'>+31-088-100-1300</span> "
-msgstr ""
+msgstr "We hopen dat je vindt wat je nodig hebt. Zoniet, stuur ons een e-mail: <span class='green-header'>info@socialschools.nl</span> of bel ons op <span class='green-header'>+31-088-100-1300</span>"
 
 #: templates/reference.html:29
 msgid "Want to"
@@ -689,44 +747,11 @@ msgstr "Instructie"
 msgid "will be available soon"
 msgstr "zijn binnenkort beschikbaar"
 
-#: templates/videos.html:58
-msgid "Documents"
-msgstr "Documenten"
-
 #: templates/videos.html:60
-msgid "CMS manual"
-msgstr "CMS handleiding"
-
-#: templates/videos.html:61 templates/videos.html.py:65
-#: templates/videos.html:72 templates/videos.html.py:76
-msgid "Download"
-msgstr "Download"
-
-#: templates/videos.html:64
-msgid "Do's and Don'ts of social media in the classroom"
-msgstr "Do's en Don'ts van social media in de klas"
-
-#: templates/videos.html:68
-msgid "Extra"
-msgstr "Extra"
-
-#: templates/videos.html:69
-msgid "A collection of icons to be used as group profile pictures"
-msgstr "Een verzameling iconen die je kunt gebruiken als groepsprofielfoto's"
-
-#: templates/videos.html:71
-msgid "Rainbow"
-msgstr "Regenboog"
-
-#: templates/videos.html:75
-msgid "Blue"
-msgstr "Blauw"
-
-#: templates/videos.html:80
 msgid "Didn't find"
 msgstr "Niet gevonden"
 
-#: templates/videos.html:80
+#: templates/videos.html:60
 msgid "what you were looking for"
 msgstr "waar je naar op zoek was"
 
@@ -1016,6 +1041,34 @@ msgstr ""
 #: templates/snippets/teammember_marieke.html:4
 msgid "or to call us at"
 msgstr "of met ons te bellen op"
+
+#~ msgid "OTHER"
+#~ msgstr "OVERIG"
+
+#~ msgid "Documents"
+#~ msgstr "Documenten"
+
+#~ msgid "CMS manual"
+#~ msgstr "CMS handleiding"
+
+#~ msgid "Download"
+#~ msgstr "Download"
+
+#~ msgid "Do's and Don'ts of social media in the classroom"
+#~ msgstr "Do's en Don'ts van social media in de klas"
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "A collection of icons to be used as group profile pictures"
+#~ msgstr ""
+#~ "Een verzameling iconen die je kunt gebruiken als groepsprofielfoto's"
+
+#~ msgid "Rainbow"
+#~ msgstr "Regenboog"
+
+#~ msgid "Blue"
+#~ msgstr "Blauw"
 
 #~ msgid "New"
 #~ msgstr "Nieuw"
