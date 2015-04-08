@@ -27,7 +27,7 @@ djangocms-text-ckeditor==2.4.3
 djangocms-snippet==1.4
 djangocms-video==0.1
 cmsplugin-twitter==1.0.4
-gunicorn==18.0
+gunicorn==19.1.1
 html5lib==1.0b3
 ipython==1.2.1
 newrelic==2.4.0.4
