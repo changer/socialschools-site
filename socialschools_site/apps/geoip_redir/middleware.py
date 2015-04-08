@@ -20,7 +20,10 @@ class LocationMiddleWare(object):
         if 'HTTP_X_FORWARDED_FOR' in request.META:
             request.META['REMOTE_ADDR'] = request.META['HTTP_X_FORWARDED_FOR']
         ip = request.META['REMOTE_ADDR']
-        country = get_country_request(ip)
+        try:
+            country = get_country_request(ip)
+        except Exception as e:
+            return None
         if country == "India":
             return HttpResponseRedirect('/in/')
         elif country == "Netherlands":
