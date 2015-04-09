@@ -11,7 +11,7 @@
   {% if not debug %}
   <meta name="google-site-verification" content="cQUzLSl0VdCsllNnO5eAsPKXaPHECg-1Zy0-Obuw87o" />
   {% endif %}
-  <title>{% page_attribute "page_title" %}</title>
+  <title>{% page_attribute "page_title" %} | Socialschools</title>
   <meta name="description" content="{% page_attribute meta_description %}"/>
   <meta name="keywords" content="{% page_attribute meta_keywords %}"/>
   <!--[if IE 8]><script src="{{ STATIC_URL }}js/respond.min.js"></script><![endif]-->
@@ -61,10 +61,10 @@
         <h5 class="footer-header">{% trans "APPS" %}</h5>
         <ul class="list-unstyled">
           <li>
-            <a href="https://play.google.com/store/apps/details?id=nl.changer.socialschools" target="blank">Android app <small>on google play</small></a>
+            <a href="https://play.google.com/store/apps/details?id=nl.changer.socialschools" target="blank"><img src="{{ STATIC_URL}}img/googleplay.png"></a>
           </li>
           <li>
-            <a href="https://itunes.apple.com/nl/app/socialschools/id708223200?mt=8" target="blank">iOS app <small>in app store</small></a>
+            <a href="https://itunes.apple.com/nl/app/socialschools/id708223200?mt=8" target="blank"><img class="playstore-img" src="{{ STATIC_URL}}img/appstore.png"></a>
           </li>
         </ul>
       </div>
