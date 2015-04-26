@@ -243,6 +243,7 @@ INSTALLED_APPS = (
     'djangocms_picture',
     'djangocms_googlemap',
     'djangocms_snippet',
+    'cmsplugin_twitter',
 
 
     'socialschools_site.apps.cmsplugin_demo',
