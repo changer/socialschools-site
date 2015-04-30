@@ -1,0 +1,15 @@
+{% load i18n %}{% trans "Message from" %}: {{ data.email }}
+
+Hi Socialschools Team,
+
+A new potential customer wants to setup Socialschools at his school with the following details:
+
+
+Email: {{ data.email }}
+
+School: {{ data.schoolname }}
+
+
+Kindly get in touch with him.
+
+Thanks!
