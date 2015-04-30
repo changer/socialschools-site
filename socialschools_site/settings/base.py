@@ -100,6 +100,8 @@ TEMPLATE_LOADERS = (
 )
 
 MIDDLEWARE_CLASSES = (
+    'htmlmin.middleware.HtmlMinifyMiddleware',
+    'htmlmin.middleware.MarkRequestMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -107,12 +109,12 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.doc.XViewMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # Uncomment the next line for simple clickjacking protection:
-    # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'cms.middleware.page.CurrentPageMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'cms.middleware.user.CurrentUserMiddleware',
+    'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
     'cms.middleware.language.LanguageCookieMiddleware',
+    'django.contrib.redirects.middleware.RedirectFallbackMiddleware',
     'socialschools_site.apps.geoip_redir.middleware.LocationMiddleWare',
 )
 
@@ -127,13 +129,16 @@ TEMPLATE_DIRS = (
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
-    'django.core.context_processors.debug',
+    'django.contrib.messages.context_processors.messages',
     'django.core.context_processors.i18n',
+    'django.core.context_processors.debug',
     'django.core.context_processors.request',
     'django.core.context_processors.media',
-    'django.core.context_processors.static',
-    'cms.context_processors.media',
+    'django.core.context_processors.csrf',
+    'django.core.context_processors.tz',
     'sekizai.context_processors.sekizai',
+    'django.core.context_processors.static',
+    'cms.context_processors.cms_settings'
 )
 
 CMS_TEMPLATES = (
@@ -146,6 +151,7 @@ CMS_TEMPLATES = (
     ('videos.html', gettext('videos')),
     ('vision.html', gettext('vision')),
     ('extra_placeholders.html', gettext('Extra Placeholder Page')),
+    ('not_campaign.html', gettext('NOT campaign Page')),
 )
 
 CMS_PLUGIN_PROCESSORS = (
@@ -163,14 +169,55 @@ WYM_CLASSES = ",\n".join([
 INTERNAL_IPS = ('127.0.0.1',)
 
 
-LANGUAGES = [
+LANGUAGES = (
     ('en', gettext('English')),
     ('nl', gettext('Dutch')),
     ('cl', gettext('Chile')),
     ('in', gettext('India')),
-]
+)
+
+CMS_LANGUAGES = {
+    ## Customize this
+    'default': {
+        'public': True,
+        'hide_untranslated': False,
+        'redirect_on_fallback': True,
+    },
+    1: [
+        {
+            'public': True,
+            'code': 'nl',
+            'hide_untranslated': False,
+            'name': gettext('nl'),
+            'redirect_on_fallback': True,
+        },
+        {
+            'public': True,
+            'code': 'en',
+            'hide_untranslated': False,
+            'name': gettext('en'),
+            'redirect_on_fallback': True,
+        },
+        {
+            'public': True,
+            'code': 'cl',
+            'hide_untranslated': False,
+            'name': gettext('en'),
+            'redirect_on_fallback': True,
+        },
+        {
+            'public': True,
+            'code': 'in',
+            'hide_untranslated': False,
+            'name': gettext('en'),
+            'redirect_on_fallback': True,
+        },
+    ],
+}
+
 
 INSTALLED_APPS = (
+    'djangocms_admin_style',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -179,25 +226,32 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'django.contrib.redirects',
 
 
     'cms',
     'menus',
     'mptt',
     'sekizai',
+
+    'djangocms_text_ckeditor',
+    'djangocms_style',
+    'djangocms_column',
+    'djangocms_file',
+    'djangocms_inherit',
+    'djangocms_link',
+    'djangocms_picture',
+    'djangocms_googlemap',
+    'djangocms_snippet',
+    'cmsplugin_twitter',
+
+
     'socialschools_site.apps.cmsplugin_demo',
     'socialschools_site.apps.cmsplugin_question',
     'socialschools_site.apps.cmsplugin_price',
     'socialschools_site.apps.cmsplugin_feature',
     'socialschools_site.apps.cmsplugin_testimonial',
     'socialschools_site.apps.cmsplugin_faq',
-    'cmsplugin_file',
-
-    'cms.plugins.snippet',
-    'cms.plugins.text',
-    'cms.plugins.picture',
-    'cms.plugins.link',
-    'cms.plugins.googlemap',
     'socialschools_site',
     'pygeoip',
     'socialschools_site.apps.geoip_redir',

@@ -1,10 +1,12 @@
-from django.conf.urls.defaults import *
+from django.conf.urls import patterns, include, url
+from cms.sitemaps import CMSSitemap
 from django.conf.urls.i18n import i18n_patterns
-from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
+from django.contrib import admin
 
 admin.autodiscover()
+
 urlpatterns = patterns('',
     url(r'^jsi18n/(?P<packages>\S+?)/$', 'django.views.i18n.javascript_catalog'),
 )
