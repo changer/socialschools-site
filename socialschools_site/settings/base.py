@@ -150,6 +150,7 @@ CMS_TEMPLATES = (
     ('reference.html', gettext('reference')),
     ('videos.html', gettext('videos')),
     ('vision.html', gettext('vision')),
+    ('liketoshare.html', gettext('liketoshare')),
     ('extra_placeholders.html', gettext('Extra Placeholder Page')),
     ('not_campaign.html', gettext('NOT campaign Page')),
 )
