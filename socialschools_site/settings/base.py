@@ -150,6 +150,7 @@ CMS_TEMPLATES = (
     ('reference.html', gettext('reference')),
     ('videos.html', gettext('videos')),
     ('vision.html', gettext('vision')),
+    ('liketoshare.html', gettext('liketoshare')),
     ('extra_placeholders.html', gettext('Extra Placeholder Page')),
     ('not_campaign.html', gettext('NOT campaign Page')),
 )
@@ -252,6 +253,7 @@ INSTALLED_APPS = (
     'socialschools_site.apps.cmsplugin_feature',
     'socialschools_site.apps.cmsplugin_testimonial',
     'socialschools_site.apps.cmsplugin_faq',
+    'socialschools_site.apps.cmsplugin_shareform',
     'socialschools_site',
     'pygeoip',
     'socialschools_site.apps.geoip_redir',
