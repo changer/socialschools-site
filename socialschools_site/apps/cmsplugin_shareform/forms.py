@@ -5,8 +5,8 @@ from nospam.forms import HoneyPotForm, RecaptchaForm, AkismetForm
 
 
 class ShareForm(forms.Form):
-    email = forms.EmailField(label=_("Email"), widget=forms.TextInput(attrs={'placeholder': _('Your email address*'), 'class':'form-control'}))
-    schoolname = forms.CharField(label=_("Schoolname"), widget=forms.TextInput(attrs={'placeholder': _('Schoolname*'), 'class':'form-control'}))
+    schoolname = forms.CharField(label=_("Schoolname"), widget=forms.TextInput(attrs={'placeholder': _('Schoolnaam'), 'class':'form-control'}))
+    email = forms.EmailField(label=_("Email"), widget=forms.TextInput(attrs={'placeholder': _('Email adres'), 'class':'form-control'}))
 
 class HoneyPotContactForm(HoneyPotForm):
     pass
