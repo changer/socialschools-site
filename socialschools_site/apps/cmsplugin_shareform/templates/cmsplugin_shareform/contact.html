@@ -52,8 +52,8 @@
 		{% if form.accept_terms %}
 			{{ form.accept_terms }}
 		{% endif %}
-		<p>
-			<input class="btn btn-success" type="submit"{% if contact.submit %} value="{{ contact.submit }}"{% endif %} />
+		<p class="form-group">
+			<input class="btn btn-success" type="submit"{% if contact.submit %} value="Kom maar op!"{% endif %} />
 		</p>
 		
 		{% csrf_token %}

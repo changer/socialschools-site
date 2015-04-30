@@ -6,61 +6,94 @@
   <div class="container socialschools-container">
     {% placeholder campaign_banner %}
     <div class="row share-container">
-    <div class="col-md-4">
-      <img src="" class="share-image" alt="image">
+    <div class="col-md-4 share-image-container">
+      <img src="{{STATIC_URL}}img/thumbnail-bert.png" class="share-image" alt="image">
+      <div class="introduction">
+        <h3 class="share-image-header">Bert van't Land</h3>
+        <h4 class="blue-header">Socialschools</h4>  
+      </div>
+      
     </div>
     <div class="col-md-8">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <h3>Wat leuk dat je hier bent!</h3>
+      <h2>Meer weten over ouderbetrokkenheid en online media?</h2>
+
+      <h2>Ontvang onze whitepaper met tips, cases, voorwaarden voor succes en nog veel meer!</h2>
+      <h3>Laat je gegevens achter en we sturen hem binnenkort naar je op.</h3>
       {% placeholder "share form" %}
     </div>
     </div>
     <div class="vision">
-      <h2>{% trans "Wij geloven dat je" %} <span class="blue-header">{% trans "ouderbetrokkenheid zo stimuleert met online media" %}</span></h2>
+      <h2>{% trans "Wij geloven dat je" %} <span class="blue-header">{% trans "ouderbetrokkenheid zo stimuleert met online media:" %}</span></h2>
       <div class="row">
-        <div class="col-xs-4 vision-block">
+        <div class="col-xs-4 share-block">
           <h3>{% trans "Open communitcatie" %}</h3>
-          <img src="{{STATIC_URL}}img/parent-small.png" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a href="{% page_url "about" %}#parents" class="blue-header">> {% trans "Read more" %}</a>
+          <img src="{{STATIC_URL}}img/open-communication.png" alt="">
+          <p>Randvoorwaarde voor ouderbetrokkenheid is een open en 
+          gelijkwaardige relatie met ouders, ook online!
+          Wij faciliteren dit door ouders te laten like, reageren en zelfs 
+          beri- chten plaatsen in de groepen van hun kinderen.</p>
+          <hr>
+          <h5>ZO BEREIKEN WE DAT:</h5>
+          <ul class="share">
+            <li>- Berichten liken.</li>
+            <li>- Reageren op berichten</li>
+            <li>- Berichten plaatsen</li>
+            <li>- Groepen voor ouderraad en andere verbanden.</li>
+          </ul>
         </div>
-        <div class="col-xs-4 vision-block">
+        <div class="col-xs-4 share-block">
           <h3>{% trans "Sociaal en inhoudelijk" %}</h3>
-          <img src="{{STATIC_URL}}img/safety-small.png" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est labor.</p>
-          <a href="{% page_url "about" %}#safety" class="blue-header">> {% trans "Read more" %}</a>
+          <img src="{{STATIC_URL}}img/social-communication.png" alt="">
+          <p>Met het delen van leuke berichten bouw je een 
+          sociale band op met ouders.Nog belangrijker is inhoudelijke communicatie over 
+          het leren van de kinderen en de rol die ouders kunnen vervullen..</p>
+          <hr>
+          <h5>ZO BEREIKEN WE DAT:</h5>
+          <ul class="share">
+              <li>- Foto’s, video’s bestanden en evenementen delen.</li>
+              <li>- Binnenkort: eenvoudig lesstof van het internet delen met browser extensies</li>
+              <li>- Binnenkort: Portfolio per leer- ling.</li>
+          </ul>
         </div>
-        <div class="col-xs-4 vision-block">
+        <div class="col-xs-4 share-block">
           <h3>{% trans "Effectief" %}</h3>
-          <img src="{{STATIC_URL}}img/devices-small.png" alt="">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a href="{% page_url "about" %}#technology" class="blue-header">> {% trans "Read more" %}</a>
+          <img src="{{STATIC_URL}}img/effective-communication.png" alt="">
+          <p>Effectieve, tijdbesparende communicatie is een belangrijke randvoorwaarde. 
+          Daarom bieden we handige tools die tijd en moeite besparen in de communicatie met ouders:</p>
+          <hr>
+          <h5>ZO BEREIKEN WE DAT:</h5>
+          <ul class="share">
+            <li>- Mobiele apps met notificaties</li>
+            <li>- Gespreksplanner</li>
+            <li>- Spoedberichten</li>
+            <li>- Evenementen</li>
+            <li>- Statistieken over aantal lezers</li>
+            <li>- Automatische nieuwsbrief</li> 
+          </ul>
         </div>
+
       </div>
     </div>
     <hr>
-    <div class="email-container">
-      <div class="row text-center">
-        {% placeholder call_to_action %}
+    <div class="share-container">
+      <div class="row">
+        <div class="col-md-6">
+        <img src="{{STATIC_URL}}img/thumbnail-marijan.png" class="pull-right">
+        </div>
+        <div class="col-md-6">
+        <h2 class="pull-left testimonial-header">“Uit het gesprek, dat de inspectie met ouders voerde, kwam naar voren dat ouders zeer tevreden zijn over de in- formatievoorziening naar hen toe (en hierdoor hun betrokkenheid) door het ouderportal Social Schools.”</h2>
+         <p class="meta testimonial-detail-meta">Marijan Koster - directrice</p>
+        </div>  
+      </div>
+    </div>
+    <hr>
+    <div class="share-container links-share">
+      <div class="col-md-6 video-share">
+        <a class="btn btn-large btn-success" href="">Bekijk onze introductievideo</a>
+      </div>
+      <div class="col-md-6">
+        <a class="btn btn-large btn-success" href="">Bekijk onze features</a>
       </div>
     </div>
   </div>
