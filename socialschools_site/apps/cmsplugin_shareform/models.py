@@ -56,7 +56,7 @@ class LikeAndShare(CMSPlugin):
         abstract = True
     
     def __unicode__(self):
-        return self.site_email
+        return u'{0}'.format(self.site_email)
 
 class Share(LikeAndShare):
     pass

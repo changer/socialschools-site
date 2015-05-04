@@ -56,7 +56,7 @@ class BasePrice(CMSPlugin):
         abstract = True
     
     def __unicode__(self):
-        return self.site_email
+        return u'{0}'.format(self.site_email)
 
 class Price(BasePrice):
     pass

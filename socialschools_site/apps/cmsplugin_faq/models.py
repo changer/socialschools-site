@@ -8,3 +8,6 @@ class faq(CMSPlugin):
     collapselink = models.CharField(_("Collapselink"), max_length=20)
     answer  = models.TextField(_("Answer"))
     image = models.ImageField(_("Image"), upload_to=CMSPlugin.get_media_path, blank=True)
+
+    def __unicode__(self):
+    	return u'{0}'.format(self.question)
