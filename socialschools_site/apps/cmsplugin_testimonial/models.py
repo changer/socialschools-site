@@ -16,3 +16,6 @@ class Testimonial(CMSPlugin):
 	big_header  = models.TextField(_("Quotation"),null=True, max_length=150)
 	name = models.CharField(_("Name of Recommending person"), max_length=150)
 	detail = models.CharField(_("School detail"), max_length=200)
+
+	def __unicode__(self):
+		return u'{0}'.format(self.name)

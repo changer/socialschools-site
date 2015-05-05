@@ -21,9 +21,4 @@ class Feature(CMSPlugin):
 	description = models.TextField(_("Remarks"), max_length=150)
 
 	def __unicode__(self):
-		if self.image:
-			try:
-				return u"%s" % basename(self.image.path)
-			except:
-				pass
-		return "<empty>"
+		return u'{0}'.format(self.description)
