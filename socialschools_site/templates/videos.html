@@ -54,7 +54,20 @@
                 </div>
                 {% placeholder teammember_downloads %}
             </div>
-            {% placeholder downloads_content %}
+            <div class="row downloads-content">
+                <div class="col-xs-4">
+                    {% placeholder downloads_content %}
+                </div>
+                <div class="col-xs-4">
+                    {% placeholder downloads_content_middle %}
+                </div>
+                <div class="col-xs-4">
+                    {% placeholder downloads_content_right %}
+                </div>
+            </div>
+            <div class="row downloads-content">
+                {% placeholder downloads_content_extra %}
+            </div>
         </div>
     </div>
     <h1 class="support-header">{% trans "Didn't find" %} <span class="blue-header">{% trans "what you were looking for" %}?</span></h1>
