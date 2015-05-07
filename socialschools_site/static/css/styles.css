@@ -905,7 +905,7 @@ a{font:14px medium #37bde7;}
 .orange-header{color:#ff921e;}
 .footer-header{color:#1482a4;}
 .container{max-width:none !important;width:970px;}
-.plugin_link{display:block;}
+.cms_plugin_link{display:block;}
 .plugin_file,.plugin_link{border:1px solid #c8c8c8;-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px;-webkit-box-shadow:0px 1px rgba(0, 0, 0, 0.1);box-shadow:0px 1px rgba(0, 0, 0, 0.1);}.plugin_file a,.plugin_link a{display:block;padding:12px;}
 .playstore-img{margin-top:10px;}
 .share-container{margin-top:50px;margin-bottom:50px;}
@@ -926,6 +926,7 @@ a{font:14px medium #37bde7;}
 .socialschools-container .container>.jumbotron{height:323px;border-top-right-radius:5px;border-top-left-radius:5px;border-bottom-right-radius:0px;border-bottom-left-radius:0px;padding:0px;background-color:#37bde7;padding-top:25px;}.socialschools-container .container>.jumbotron h1{font-size:36px;color:#000000;font-weight:bold;}
 .socialschools-container .container>.jumbotron .header-text{padding-right:100px;margin-top:42px;}
 .socialschools-container .download-item{margin-bottom:10px;border-radius:3px;padding:6px;border:1px solid #eeeeee;}.socialschools-container .download-item h4{font-size:14px;color:#37bde7;display:inline-block;}
+.socialschools-container .downloads-content a{display:block;font-size:18px;color:#37bde7;padding-top:5px;padding-bottom:5px;line-height:20px;}
 .socialschools-container .team-profile{margin-bottom:10px;text-align:center;}.socialschools-container .team-profile .team{height:80px;width:80px;}
 .socialschools-container .price-box{border:1px solid lightgrey;margin-top:10px;margin-bottom:10px;text-align:center;}
 .socialschools-container .green-belt{height:60px;background-color:#31c659;margin-top:-30px;}
