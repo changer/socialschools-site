@@ -153,6 +153,7 @@ CMS_TEMPLATES = (
     ('liketoshare.html', gettext('liketoshare')),
     ('extra_placeholders.html', gettext('Extra Placeholder Page')),
     ('not_campaign.html', gettext('NOT campaign Page')),
+    ('may_campaign.html', gettext('May 2015 campaign page')),
 )
 
 CMS_PLUGIN_PROCESSORS = (
