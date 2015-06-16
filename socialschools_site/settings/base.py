@@ -154,6 +154,7 @@ CMS_TEMPLATES = (
     ('extra_placeholders.html', gettext('Extra Placeholder Page')),
     ('not_campaign.html', gettext('NOT campaign Page')),
     ('may_campaign.html', gettext('May 2015 campaign page')),
+    ('plain_text_page.html', gettext('Plain text page')),
 )
 
 CMS_PLUGIN_PROCESSORS = (
