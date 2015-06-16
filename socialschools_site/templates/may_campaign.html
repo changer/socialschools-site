@@ -1,0 +1,107 @@
+{% extends "default.html" %}
+{% load i18n %}
+{% load cms_tags %}
+{% block "content" %}
+
+  <div class="container socialschools-container">
+    {% placeholder campaign_banner %}
+    <div class="row campaign-row">
+      <div class="col-md-7">
+        <h1 class="feature-header">
+          Schrijf je in voor een online demo en ontvang <strong>€100,- korting*</strong> als je voor 1 juli besluit Social Schools te gaan gebruiken.
+        </h1>
+        <span class="meta-info">*Per jaar, gedurende de looptijd van het contract. Je mag natuurlijk later beginnen met het daadwerkelijke gebruiken.</span>
+      </div>
+      <div class="col-md-5">
+      </div>
+    </div>
+    <hr class="hr-large">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img class="campaign-testimonial-image" src="{{STATIC_URL}}img/thumbnail-bas.png">
+          </div>
+          <div class="col-md-8">
+            <p class="campaign-testimonial-body">
+              “I find it very rewarding to be able to share the nice things that happen with all parents at once”
+            </p>
+            <span class="campaign-testimonial-author">Marijan Koster - Leerkracht</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img class="campaign-testimonial-image" src="{{STATIC_URL}}img/thumbnail-angvish.png">
+          </div>
+          <div class="col-md-8">
+            <p class="campaign-testimonial-body">
+              “I find it very rewarding to be able to share the nice things that happen with all parents at once”
+            </p>
+            <span class="campaign-testimonial-author">Marijan Koster - Ouder</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="hr-large">
+    <div class="row row-campaign-carousel">
+      <div id="carousel-example-generic campaign-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="row">
+              <div class="col-md-6 text-center">
+                <img class="campaign-slide-image" src="{{STATIC_URL}}img/ios-newpost-nl-bezelcut.png">
+              </div>
+              <div class="col-md-5">
+                <h2>Eenvoudig delen van alles wat in en om de klas gebeurt.</h2>
+                <ul class="campaign-features">
+                  <li><span class="glyphicon glyphicon-ok green-header"></span>&nbsp;<strong>Deel media</strong> deel eenvoudig foto's, video's en bestanden, rechtstreeks vanaf je smartphone.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 text-center">
+                <img class="campaign-slide-image" src="{{STATIC_URL}}img/ios-push-nl-bezelcut.png">
+              </div>
+              <div class="col-md-5">
+                <h2>De handigste communicatietools</h2>
+                <ul class="campaign-features">
+                  <li><span class="glyphicon glyphicon-ok green-header"></span>&nbsp;<strong>Spoedberichten</strong> Breng leden eenvoudig op de hoogte van belangrijke updates</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-6 text-center">
+                <img class="campaign-slide-image" src="{{STATIC_URL}}img/ios-calendar-nl-bezelcut.png">
+              </div>
+              <div class="col-md-5">
+                <h2>De handigste communicatietools</h2>
+                <p>Wij bieden scholen handige, tijdbesparende communicatietools om de communicatie met ouders te stroomlijnen</p>
+                <ul class="campaign-features">
+                  <li><span class="glyphicon glyphicon-ok green-header"></span>&nbsp;<strong>Agenda</strong> Houd een gedeelde groepsagenda bij</li>
+                  <li><span class="glyphicon glyphicon-ok green-header"></span>&nbsp;<strong>Spoedberichten</strong> Breng leden eenvoudig op de hoogte van belangrijke updates</li>
+                  <li><span class="glyphicon glyphicon-ok green-header"></span>&nbsp;<strong>Mobiele apps</strong> Met onze mobiele apps ben je altijd en overal op de hoogte</li>
+                  <li><span class="glyphicon glyphicon-ok green-header"></span>&nbsp;<strong>Nieuwsbrief</strong> De wekelijkse nieuwsbrief biedt een mooie samenvatting van afgelopen week en de agenda van komende week.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row campaign-row text-center">
+      <h2>Wil jij ook de ouderbetrokkenheid verbeteren met een ouderportaal?</h2>
+      <a class="btn btn-success">Lees het whitepaper</a>
+    </div>
+  </div>
+{% endblock %}

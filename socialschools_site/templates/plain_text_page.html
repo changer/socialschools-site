@@ -1,0 +1,14 @@
+{% extends "default.html" %}
+{% load cms_tags %}
+{% load i18n %}
+{% block "content" %}
+  <div class="container socialschools-container">
+    <div class="row top-container">
+      <div class="col-xs-12">
+        <h1 class="feature-header"><span class="blue-header">{{request.current_page}}</span></h1>
+      </div>
+    </div>
+    <hr>
+    {% placeholder content %}
+  </div>
+{% endblock %}
