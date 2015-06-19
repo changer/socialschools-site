@@ -962,7 +962,8 @@ a{font:14px medium #37bde7;}
 .socialschools-container .front,.socialschools-container .back{-webkit-backface-visibility:hidden;backface-visibility:hidden;width:128px;height:128px;position:absolute;top:0;left:0;}
 .socialschools-container .front{z-index:2;}
 .socialschools-container .back{transform:rotateY(180deg);-webkit-transform:rotateY(180deg);}
-.col-campaign-form{padding-top:100px;}
+.campaign-row h1{font-size:42px;}
+.col-campaign-form{padding-top:32px;}
 .campaign-testimonial-body{color:#4d4d4d;font-style:italic;}
 .campaign-testimonial-author{color:#37bde7;text-transform:uppercase;font-size:12px;}
 .campaign-testimonial-image{height:96px;}
