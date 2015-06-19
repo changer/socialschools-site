@@ -10,6 +10,6 @@ Email: {{ data.email }}
 
 Phone number: {{ data.phone }}
 
-Question: {{  data.schoolname }}
+Schoolname: {{  data.schoolname }}
 
 {{ data.content|safe }}
