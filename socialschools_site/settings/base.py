@@ -256,6 +256,7 @@ INSTALLED_APPS = (
     'socialschools_site.apps.cmsplugin_testimonial',
     'socialschools_site.apps.cmsplugin_faq',
     'socialschools_site.apps.cmsplugin_shareform',
+    'socialschools_site.apps.cmsplugin_juncampaign',
     'socialschools_site',
     'pygeoip',
     'socialschools_site.apps.geoip_redir',
