@@ -428,7 +428,7 @@ msgstr "NOT 2015 Campagne Formulier"
 
 #: apps/cmsplugin_juncampaign/forms.py:9
 msgid "Your phone number*"
-msgstr "Je telefoonnummer"
+msgstr "Je telefoonnummer*"
 
 #: apps/cmsplugin_juncampaign/forms.py:10 apps/cmsplugin_price/forms.py:16
 #: apps/cmsplugin_shareform/forms.py:8
